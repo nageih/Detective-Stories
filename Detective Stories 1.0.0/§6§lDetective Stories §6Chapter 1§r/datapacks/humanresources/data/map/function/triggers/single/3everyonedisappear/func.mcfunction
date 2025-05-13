@@ -1,6 +1,7 @@
 # Диалог
 execute if entity @a[tag=language.russian] run function map:dialogue/init_text {text:"Куда... Куда все пропали? Странно всё это... Но нужно всё-таки найти бармена. Попробую поискать что-нибудь на кухне.",total_symbols:116,time:1,state:3,next_dialogue:none,db_visual:1}
 execute if entity @a[tag=language.english] run function map:dialogue/init_text {text:"Where... Where did everyone go? This is strange... But I still need to find the bartender. I’ll try looking for something in the kitchen.",total_symbols:137,time:1,state:3,next_dialogue:none,db_visual:1}
+execute if entity @a[tag=language.chinese] run function map:dialogue/init_text {text:"到底……到底他们都去哪了？这实在太奇怪了……但我还要找酒保，也许我应该去餐厅看看。",total_symbols:41,time:1,state:3,next_dialogue:none,db_visual:1}
 execute if entity @a[tag=language.spanish] run function map:dialogue/init_text {text:"¿Dónde... dónde se fue todos? Esto es extraño... Pero aún necesito encontrar al barman. Intentaré buscar algo en la cocina.",total_symbols:123,time:1,state:3,next_dialogue:none,db_visual:1}
 # Переключает на следующий квест
 function map:quests/list/6kitchen/start

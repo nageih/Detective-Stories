@@ -1,6 +1,7 @@
 # Прописана сама функция диалога
 execute if entity @a[tag=language.russian] run function map:dialogue/init_text {text:"Оу, да. Я торопилась домой, но началась метель и мне пришлось остановиться здесь, чтобы позвонить своему парню. Чай тут, к слову, делают отличный!",total_symbols:146,time:1,state:4,next_dialogue:"dialogue/choice_appear",db_visual:3}
 execute if entity @a[tag=language.english] run function map:dialogue/init_text {text:"Oh, yes. I was in a hurry to get home, but a snowstorm started, and I had to stop here to call my boyfriend. By the way, they make great tea here!",total_symbols:146,time:1,state:4,next_dialogue:"dialogue/choice_appear",db_visual:3}
+execute if entity @a[tag=language.chinese] run function map:dialogue/init_text {text:"哦，我急着回家呢。但是半道的时候暴风雪就刮起来了，我只好找个地方歇歇，顺便喊我男朋友来接我。顺便提一下，这里的茶好好喝啊！",total_symbols:61,time:1,state:4,next_dialogue:"dialogue/choice_appear",db_visual:3}
 execute if entity @a[tag=language.spanish] run function map:dialogue/init_text {text:"Oh, sí. Tenía prisa por llegar a casa, pero comenzó una tormenta de nieve y tuve que parar aquí para llamar a mi novio. ¡Por cierto, hacen un excelente té aquí!",total_symbols:160,time:1,state:4,next_dialogue:"dialogue/choice_appear",db_visual:3}
 execute as @e[tag=aj.stranger2.root] run function animated_java:stranger2/animations/idle/stop
 execute as @e[tag=aj.stranger2.root] run function animated_java:stranger2/animations/idle2/stop

@@ -35,7 +35,7 @@ execute if score #start_cutscene timer matches 277 run function map:quests/list/
 execute if score #start_cutscene timer matches 277 if entity @a[tag=language.russian] run function map:dialogue/init_text {text:"Ох, не повезло же мне, проклятая метель... Придётся зайти в это кафе, может, владелец сможет мне помочь.",total_symbols:104,time:1,state:3,next_dialogue:none,db_visual:1}
 execute if score #start_cutscene timer matches 277 if entity @a[tag=language.english] run function map:dialogue/init_text {text:"Ugh, I’m so unlucky, damn blizzard... I’ll have to go into this café, maybe the owner can help me.",total_symbols:98,time:1,state:3,next_dialogue:none,db_visual:1}
 execute if score #start_cutscene timer matches 277 if entity @a[tag=language.spanish] run function map:dialogue/init_text {text:"Ugh, qué mala suerte, maldita tormenta de nieve... Tendré que entrar en este café, tal vez el dueño pueda ayudarme.",total_symbols:115,time:1,state:3,next_dialogue:none,db_visual:1}
-execute if score #start_cutscene timer matches 277 if entity @a[tag=language.chinese] run function map:dialogue/init_text {text:"唉，我真是倒霉，该死的暴风雪……只好进这家咖啡馆，也许店主能帮我。",total_symbols:32,time:2,state:3,next_dialogue:none,db_visual:1}
+execute if score #start_cutscene timer matches 277 if entity @a[tag=language.chinese] run function map:dialogue/init_text {text:"呃啊，我今天真是倒霉到家了，这该死的暴风雪……看来只好去这家咖啡厅躲躲了，也许店主能帮我一下。",total_symbols:47,time:2,state:3,next_dialogue:none,db_visual:1}
 execute if score #start_cutscene timer matches 277 run function map:loop/normal_ambience
 execute if score #start_cutscene timer matches 277 run scoreboard players set #time_played timer 0
 execute if score #start_cutscene timer matches 277 run function map:loop/time_played

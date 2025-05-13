@@ -1,6 +1,7 @@
 # Диалог
 execute if entity @a[tag=language.russian] run function map:dialogue/init_text {text:"Что? Кто закрыл дверь? Надо выяснить.",total_symbols:37,time:1,state:1,next_dialogue:none,db_visual:1}
 execute if entity @a[tag=language.english] run function map:dialogue/init_text {text:"What? Who closed the door? I need to find out.",total_symbols:46,time:1,state:1,next_dialogue:none,db_visual:1}
+execute if entity @a[tag=language.chinese] run function map:dialogue/init_text {text:"啊？谁把门关了？我得去看看。",total_symbols:14,time:1,state:1,next_dialogue:none,db_visual:1}
 execute if entity @a[tag=language.spanish] run function map:dialogue/init_text {text:"¿Qué? ¿Quién cerró la puerta? Debo averiguarlo.",total_symbols:47,time:1,state:2,next_dialogue:none,db_visual:1}
 # Делает хитбокс бумажке в 0, чтобы игроку пришлось выйти из кухни (и ещё чтобы код не мог ввести)
 data merge entity af82059d-f3ea-4e5e-aa07-cef38022b3e0 {width:0.0f}
