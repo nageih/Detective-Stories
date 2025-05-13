@@ -11,5 +11,6 @@ playsound map.interaction.tv_remote master @a -145.55 53.0 -81.46 1 1
 
 # Текст в чат
 execute if entity @a[tag=language.russian] run function map:dialogue/init_text {text:"Пульт от телевизора. Судя по всему, либо не работает телевизор, либо пульт.",total_symbols:76,time:1,state:2,next_dialogue:none,db_visual:1}
+execute if entity @a[tag=language.chinese] run function map:dialogue/init_text {text:"这是个电视遥控器，很明显电视和遥控器都坏了。",total_symbols:22,time:1,state:2,next_dialogue:none,db_visual:1}
 execute if entity @a[tag=language.english] run function map:dialogue/init_text {text:"A TV remote. Apparently, either the TV isn’t working or the remote.",total_symbols:67,time:1,state:2,next_dialogue:none,db_visual:1}
 execute if entity @a[tag=language.spanish] run function map:dialogue/init_text {text:"Un control remoto de televisión. Aparentemente, o el televisor no funciona o el control.",total_symbols:88,time:1,state:2,next_dialogue:none,db_visual:1}

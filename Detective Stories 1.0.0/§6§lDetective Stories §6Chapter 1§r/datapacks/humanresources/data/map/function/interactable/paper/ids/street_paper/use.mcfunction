@@ -18,6 +18,7 @@ data remove entity @e[tag=street_paper,tag=interactable.prop.paper,type=item_dis
 execute if entity @a[tag=language.russian] run item replace entity @e[tag=street_paper,tag=interactable.prop.paper,type=item_display,limit=1] container.0 with yellow_dye[custom_model_data={floats:[1011f]}]
 execute if entity @a[tag=language.english] run item replace entity @e[tag=street_paper,tag=interactable.prop.paper,type=item_display,limit=1] container.0 with yellow_dye[custom_model_data={floats:[1022f]}]
 execute if entity @a[tag=language.spanish] run item replace entity @e[tag=street_paper,tag=interactable.prop.paper,type=item_display,limit=1] container.0 with yellow_dye[custom_model_data={floats:[1023f]}]
+execute if entity @a[tag=language.chinese] run item replace entity @e[tag=street_paper,tag=interactable.prop.paper,type=item_display,limit=1] container.0 with yellow_dye[custom_model_data={floats:[1030f]}]
 
 # Добавляет рамки сверху и снизу
 function map:ui/cb/start

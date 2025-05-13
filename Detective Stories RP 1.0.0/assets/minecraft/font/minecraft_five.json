@@ -6,6 +6,13 @@
             "shift": [0.0,1.0],
             "size": 10.0,
             "oversample": 20.0
+        },
+		{
+            "type": "ttf",
+            "file": "minecraft:fusion-pixel-10px-proportional-zh_hans.ttf",
+            "shift": [0.0,1.0],
+            "size": 10.0,
+            "oversample": 20.0
         }
     ]
 }
