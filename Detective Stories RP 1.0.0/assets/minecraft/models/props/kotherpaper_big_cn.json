@@ -1,0 +1,18 @@
+{
+	"credit": "By VladislavvC",
+	"textures": {
+		"0": "vladislavvc/props/kotherpaper_big_cn",
+		"particle": "vladislavvc/props/kotherpaper_big_cn"
+	},
+	"elements": [
+		{
+			"from": [4, 1, 7.99],
+			"to": [12, 10, 7.99],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 4, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 13], "texture": "#0"},
+				"south": {"uv": [8, 0, 16, 9], "texture": "#0"}
+			}
+		}
+	]
+}

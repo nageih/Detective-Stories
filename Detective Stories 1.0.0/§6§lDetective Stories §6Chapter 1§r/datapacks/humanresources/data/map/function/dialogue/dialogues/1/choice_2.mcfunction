@@ -1,4 +1,5 @@
 # Прописана сама функция диалога
 execute if entity @a[tag=language.russian] run function map:dialogue/init_text {text:"Вы сказали, что застряли здесь. Видимо, вы куда-то направлялись?",total_symbols:64,time:1,state:2,next_dialogue:"dialogue/dialogues/1/choice_2_1",db_visual:1}
 execute if entity @a[tag=language.english] run function map:dialogue/init_text {text:"You said you’re stuck here. I guess you were heading somewhere?",total_symbols:63,time:1,state:2,next_dialogue:"dialogue/dialogues/1/choice_2_1",db_visual:1}
+execute if entity @a[tag=language.chinese] run function map:dialogue/init_text {text:"您说您被困在这里了……我猜您肯定是打算去哪吧？",total_symbols:23,time:1,state:2,next_dialogue:"dialogue/dialogues/1/choice_2_1",db_visual:1}
 execute if entity @a[tag=language.spanish] run function map:dialogue/init_text {text:"Dijiste que estás atrapado aquí. Supongo que ibas a algún lado?",total_symbols:63,time:1,state:2,next_dialogue:"dialogue/dialogues/1/choice_2_1",db_visual:1}

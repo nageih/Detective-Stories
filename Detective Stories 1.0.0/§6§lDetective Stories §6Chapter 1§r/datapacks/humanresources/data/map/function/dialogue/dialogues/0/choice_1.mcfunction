@@ -2,4 +2,4 @@
 execute if entity @a[tag=language.russian] run function map:dialogue/init_text {text:"С утра за рулём? Неужели вы занимаетесь какой-то доставкой?",total_symbols:59,time:1,state:2,next_dialogue:"dialogue/dialogues/0/choice_1_1",db_visual:1}
 execute if entity @a[tag=language.english] run function map:dialogue/init_text {text:"Driving since morning? Are you really doing some kind of delivery?",total_symbols:66,time:1,state:2,next_dialogue:"dialogue/dialogues/0/choice_1_1",db_visual:1}
 execute if entity @a[tag=language.spanish] run function map:dialogue/init_text {text:"¿Conduciendo desde la mañana? ¿Realmente estás haciendo algún tipo de entrega?",total_symbols:78,time:1,state:2,next_dialogue:"dialogue/dialogues/0/choice_1_1",db_visual:1}
-execute if entity @a[tag=language.chinese] run function map:dialogue/init_text {text:"一大早就开车？难道你在做什么送货工作吗？",total_symbols:20,time:2,state:1,next_dialogue:"dialogue/dialogues/0/choice_1_1",db_visual:1}
+execute if entity @a[tag=language.chinese] run function map:dialogue/init_text {text:"你从大清早就开始开车了？所以你是快递司机喽？",total_symbols:22,time:2,state:1,next_dialogue:"dialogue/dialogues/0/choice_1_1",db_visual:1}

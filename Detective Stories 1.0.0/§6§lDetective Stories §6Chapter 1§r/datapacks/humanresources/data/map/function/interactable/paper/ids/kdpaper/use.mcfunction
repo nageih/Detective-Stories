@@ -17,6 +17,7 @@ effect give @a mining_fatigue infinite 255 true
 execute if entity @a[tag=language.russian] run item replace entity @e[tag=kdpaper,tag=interactable.prop.paper,type=item_display,limit=1] container.0 with yellow_dye[custom_model_data={floats:[1015f]}]
 execute if entity @a[tag=language.english] run item replace entity @e[tag=kdpaper,tag=interactable.prop.paper,type=item_display,limit=1] container.0 with yellow_dye[custom_model_data={floats:[1016f]}]
 execute if entity @a[tag=language.spanish] run item replace entity @e[tag=kdpaper,tag=interactable.prop.paper,type=item_display,limit=1] container.0 with yellow_dye[custom_model_data={floats:[1017f]}]
+execute if entity @a[tag=language.chinese] run item replace entity @e[tag=kdpaper,tag=interactable.prop.paper,type=item_display,limit=1] container.0 with yellow_dye[custom_model_data={floats:[1027f]}]
 
 # Добавляет рамки сверху и снизу
 function map:ui/cb/start

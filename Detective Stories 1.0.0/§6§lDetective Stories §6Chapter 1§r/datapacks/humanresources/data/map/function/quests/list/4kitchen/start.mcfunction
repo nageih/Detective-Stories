@@ -10,6 +10,8 @@ tag @a remove bartender_waiting
 execute if entity @a[tag=language.russian] run function map:dialogue/init_text {text:"Странно, бармен всё ещё не объявился. Попробую его поискать, может, он чем-то занят и просто не выходит.",total_symbols:104,time:1,state:3,next_dialogue:none,db_visual:1}
 execute if entity @a[tag=language.english] run function map:dialogue/init_text {text:"Strange, the bartender still hasn’t shown up. I’ll try to look for him; maybe he’s busy with something and just isn’t coming out.",total_symbols:129,time:1,state:3,next_dialogue:none,db_visual:1}
 execute if entity @a[tag=language.spanish] run function map:dialogue/init_text {text:"Es extraño, el barman aún no ha aparecido. Intentaré buscarlo, quizá esté ocupado con algo y simplemente no salga.",total_symbols:113,time:1,state:3,next_dialogue:none,db_visual:1}
+execute if entity @a[tag=language.chinese] run function map:dialogue/init_text {text:"怪了，酒保还没过来。那我直接去找他好了，说不定他在忙自己的事没空出来。",total_symbols:35,time:1,state:3,next_dialogue:none,db_visual:1}
+
 
 # Обновление "до цели осталось ? блоков"
 spawnpoint @a -131 51 -82
