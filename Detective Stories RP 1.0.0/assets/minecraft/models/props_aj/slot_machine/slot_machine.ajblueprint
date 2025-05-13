@@ -1,0 +1,2098 @@
+{
+	"meta": {
+		"format": "animated_java_blueprint",
+		"format_version": "1.6.4",
+		"uuid": "2fab9441-7810-3a61-6498-6b21affe8849",
+		"save_location": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\resourcepacks\\Владислав\\assets\\minecraft\\models\\props_aj\\slot_machine\\slot_machine.ajblueprint",
+		"last_used_export_namespace": "slot_machine"
+	},
+	"blueprint_settings": {
+		"export_namespace": "slot_machine",
+		"show_bounding_box": false,
+		"auto_bounding_box": true,
+		"bounding_box": [48, 48],
+		"enable_plugin_mode": false,
+		"resource_pack_export_mode": "raw",
+		"data_pack_export_mode": "raw",
+		"target_minecraft_version": "1.21.4",
+		"display_item": "minecraft:white_dye",
+		"custom_model_data_offset": 0,
+		"enable_advanced_resource_pack_settings": false,
+		"resource_pack": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\resourcepacks\\Владислав\\",
+		"enable_advanced_data_pack_settings": false,
+		"data_pack": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\saves\\Brodilka\\datapacks\\detective_aj",
+		"summon_commands": "",
+		"ticking_commands": "",
+		"interpolation_duration": 1,
+		"teleportation_duration": 1,
+		"use_storage_for_animation": false,
+		"show_function_errors": true,
+		"show_outdated_warning": false,
+		"baked_animations": true,
+		"json_file": ""
+	},
+	"resolution": {
+		"width": 128,
+		"height": 128
+	},
+	"elements": [
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-8, 0, -8],
+			"to": [8, 16, 8],
+			"autouv": 0,
+			"color": 2,
+			"origin": [0, 0, 0],
+			"faces": {
+				"north": {
+					"uv": [0, 0, 16, 16],
+					"texture": 0
+				},
+				"east": {
+					"uv": [0, 16, 16, 32],
+					"texture": 0
+				},
+				"south": {
+					"uv": [16, 0, 32, 16],
+					"texture": 0
+				},
+				"west": {
+					"uv": [16, 16, 32, 32],
+					"texture": 0
+				},
+				"up": {
+					"uv": [16, 48, 0, 32],
+					"texture": 0
+				},
+				"down": {
+					"uv": [0, 0, 16, 16],
+					"texture": null
+				}
+			},
+			"type": "cube",
+			"uuid": "6e0cd89d-1dde-1d37-156b-9623c9a240b1"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [8, 28, 8],
+			"to": [-8, 16, -8],
+			"autouv": 0,
+			"color": 0,
+			"origin": [-5, 18, -5],
+			"faces": {
+				"north": {
+					"uv": [32, 16, 48, 28],
+					"texture": 0
+				},
+				"east": {
+					"uv": [16, 60, 32, 48],
+					"texture": 0
+				},
+				"south": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"west": {
+					"uv": [48, 12, 64, 0],
+					"texture": 0
+				},
+				"up": {
+					"uv": [0, 0, 16, 16],
+					"texture": null
+				},
+				"down": {
+					"uv": [32, 48, 16, 32],
+					"texture": 0
+				}
+			},
+			"type": "cube",
+			"uuid": "9c5884c7-f291-384e-4ddf-838a23cacc07"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-8, 16, -8],
+			"to": [8, 28, 8],
+			"autouv": 0,
+			"color": 7,
+			"origin": [0, 16, 0],
+			"faces": {
+				"north": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"east": {
+					"uv": [48, 0, 64, 12],
+					"texture": 0
+				},
+				"south": {
+					"uv": [48, 12, 64, 24],
+					"texture": 0
+				},
+				"west": {
+					"uv": [16, 48, 32, 60],
+					"texture": 0
+				},
+				"up": {
+					"uv": [32, 48, 16, 32],
+					"texture": 0
+				},
+				"down": {
+					"uv": [0, 0, 16, 16],
+					"texture": null
+				}
+			},
+			"type": "cube",
+			"uuid": "2d154a15-15c6-4b20-96b3-d4513eb870fb"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-8, 22, 0],
+			"to": [8, 24, 2],
+			"autouv": 0,
+			"color": 3,
+			"origin": [0, 22, 1],
+			"faces": {
+				"north": {
+					"uv": [54, 32, 70, 34],
+					"texture": 0
+				},
+				"east": {
+					"uv": [0, 0, 2, 2],
+					"texture": null
+				},
+				"south": {
+					"uv": [0, 0, 16, 2],
+					"texture": null
+				},
+				"west": {
+					"uv": [0, 0, 2, 2],
+					"texture": null
+				},
+				"up": {
+					"uv": [70, 36, 54, 34],
+					"texture": 0
+				},
+				"down": {
+					"uv": [70, 36, 54, 38],
+					"texture": 0
+				}
+			},
+			"type": "cube",
+			"uuid": "a830e548-052e-b557-d32a-d32b45075dee"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [3, 20, -2],
+			"to": [7, 26, 4],
+			"autouv": 0,
+			"color": 8,
+			"origin": [5, 22, 1],
+			"faces": {
+				"north": {
+					"uv": [44, 52, 48, 58],
+					"texture": 0
+				},
+				"east": {
+					"uv": [38, 52, 44, 58],
+					"texture": 0
+				},
+				"south": {
+					"uv": [54, 48, 58, 54],
+					"texture": 0
+				},
+				"west": {
+					"uv": [38, 52, 44, 58],
+					"texture": 0
+				},
+				"up": {
+					"uv": [58, 60, 54, 54],
+					"texture": 0
+				},
+				"down": {
+					"uv": [52, 56, 48, 62],
+					"texture": 0
+				}
+			},
+			"type": "cube",
+			"uuid": "2af99521-7522-3892-10de-6de19880be1b"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-2, 20, -2],
+			"to": [2, 26, 4],
+			"autouv": 0,
+			"color": 8,
+			"origin": [0, 22, 1],
+			"faces": {
+				"north": {
+					"uv": [32, 58, 36, 64],
+					"texture": 0
+				},
+				"east": {
+					"uv": [38, 52, 44, 58],
+					"texture": 0
+				},
+				"south": {
+					"uv": [36, 58, 40, 64],
+					"texture": 0
+				},
+				"west": {
+					"uv": [38, 52, 44, 58],
+					"texture": 0
+				},
+				"up": {
+					"uv": [44, 64, 40, 58],
+					"texture": 0
+				},
+				"down": {
+					"uv": [48, 58, 44, 64],
+					"texture": 0
+				}
+			},
+			"type": "cube",
+			"uuid": "b921c733-62b2-2796-ab5a-9c6003c090f4"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-7, 20, -2],
+			"to": [-3, 26, 4],
+			"autouv": 0,
+			"color": 8,
+			"origin": [-5, 22, 1],
+			"faces": {
+				"north": {
+					"uv": [58, 48, 62, 54],
+					"texture": 0
+				},
+				"east": {
+					"uv": [38, 52, 44, 58],
+					"texture": 0
+				},
+				"south": {
+					"uv": [58, 54, 62, 60],
+					"texture": 0
+				},
+				"west": {
+					"uv": [38, 52, 44, 58],
+					"texture": 0
+				},
+				"up": {
+					"uv": [4, 66, 0, 60],
+					"texture": 0
+				},
+				"down": {
+					"uv": [4, 66, 8, 60],
+					"texture": 0
+				}
+			},
+			"type": "cube",
+			"uuid": "bd6f9a81-da58-90f4-9d6c-1bc67833b432"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-8, 15.29289, -8.29289],
+			"to": [8, 19.29289, -6.29289],
+			"autouv": 0,
+			"color": 0,
+			"rotation": [45, 0, 0],
+			"origin": [7, 15.29289, -7.29289],
+			"faces": {
+				"north": {
+					"uv": [48, 24, 64, 28],
+					"texture": 0
+				},
+				"east": {
+					"uv": [0, 0, 2, 4],
+					"texture": null
+				},
+				"south": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"west": {
+					"uv": [0, 0, 2, 4],
+					"texture": null
+				},
+				"up": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"down": {
+					"uv": [70, 40, 54, 42],
+					"texture": 0
+				}
+			},
+			"type": "cube",
+			"uuid": "801e42ec-07a2-fe3e-6904-00b567b086bc"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-8, 18.82843, -5.17157],
+			"to": [8, 19.82843, -3.17157],
+			"autouv": 0,
+			"color": 0,
+			"origin": [7, 14.82843, -4.17157],
+			"faces": {
+				"north": {
+					"uv": [8, 60, 24, 61],
+					"texture": 0
+				},
+				"east": {
+					"uv": [0, 0, 2, 1],
+					"texture": null
+				},
+				"south": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"west": {
+					"uv": [0, 0, 2, 1],
+					"texture": null
+				},
+				"up": {
+					"uv": [70, 48, 54, 46],
+					"texture": 0
+				},
+				"down": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				}
+			},
+			"type": "cube",
+			"uuid": "8917fa76-cc8d-0478-4ddc-3b318e21c921"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-8, 26, -5],
+			"to": [8, 28, -3],
+			"autouv": 0,
+			"color": 0,
+			"origin": [7, 23, -4],
+			"faces": {
+				"north": {
+					"uv": [54, 42, 70, 44],
+					"texture": 0
+				},
+				"east": {
+					"uv": [0, 0, 2, 2],
+					"texture": null
+				},
+				"south": {
+					"uv": [0, 0, 16, 2],
+					"texture": null
+				},
+				"west": {
+					"uv": [0, 0, 2, 2],
+					"texture": null
+				},
+				"up": {
+					"uv": [0, 0, 16, 2],
+					"texture": null
+				},
+				"down": {
+					"uv": [70, 44, 54, 46],
+					"texture": 0
+				}
+			},
+			"type": "cube",
+			"uuid": "51f02120-8c1a-aade-ba2c-30b9f38ac384"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-10, 11, -4],
+			"to": [-8, 13, -2],
+			"autouv": 0,
+			"color": 4,
+			"origin": [-9, 11, -3],
+			"faces": {
+				"north": {
+					"uv": [24, 60, 26, 62],
+					"texture": 0
+				},
+				"east": {
+					"uv": [24, 60, 26, 62],
+					"texture": 0
+				},
+				"south": {
+					"uv": [24, 60, 26, 62],
+					"texture": 0
+				},
+				"west": {
+					"uv": [24, 60, 26, 62],
+					"texture": 0
+				},
+				"up": {
+					"uv": [24, 60, 26, 62],
+					"texture": 0
+				},
+				"down": {
+					"uv": [24, 60, 26, 62],
+					"texture": 0
+				}
+			},
+			"type": "cube",
+			"uuid": "26e94b34-d159-d89f-655e-ed387facddae"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-9, 13, -3.5],
+			"to": [-9, 23, -2.5],
+			"autouv": 0,
+			"color": 4,
+			"origin": [-9, 13, -3],
+			"faces": {
+				"north": {
+					"uv": [0, 0, 0, 10],
+					"texture": null
+				},
+				"east": {
+					"uv": [52, 56, 53, 66],
+					"texture": 0
+				},
+				"south": {
+					"uv": [0, 0, 0, 10],
+					"texture": null
+				},
+				"west": {
+					"uv": [52, 56, 53, 66],
+					"texture": 0
+				},
+				"up": {
+					"uv": [0, 0, 0, 1],
+					"texture": null
+				},
+				"down": {
+					"uv": [0, 0, 0, 1],
+					"texture": null
+				}
+			},
+			"type": "cube",
+			"uuid": "9276b64e-5491-84ce-fbfc-b98ef24a99c4"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-9.5, 23, -3.5],
+			"to": [-8.5, 24, -2.5],
+			"autouv": 0,
+			"color": 4,
+			"origin": [-9, 23, -3],
+			"faces": {
+				"north": {
+					"uv": [54, 57, 53, 56],
+					"texture": 0
+				},
+				"east": {
+					"uv": [54, 57, 53, 56],
+					"texture": 0
+				},
+				"south": {
+					"uv": [54, 57, 53, 56],
+					"texture": 0
+				},
+				"west": {
+					"uv": [54, 57, 53, 56],
+					"texture": 0
+				},
+				"up": {
+					"uv": [54, 57, 53, 56],
+					"texture": 0
+				},
+				"down": {
+					"uv": [54, 57, 53, 56],
+					"texture": 0
+				}
+			},
+			"type": "cube",
+			"uuid": "5ec5127f-4a97-2494-3e34-a3c3a9303fab"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-9.5, 13, -3],
+			"to": [-8.5, 23, -3],
+			"autouv": 0,
+			"color": 4,
+			"origin": [-9, 13, -3],
+			"faces": {
+				"north": {
+					"uv": [52, 56, 53, 66],
+					"texture": 0
+				},
+				"east": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"south": {
+					"uv": [52, 56, 53, 66],
+					"texture": 0
+				},
+				"west": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"up": {
+					"uv": [0, 0, 0, 1],
+					"texture": null
+				},
+				"down": {
+					"uv": [0, 0, 0, 1],
+					"texture": null
+				}
+			},
+			"type": "cube",
+			"uuid": "b7f3e784-515b-2d29-c07e-35564c46f59f"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-8, 15, 5],
+			"to": [8, 28, 5],
+			"autouv": 0,
+			"color": 0,
+			"rotation": [22.5, 0, 0],
+			"origin": [0, 22, 5],
+			"faces": {
+				"north": {
+					"uv": [0, 66, 1, 67],
+					"texture": 0
+				},
+				"east": {
+					"uv": [0, 0, 2, 2],
+					"texture": null
+				},
+				"south": {
+					"uv": [0, 0, 16, 2],
+					"texture": null
+				},
+				"west": {
+					"uv": [0, 0, 2, 2],
+					"texture": null
+				},
+				"up": {
+					"uv": [0, 0, 16, 2],
+					"texture": null
+				},
+				"down": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				}
+			},
+			"type": "cube",
+			"uuid": "6c9e7669-3143-710d-d7b6-66afaf9c548d"
+		}
+	],
+	"outliner": [
+		{
+			"name": "spin1",
+			"origin": [5, 23, 1],
+			"color": 0,
+			"configs": {
+				"variants": {}
+			},
+			"uuid": "2f6a9cb8-3c55-1683-7257-806da18fd6f7",
+			"export": true,
+			"mirror_uv": false,
+			"isOpen": true,
+			"locked": false,
+			"visibility": true,
+			"autouv": 0,
+			"selected": false,
+			"children": ["2af99521-7522-3892-10de-6de19880be1b"]
+		},
+		{
+			"name": "spin2",
+			"origin": [0, 23, 1],
+			"color": 0,
+			"configs": {
+				"variants": {}
+			},
+			"uuid": "009fa81b-21b4-fd7e-2bcd-ca18ddada33c",
+			"export": true,
+			"mirror_uv": false,
+			"isOpen": true,
+			"locked": false,
+			"visibility": true,
+			"autouv": 0,
+			"selected": false,
+			"children": ["b921c733-62b2-2796-ab5a-9c6003c090f4"]
+		},
+		{
+			"name": "spin3",
+			"origin": [-5, 23, 1],
+			"color": 0,
+			"configs": {
+				"variants": {}
+			},
+			"uuid": "d93dba25-10fb-6967-d0ba-0f729edf84e5",
+			"export": true,
+			"mirror_uv": false,
+			"isOpen": true,
+			"locked": false,
+			"visibility": true,
+			"autouv": 0,
+			"selected": false,
+			"children": ["bd6f9a81-da58-90f4-9d6c-1bc67833b432"]
+		},
+		{
+			"name": "bone",
+			"origin": [7, 14.82843, -4.17157],
+			"color": 0,
+			"configs": {
+				"variants": {}
+			},
+			"uuid": "f9797261-9c6b-1308-dc21-a577fafa0dad",
+			"export": true,
+			"mirror_uv": false,
+			"isOpen": true,
+			"locked": false,
+			"visibility": true,
+			"autouv": 0,
+			"selected": false,
+			"children": [
+				"a830e548-052e-b557-d32a-d32b45075dee",
+				"6e0cd89d-1dde-1d37-156b-9623c9a240b1",
+				"9c5884c7-f291-384e-4ddf-838a23cacc07",
+				"2d154a15-15c6-4b20-96b3-d4513eb870fb",
+				"801e42ec-07a2-fe3e-6904-00b567b086bc",
+				"51f02120-8c1a-aade-ba2c-30b9f38ac384",
+				"6c9e7669-3143-710d-d7b6-66afaf9c548d",
+				"8917fa76-cc8d-0478-4ddc-3b318e21c921"
+			]
+		},
+		{
+			"name": "lever",
+			"origin": [-9, 11.83333, -3],
+			"rotation": [22.5, 0, 0],
+			"color": 0,
+			"configs": {
+				"variants": {}
+			},
+			"uuid": "872d458a-3085-3a64-1e59-2d05701465ea",
+			"export": true,
+			"mirror_uv": false,
+			"isOpen": true,
+			"locked": false,
+			"visibility": true,
+			"autouv": 0,
+			"selected": false,
+			"children": [
+				"26e94b34-d159-d89f-655e-ed387facddae",
+				"5ec5127f-4a97-2494-3e34-a3c3a9303fab",
+				"9276b64e-5491-84ce-fbfc-b98ef24a99c4",
+				"b7f3e784-515b-2d29-c07e-35564c46f59f"
+			]
+		}
+	],
+	"textures": [
+		{
+			"path": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\resourcepacks\\Владислав\\assets\\minecraft\\textures\\vladislavvc\\props_aj\\slot_machine.png",
+			"name": "slot_machine.png",
+			"folder": "block",
+			"namespace": "",
+			"id": "0",
+			"group": "",
+			"width": 128,
+			"height": 128,
+			"uv_width": 128,
+			"uv_height": 128,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"pbr_channel": "color",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": false,
+			"saved": true,
+			"uuid": "3b7956fd-0ed4-2d49-72b8-b9692198f4f8",
+			"source": "data:image/png;base64,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",
+			"mode": "bitmap"
+		}
+	],
+	"variants": {
+		"default": {
+			"name": "default",
+			"display_name": "Default",
+			"uuid": "59b14eb6-9c40-64fa-bc79-1f47fd1b1572",
+			"texture_map": {},
+			"excluded_nodes": [],
+			"is_default": true
+		},
+		"list": []
+	},
+	"animations": [
+		{
+			"uuid": "04f884f9-ab9e-e0a6-8ad0-f8838dc8dd51",
+			"name": "lever",
+			"loop": "once",
+			"override": false,
+			"length": 0.75,
+			"snapping": 20,
+			"selected": false,
+			"saved": true,
+			"path": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\resourcepacks\\Владислав\\assets\\minecraft\\models\\props_aj\\slot_machine\\slot_machine.json",
+			"anim_time_update": "",
+			"blend_weight": "",
+			"start_delay": "",
+			"loop_delay": "0",
+			"excluded_nodes": [
+				{
+					"icon": "folder",
+					"name": "spin2",
+					"value": "009fa81b-21b4-fd7e-2bcd-ca18ddada33c"
+				},
+				{
+					"icon": "folder",
+					"name": "spin3",
+					"value": "d93dba25-10fb-6967-d0ba-0f729edf84e5"
+				},
+				{
+					"icon": "folder",
+					"name": "spin1",
+					"value": "2f6a9cb8-3c55-1683-7257-806da18fd6f7"
+				}
+			],
+			"animators": {
+				"872d458a-3085-3a64-1e59-2d05701465ea": {
+					"name": "lever",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "65cef070-2658-77e3-4466-66f367ce91fe",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "22.5",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "39dc2ec6-7713-e6a9-34f4-e7bddb56d345",
+							"time": 0.3,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutCirc",
+							"easingArgs": [1]
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "c5e277b3-e85a-969b-8bb4-2af968182367",
+							"time": 0.75,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutBack",
+							"easingArgs": [0.25]
+						}
+					]
+				}
+			}
+		},
+		{
+			"uuid": "697acb64-bb57-b7f4-169f-75c3e5df67f7",
+			"name": "spin1",
+			"loop": "hold",
+			"override": false,
+			"length": 2.1,
+			"snapping": 20,
+			"selected": false,
+			"saved": false,
+			"path": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\resourcepacks\\Владислав\\assets\\minecraft\\models\\props_aj\\slot_machine\\slot_machine.json",
+			"anim_time_update": "",
+			"blend_weight": "",
+			"start_delay": "",
+			"loop_delay": "0",
+			"excluded_nodes": [
+				{
+					"icon": "folder",
+					"name": "lever",
+					"value": "872d458a-3085-3a64-1e59-2d05701465ea"
+				}
+			],
+			"animators": {
+				"2f6a9cb8-3c55-1683-7257-806da18fd6f7": {
+					"name": "spin1",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "0e4bedd9-7b05-1e36-6bd3-d6f71543ce55",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "450",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "3a31247d-d6cd-bbab-a828-b29828c1a426",
+							"time": 1,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutQuad",
+							"easingArgs": []
+						}
+					]
+				},
+				"009fa81b-21b4-fd7e-2bcd-ca18ddada33c": {
+					"name": "spin2",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "93f6f6a0-2662-eda5-fd69-1ceae1fc4a07",
+							"time": 0.15,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "450",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "be69bd9f-fa70-b3ed-6907-e611840fee80",
+							"time": 1.15,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInSine",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "470",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "79f74a35-c7e2-0d81-3a79-bf642ab193ab",
+							"time": 1.75,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutQuad",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "447.5",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "ddfdb655-26e8-b771-c6d4-bf332d846da5",
+							"time": 2,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeOutCubic",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "450",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "449b3ac1-af17-68ff-35c7-e00e8c8159ea",
+							"time": 2.1,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeOutCubic",
+							"easingArgs": []
+						}
+					]
+				},
+				"d93dba25-10fb-6967-d0ba-0f729edf84e5": {
+					"name": "spin3",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "8f8534c5-35a7-50d1-c90a-0a787fa9d74e",
+							"time": 0.3,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "360",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "b022d964-ab29-a281-e6a4-898c677ce6c7",
+							"time": 1.3,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutQuad",
+							"easingArgs": []
+						}
+					]
+				},
+				"effects": {
+					"name": "Effects",
+					"type": "effect",
+					"keyframes": [
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute at @e[tag=aj.slot_machine.root] run playsound map.interaction.slot_machine.spin master @a ~ ~1 ~ 1 1",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "bf9d85c0-1aa1-2e1d-757b-dab0cf80190e",
+							"time": 0.95,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute at @e[tag=aj.slot_machine.root] run playsound map.interaction.slot_machine.spin master @a ~ ~1 ~ 1 1",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "018d0db0-e6bb-c5e2-bba8-e1af32311ee6",
+							"time": 1.05,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute at @e[tag=aj.slot_machine.root] run playsound map.interaction.slot_machine.spin master @a ~ ~1 ~ 1 1",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "909614b6-5a32-8c7d-c1be-a7176330642a",
+							"time": 1.15,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute at @e[tag=aj.slot_machine.root] run playsound map.interaction.slot_machine.spin master @a ~ ~1 ~ 1 1",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "87226660-27b7-db09-bf92-fde6a6ce3082",
+							"time": 1.75,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute at @e[tag=aj.slot_machine.root] run playsound map.interaction.slot_machine.unluck master @a ~ ~1 ~ 0.25 1",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "6156c5b7-40bd-b7e2-9b59-4516270f5b4c",
+							"time": 2.1,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						}
+					]
+				}
+			}
+		},
+		{
+			"uuid": "c454aaff-4aed-adad-9f85-9c1c8b3ce611",
+			"name": "spin2",
+			"loop": "hold",
+			"override": false,
+			"length": 2.1,
+			"snapping": 20,
+			"selected": false,
+			"saved": false,
+			"path": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\resourcepacks\\Владислав\\assets\\minecraft\\models\\props_aj\\slot_machine\\slot_machine.json",
+			"anim_time_update": "",
+			"blend_weight": "",
+			"start_delay": "",
+			"loop_delay": "0",
+			"excluded_nodes": [
+				{
+					"icon": "folder",
+					"name": "lever",
+					"value": "872d458a-3085-3a64-1e59-2d05701465ea"
+				}
+			],
+			"animators": {
+				"2f6a9cb8-3c55-1683-7257-806da18fd6f7": {
+					"name": "spin1",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "34ed1734-c5ab-3c63-dbca-5d417da2ecc8",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "540",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "22da27d7-35ea-9f6e-994d-02b52e71f5b8",
+							"time": 1.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeOutQuad",
+							"easingArgs": []
+						}
+					]
+				},
+				"009fa81b-21b4-fd7e-2bcd-ca18ddada33c": {
+					"name": "spin2",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "ed0a8c6f-d54e-539d-2758-07868312eef4",
+							"time": 0.15,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "630",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "b6fc2b4a-8370-4bd4-316e-0770e82afe1f",
+							"time": 1.65,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeOutQuad",
+							"easingArgs": []
+						}
+					]
+				},
+				"d93dba25-10fb-6967-d0ba-0f729edf84e5": {
+					"name": "spin3",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "d0f44ff0-beb7-57b0-434b-b6901f138e54",
+							"time": 0.3,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "540",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "d804b3df-ee71-9197-2195-43a0c9cd2655",
+							"time": 2,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeOutSine",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "472.5",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "834b634f-1354-110c-7a9e-296f424d7439",
+							"time": 1.6,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutSine",
+							"easingArgs": []
+						}
+					]
+				},
+				"effects": {
+					"name": "Effects",
+					"type": "effect",
+					"keyframes": [
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute at @e[tag=aj.slot_machine.root] run playsound map.interaction.slot_machine.spin master @a ~ ~1 ~ 1 1",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "77436f62-4a37-c1f6-4bb3-eeccd1743c2a",
+							"time": 1.35,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute at @e[tag=aj.slot_machine.root] run playsound map.interaction.slot_machine.spin master @a ~ ~1 ~ 1 1",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "18ceab95-fbae-943c-9390-b704ee4d8381",
+							"time": 1.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute at @e[tag=aj.slot_machine.root] run playsound map.interaction.slot_machine.spin master @a ~ ~1 ~ 1 1",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "fff2b256-a9c0-c2d4-7a1f-39ffb7f05e97",
+							"time": 1.9,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute at @e[tag=aj.slot_machine.root] run playsound map.interaction.slot_machine.unluck master @a ~ ~1 ~ 0.25 1",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "22a32754-8b9b-e655-85d5-d0a195e379ea",
+							"time": 2.1,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						}
+					]
+				}
+			}
+		},
+		{
+			"uuid": "57444f52-2a12-fbbe-31e5-147cb70ecbda",
+			"name": "spin3",
+			"loop": "hold",
+			"override": false,
+			"length": 1.5,
+			"snapping": 20,
+			"selected": false,
+			"saved": false,
+			"path": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\resourcepacks\\Владислав\\assets\\minecraft\\models\\props_aj\\slot_machine\\slot_machine.json",
+			"anim_time_update": "",
+			"blend_weight": "",
+			"start_delay": "",
+			"loop_delay": "0",
+			"excluded_nodes": [
+				{
+					"icon": "folder",
+					"name": "lever",
+					"value": "872d458a-3085-3a64-1e59-2d05701465ea"
+				}
+			],
+			"animators": {
+				"2f6a9cb8-3c55-1683-7257-806da18fd6f7": {
+					"name": "spin1",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "540",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "cb499ea2-7a82-69c3-8856-b2e644b87804",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeOutQuad",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "1080",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "24c95b0e-4c94-b367-32b8-0151f8abd8ca",
+							"time": 1,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutBounce",
+							"easingArgs": [0.5]
+						}
+					]
+				},
+				"009fa81b-21b4-fd7e-2bcd-ca18ddada33c": {
+					"name": "spin2",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "540",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "e3613350-b122-b705-7464-630632670e9a",
+							"time": 0.15,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeOutQuad",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "900",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "a9a5ebd9-cf4e-5e04-90a4-1cb4e664824b",
+							"time": 1.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutBounce",
+							"easingArgs": [0.5]
+						}
+					]
+				},
+				"d93dba25-10fb-6967-d0ba-0f729edf84e5": {
+					"name": "spin3",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "540",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "07036ad2-9efb-acef-128c-fa66eabfc7c8",
+							"time": 0.3,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeOutQuad",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "990",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "8a4df276-b448-4cca-59ff-d516dbce7ffb",
+							"time": 1.3,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutBack",
+							"easingArgs": [0.5]
+						}
+					]
+				},
+				"effects": {
+					"name": "Effects",
+					"type": "effect",
+					"keyframes": [
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute at @e[tag=aj.slot_machine.root] run playsound map.interaction.slot_machine.spin master @a ~ ~1 ~ 1 1",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "ca5d60e3-cace-3e9f-7743-8141fc2cf2fc",
+							"time": 0.95,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute at @e[tag=aj.slot_machine.root] run playsound map.interaction.slot_machine.spin master @a ~ ~1 ~ 1 1",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "fe6e9567-663c-cf29-d28a-56704e0436e4",
+							"time": 1.1,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute at @e[tag=aj.slot_machine.root] run playsound map.interaction.slot_machine.spin master @a ~ ~1 ~ 1 1",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "36d4497b-529a-6cd3-a641-dda3ac84ad9d",
+							"time": 1.45,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute at @e[tag=aj.slot_machine.root] run playsound map.interaction.slot_machine.spin master @a ~ ~1 ~ 1 1",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "41d02c24-3659-3974-b131-dc3d422f5792",
+							"time": 1.3,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute at @e[tag=aj.slot_machine.root] run playsound map.interaction.slot_machine.unluck master @a ~ ~1 ~ 0.25 1",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "979c7769-580b-b02a-de17-423ecc48bca2",
+							"time": 1.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						}
+					]
+				}
+			}
+		},
+		{
+			"uuid": "251f352f-bcdb-7aa9-911e-3be6a53d4003",
+			"name": "spin4",
+			"loop": "hold",
+			"override": false,
+			"length": 2.25,
+			"snapping": 20,
+			"selected": false,
+			"saved": false,
+			"path": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\resourcepacks\\Владислав\\assets\\minecraft\\models\\props_aj\\slot_machine\\slot_machine.json",
+			"anim_time_update": "",
+			"blend_weight": "",
+			"start_delay": "",
+			"loop_delay": "0",
+			"excluded_nodes": [
+				{
+					"icon": "folder",
+					"name": "lever",
+					"value": "872d458a-3085-3a64-1e59-2d05701465ea"
+				}
+			],
+			"animators": {
+				"2f6a9cb8-3c55-1683-7257-806da18fd6f7": {
+					"name": "spin1",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "e158b83b-6683-05f6-dd15-6e61aa54a4d6",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "270",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "e018018e-0526-52ff-0394-c11784927847",
+							"time": 2,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutBounce",
+							"easingArgs": [4]
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "360",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "62f3f7ab-2a19-a69e-2181-8db7918f6006",
+							"time": 2.25,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeOutBack",
+							"easingArgs": [0.8]
+						}
+					]
+				},
+				"009fa81b-21b4-fd7e-2bcd-ca18ddada33c": {
+					"name": "spin2",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "c61791a1-7692-e5c2-4266-74d288c28f30",
+							"time": 0.15,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "360",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "38f5223a-5429-0b03-51a6-e9a81e233a28",
+							"time": 1.15,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutBack",
+							"easingArgs": [1]
+						}
+					]
+				},
+				"d93dba25-10fb-6967-d0ba-0f729edf84e5": {
+					"name": "spin3",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "cef18544-9298-6821-6a8e-2eb4307eb857",
+							"time": 0.3,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "540",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "3dc935b1-919a-51d9-5ac5-1cf836b65731",
+							"time": 1.3,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutBack",
+							"easingArgs": [2]
+						}
+					]
+				},
+				"effects": {
+					"name": "Effects",
+					"type": "effect",
+					"keyframes": [
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute at @e[tag=aj.slot_machine.root] run playsound map.interaction.slot_machine.spin master @a ~ ~1 ~ 1 1",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "8329b541-cade-5539-03f4-e332b1093d2c",
+							"time": 0.85,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute at @e[tag=aj.slot_machine.root] run playsound map.interaction.slot_machine.spin master @a ~ ~1 ~ 1 1",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "17c8aa44-85b2-e1be-ee9d-c672f6fc83b0",
+							"time": 1.2,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute at @e[tag=aj.slot_machine.root] run playsound map.interaction.slot_machine.spin master @a ~ ~1 ~ 1 1",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "95b53663-54c2-727f-94b4-af8a61734656",
+							"time": 2,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute at @e[tag=aj.slot_machine.root] run playsound map.interaction.slot_machine.spin master @a ~ ~1 ~ 1 1",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "adb906f8-9c35-92bf-241f-4437dd4727db",
+							"time": 2.1,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute at @e[tag=aj.slot_machine.root] run playsound map.interaction.slot_machine.unluck master @a ~ ~1 ~ 0.25 1",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "bfa99d11-c673-a082-9966-0895b8c370ae",
+							"time": 2.25,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						}
+					]
+				}
+			}
+		},
+		{
+			"uuid": "6ce3b928-2374-0257-25d1-ffdbbfec6738",
+			"name": "spin5",
+			"loop": "hold",
+			"override": false,
+			"length": 2.25,
+			"snapping": 20,
+			"selected": true,
+			"saved": false,
+			"path": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\resourcepacks\\Владислав\\assets\\minecraft\\models\\props_aj\\slot_machine\\slot_machine.json",
+			"anim_time_update": "",
+			"blend_weight": "",
+			"start_delay": "",
+			"loop_delay": "0",
+			"excluded_nodes": [
+				{
+					"icon": "folder",
+					"name": "lever",
+					"value": "872d458a-3085-3a64-1e59-2d05701465ea"
+				}
+			],
+			"animators": {
+				"2f6a9cb8-3c55-1683-7257-806da18fd6f7": {
+					"name": "spin1",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "e158b83b-6683-05f6-dd15-6e61aa54a4d6",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "540",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "e018018e-0526-52ff-0394-c11784927847",
+							"time": 2,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutBack",
+							"easingArgs": [1]
+						}
+					]
+				},
+				"009fa81b-21b4-fd7e-2bcd-ca18ddada33c": {
+					"name": "spin2",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "c61791a1-7692-e5c2-4266-74d288c28f30",
+							"time": 0.15,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "630",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "38f5223a-5429-0b03-51a6-e9a81e233a28",
+							"time": 1.15,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutBack",
+							"easingArgs": [1]
+						}
+					]
+				},
+				"d93dba25-10fb-6967-d0ba-0f729edf84e5": {
+					"name": "spin3",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "cef18544-9298-6821-6a8e-2eb4307eb857",
+							"time": 0.3,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "450",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "3dc935b1-919a-51d9-5ac5-1cf836b65731",
+							"time": 1.3,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutBack",
+							"easingArgs": [2]
+						}
+					]
+				},
+				"effects": {
+					"name": "Effects",
+					"type": "effect",
+					"keyframes": [
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute at @e[tag=aj.slot_machine.root] run playsound map.interaction.slot_machine.spin master @a ~ ~1 ~ 1 1",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "8329b541-cade-5539-03f4-e332b1093d2c",
+							"time": 0.85,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute at @e[tag=aj.slot_machine.root] run playsound map.interaction.slot_machine.spin master @a ~ ~1 ~ 1 1",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "17c8aa44-85b2-e1be-ee9d-c672f6fc83b0",
+							"time": 1.2,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute at @e[tag=aj.slot_machine.root] run playsound map.interaction.slot_machine.spin master @a ~ ~1 ~ 1 1",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "95b53663-54c2-727f-94b4-af8a61734656",
+							"time": 1.95,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute at @e[tag=aj.slot_machine.root] run playsound map.interaction.slot_machine.luck master @a ~ ~1 ~ 0.25 1",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "bfa99d11-c673-a082-9966-0895b8c370ae",
+							"time": 2.25,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						}
+					]
+				}
+			}
+		}
+	],
+	"animation_controllers": []
+}

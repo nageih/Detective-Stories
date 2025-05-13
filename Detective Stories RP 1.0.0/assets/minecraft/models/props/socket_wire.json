@@ -1,0 +1,28 @@
+{
+	"credit": "By VladislavvC",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "vladislavvc/props/socket_wire",
+		"particle": "vladislavvc/props/socket_wire"
+	},
+	"elements": [
+		{
+			"from": [7.5, 0, -5],
+			"to": [7.5, 1, 21],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 0.5, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 13, 0.5], "texture": "#0"},
+				"west": {"uv": [13, 0, 0, 0.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 0.5, -5],
+			"to": [8, 0.5, 21],
+			"rotation": {"angle": 0, "axis": "z", "origin": [7.5, 0.5, 8]},
+			"faces": {
+				"up": {"uv": [13, 0, 0, 0.5], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [0, 0, 13, 0.5], "rotation": 270, "texture": "#0"}
+			}
+		}
+	]
+}

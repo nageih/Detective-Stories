@@ -1,0 +1,18 @@
+{
+	"credit": "By VladislavvC",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "vladislavvc/props/graffity_iseeyou",
+		"particle": "vladislavvc/props/graffity_iseeyou"
+	},
+	"elements": [
+		{
+			"from": [-16, -8, 7.995],
+			"to": [32, 24, 7.995],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 12, 8], "texture": "#0"}
+			}
+		}
+	]
+}

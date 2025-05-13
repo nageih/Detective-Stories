@@ -1,0 +1,22 @@
+{
+	"credit": "By VladislavvC",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "vladislavvc/props/windowsill",
+		"particle": "vladislavvc/props/windowsill"
+	},
+	"elements": [
+		{
+			"from": [-16, 0.005, 4],
+			"to": [32, 1.005, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7]},
+			"faces": {
+				"north": {"uv": [0, 4, 12, 4.25], "texture": "#0"},
+				"east": {"uv": [0, 4.25, 2, 4.5], "texture": "#0"},
+				"west": {"uv": [2, 4.25, 4, 4.5], "texture": "#0"},
+				"up": {"uv": [12, 2, 0, 0], "texture": "#0"},
+				"down": {"uv": [12, 2, 0, 0], "texture": "#0"}
+			}
+		}
+	]
+}

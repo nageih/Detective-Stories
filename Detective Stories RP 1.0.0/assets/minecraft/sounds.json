@@ -1,0 +1,1010 @@
+{
+    "block.wood.step": {
+        "replace": true,
+          "sounds":[
+              {
+                 "name": "custom/wood1",
+                 "weight": 1
+              },
+              {
+                 "name": "custom/wood2",
+                 "weight": 1
+             },
+             {
+                 "name": "custom/wood3",
+                 "weight": 1
+             },
+             {
+                 "name": "custom/fwood4",
+                 "weight": 1
+             },
+             {
+                 "name": "custom/wood5",
+                 "weight": 1
+             }
+          ]
+     },
+     "block.amethyst_cluster.step": {
+        "replace": true,
+          "sounds":[
+              {
+                 "name": "block/amethyst/step1",
+                 "weight": 1
+              }
+          ]
+     },
+     "block.amethyst.step": {
+        "replace": true,
+          "sounds":[
+              {
+                 "name": "block/amethyst/step1",
+                 "weight": 1
+              }
+          ]
+     },
+     "block.stone.step": {
+        "replace": true,
+          "sounds":[
+              {
+                 "name": "step/stone1",
+                 "weight": 1
+              },
+              {
+                 "name": "step/stone2",
+                 "weight": 1
+             },
+             {
+                 "name": "step/stone3",
+                 "weight": 1
+             },
+             {
+                 "name": "step/stone4",
+                 "weight": 1
+             },
+             {
+                 "name": "step/stone5",
+                 "weight": 1
+             }
+          ]
+     },
+    "map.items.paper": {
+        "sounds":[
+            {
+               "name": "items/paper/paper1",
+                    "weight": 1,
+                    "attenuation_distance": 8
+            },
+            {
+               "name": "items/paper/paper2",
+                    "weight": 1,
+                    "attenuation_distance": 8
+            },
+            {
+               "name": "items/paper/paper4",
+                    "weight": 1,
+                    "attenuation_distance": 8
+            }
+        ]
+    },
+    "map.interaction.cafe_door": {
+        "sounds":[
+            {
+               "name": "map/interaction/cafe_door",
+                    "weight": 1,
+                    "attenuation_distance": 8
+            }
+        ]
+    },
+    "map.interaction.electricity_break": {
+        "sounds":[
+            {
+               "name": "map/interaction/electricity_break",
+                    "weight": 1,
+                    "attenuation_distance": 12
+            }
+        ]
+    },
+    "map.interaction.kitchen_door.open": {
+        "sounds":[
+            {
+               "name": "map/interaction/kitchen_door_open1",
+                    "weight": 1,
+                    "attenuation_distance": 8
+            },
+            {
+               "name": "map/interaction/kitchen_door_open2",
+                    "weight": 1,
+                    "attenuation_distance": 8
+            }
+        ]
+    },
+    "map.interaction.kitchen_door.close": {
+        "sounds":[
+            {
+               "name": "map/interaction/kitchen_door_close1",
+                    "weight": 1,
+                    "attenuation_distance": 8
+            },
+            {
+               "name": "map/interaction/kitchen_door_close2",
+                    "weight": 1,
+                    "attenuation_distance": 8
+            } 
+        ]
+    },
+    "map.interaction.kitchen_key.used": {
+        "sounds":[
+            {
+               "name": "map/interaction/kitchen_key_used",
+                    "weight": 1,
+                    "attenuation_distance": 8
+            }
+        ]
+    },
+    "map.interaction.street_door.open": {
+        "sounds":[
+            {
+               "name": "map/interaction/street_door_open",
+                    "weight": 1,
+                    "attenuation_distance": 8
+            }
+        ]
+    },
+    "map.interaction.street_door.close": {
+        "sounds":[
+            {
+               "name": "map/interaction/street_door_close",
+                    "weight": 1,
+                    "attenuation_distance": 8
+            }
+        ]
+    },
+    "map.interaction.toilet_door.closed": {
+        "sounds":[
+            {
+               "name": "map/interaction/toilet_door_closed1",
+                    "weight": 1,
+                    "attenuation_distance": 8
+            },
+            {
+               "name": "map/interaction/toilet_door_closed2",
+                    "weight": 1,
+                    "attenuation_distance": 8
+            },
+            {
+                "name": "map/interaction/toilet_door_closed3",
+                     "weight": 1,
+                     "attenuation_distance": 8
+            } 
+        ]
+    },
+    "map.interaction.tv_remote": {
+        "sounds":[
+            {
+               "name": "map/interaction/tv_remote",
+                    "weight": 1,
+                    "attenuation_distance": 8
+            }
+        ]
+    },
+    "map.interaction.slot_machine.use": {
+        "sounds":[
+            {
+               "name": "map/interaction/slot_machine_use",
+                    "weight": 1,
+                    "attenuation_distance": 8
+            }
+        ]
+    },
+    "map.interaction.slot_machine.unluck": {
+        "sounds":[
+            {
+               "name": "map/interaction/slot_machine_unluck1",
+                    "weight": 1,
+                    "attenuation_distance": 8
+            },
+            {
+                "name": "map/interaction/slot_machine_unluck2",
+                     "weight": 1,
+                     "attenuation_distance": 8
+            },
+            {
+                "name": "map/interaction/slot_machine_unluck3",
+                     "weight": 1,
+                     "attenuation_distance": 8
+            }
+        ]
+    },
+    "map.interaction.tea": {
+        "sounds":[
+            {
+               "name": "map/interaction/tea1",
+                    "weight": 1,
+                    "attenuation_distance": 8
+            },
+            {
+                "name": "map/interaction/tea2",
+                     "weight": 1,
+                     "attenuation_distance": 8
+            },
+            {
+                "name": "map/interaction/tea3",
+                     "weight": 1,
+                     "attenuation_distance": 8
+            },
+            {
+                "name": "map/interaction/tea4",
+                     "weight": 1,
+                     "attenuation_distance": 8
+            }
+        ]
+    },
+    "map.interaction.slot_machine.luck": {
+        "sounds":[
+            {
+               "name": "map/interaction/slot_machine_luck",
+                    "weight": 1,
+                    "attenuation_distance": 8
+            }
+        ]
+    },
+    "map.interaction.slot_machine.spin": {
+        "sounds":[
+            {
+               "name": "map/interaction/slothit1",
+                    "weight": 1,
+                    "attenuation_distance": 8
+            },
+            {
+               "name": "map/interaction/slothit2",
+                    "weight": 1,
+                    "attenuation_distance": 8
+            }
+        ]
+    },
+    "map.interaction.kitchen_valve": {
+        "sounds":[
+            {
+               "name": "map/interaction/iron_valve1",
+                    "weight": 1,
+                    "attenuation_distance": 8
+            },
+            {
+               "name": "map/interaction/iron_valve2",
+                    "weight": 1,
+                    "attenuation_distance": 8
+            },
+            {
+                "name": "map/interaction/iron_valve3",
+                     "weight": 1,
+                     "attenuation_distance": 8
+            }
+        ]
+    },
+    "map.interaction.fridge.loop": {
+        "sounds":[
+            {
+               "name": "map/interaction/fridge_loop",
+                    "weight": 1,
+                    "attenuation_distance": 2
+            }
+        ]
+    },
+    "map.interaction.fridge.open": {
+        "sounds":[
+            {
+               "name": "map/interaction/fridge_open",
+                    "weight": 1,
+                    "attenuation_distance": 8
+            }
+        ]
+    },
+    "map.interaction.fridge.close": {
+        "sounds":[
+            {
+               "name": "map/interaction/fridge_close",
+                    "weight": 1,
+                    "attenuation_distance": 8
+            }
+        ]
+    },
+    "map.interaction.drawer.open": {
+        "sounds":[
+            {
+               "name": "map/interaction/drawer_open",
+                    "weight": 1,
+                    "attenuation_distance": 8
+            }
+        ]
+    },
+    "map.interaction.drawer.close": {
+        "sounds":[
+            {
+               "name": "map/interaction/drawer_close",
+                    "weight": 1,
+                    "attenuation_distance": 8
+            }
+        ]
+    },
+    "map.interaction.car_belt": {
+        "sounds":[
+            {
+               "name": "map/interaction/car_belt",
+                    "weight": 1,
+                    "attenuation_distance": 16
+            }
+        ]
+    },
+    "map.interaction.car_door_handle": {
+        "sounds":[
+            {
+               "name": "map/interaction/car_door_handle",
+                    "weight": 1,
+                    "attenuation_distance": 16
+            }
+        ]
+    },
+    "map.interaction.car_door_close": {
+        "sounds":[
+            {
+               "name": "map/interaction/car_door_close",
+                    "weight": 1,
+                    "attenuation_distance": 16
+            }
+        ]
+    },
+    "map.interaction.car_drive": {
+        "sounds":[
+            {
+               "name": "map/interaction/car_drive",
+                    "weight": 1,
+                    "attenuation_distance": 16
+            }
+        ]
+    },
+    "map.cutscene.cafe_cutscene": {
+        "sounds":[
+            {
+               "name": "map/cutscene/cafe_cutscene",
+                    "weight": 1,
+                    "attenuation_distance": 8
+            }
+        ]
+    },
+    "map.ambient.windy": {
+        "sounds":[
+            {
+               "name": "map/ambient/windy",
+                    "weight": 1
+            }
+        ]
+    },
+    "map.ambient.windy_inside": {
+        "sounds":[
+            {
+               "name": "map/ambient/windy_inside",
+                    "weight": 1
+            }
+        ]
+    },
+    "map.random.runaway": {
+        "sounds":[
+            {
+               "name": "map/random/runaway",
+                    "weight": 1,
+                    "attenuation_distance": 8
+            }
+        ]
+    },
+    "map.random.brepsi": {
+        "sounds":[
+            {
+               "name": "map/random/brepsi",
+                    "weight": 1,
+                    "attenuation_distance": 8
+            }
+        ]
+    },
+    "map.random.butterdog_reverb": {
+        "sounds":[
+            {
+               "name": "map/random/butterdog_reverb",
+                    "weight": 1,
+                    "attenuation_distance": 8
+            }
+        ]
+    },
+    "map.random.markiplier": {
+        "sounds":[
+            {
+               "name": "map/random/markiplier1",
+                    "weight": 1,
+                    "attenuation_distance": 13
+            },
+            {
+                "name": "map/random/markiplier2",
+                     "weight": 1,
+                     "attenuation_distance": 13
+            }
+        ]
+    },
+    "map.random.bobicraft": {
+        "sounds":[
+            {
+               "name": "map/random/bobi",
+                    "weight": 1,
+                    "attenuation_distance": 13
+            }
+        ]
+    },
+    "map.random.discord": {
+        "sounds":[
+            {
+               "name": "map/random/discord",
+                    "weight": 1,
+                    "attenuation_distance": 13
+            }
+        ]
+    },
+    "map.random.telegram": {
+        "sounds":[
+            {
+               "name": "map/random/telegram",
+                    "weight": 1,
+                    "attenuation_distance": 13,
+                    "pitch": 0.5
+            },
+            {
+               "name": "map/random/telegram",
+                    "weight": 1,
+                    "attenuation_distance": 13,
+                    "pitch": 0.7
+            },
+            {
+               "name": "map/random/telegram",
+                    "weight": 1,
+                    "attenuation_distance": 13,
+                    "pitch": 0.9
+            },
+            {
+               "name": "map/random/telegram",
+                    "weight": 1,
+                    "attenuation_distance": 13,
+                    "pitch": 1
+            },
+            {
+               "name": "map/random/telegram",
+                    "weight": 1,
+                    "attenuation_distance": 13,
+                    "pitch": 1.15
+            },
+            {
+               "name": "map/random/telegram",
+                    "weight": 1,
+                    "attenuation_distance": 13,
+                    "pitch": 1.3
+            },
+            {
+               "name": "map/random/telegram",
+                    "weight": 1,
+                    "attenuation_distance": 13,
+                    "pitch": 1.5
+            },
+            {
+               "name": "map/random/telegram",
+                    "weight": 1,
+                    "attenuation_distance": 13,
+                    "pitch": 1.7
+            },
+            {
+               "name": "map/random/telegram",
+                    "weight": 1,
+                    "attenuation_distance": 13,
+                    "pitch": 2
+            }
+        ]
+    },
+    "map.random.cash": {
+        "sounds":[
+            {
+               "name": "map/random/cash",
+                    "weight": 1,
+                    "attenuation_distance": 13
+            }
+        ]
+    },
+    "map.random.gta": {
+        "sounds":[
+            {
+               "name": "map/random/gta",
+                    "weight": 1,
+                    "attenuation_distance": 13
+            }
+        ]
+    },
+    "map.random.pop": {
+        "sounds":[
+            {
+               "name": "map/random/pop",
+                    "weight": 1,
+                    "attenuation_distance": 13
+            }
+        ]
+    },
+    "map.random.hi_there": {
+        "sounds":[
+            {
+               "name": "map/random/hi_there_glad_to_see_you_in_my_resourcepack",
+                    "weight": 1,
+                    "attenuation_distance": 16
+            }
+        ]
+    },
+    "map.random.tomscream": {
+        "sounds":[
+            {
+               "name": "map/random/tomscream",
+                    "weight": 1,
+                    "attenuation_distance": 8
+            }
+        ]
+    },
+    "map.random.sans": {
+        "sounds":[
+            {
+               "name": "map/random/voice_sans",
+                    "weight": 1,
+                    "attenuation_distance": 13,
+                    "pitch": 0.5
+            },
+            {
+                "name": "map/random/voice_sans",
+                     "weight": 1,
+                     "attenuation_distance": 13,
+                     "pitch": 0.75
+             },
+             {
+                "name": "map/random/voice_sans",
+                     "weight": 1,
+                     "attenuation_distance": 13,
+                     "pitch": 2
+             },
+             {
+                "name": "map/random/voice_sans",
+                     "weight": 1,
+                     "attenuation_distance": 13,
+                     "pitch": 1.25
+             },
+             {
+                "name": "map/random/voice_sans",
+                     "weight": 1,
+                     "attenuation_distance": 13,
+                     "pitch": 1
+             },
+             {
+                "name": "map/random/voice_sans",
+                     "weight": 2,
+                     "attenuation_distance": 13,
+                     "pitch": 1.7
+             }
+ 
+        ]
+    },
+    "map.random.switch": {
+        "sounds":[
+            {
+               "name": "map/random/switch",
+                    "weight": 1,
+                    "attenuation_distance": 13
+            }
+        ]
+    },
+    "map.random.wall_clock.normal": {
+        "sounds":[
+            {
+               "name": "map/random/wall_clock.normal",
+                    "weight": 1,
+                    "attenuation_distance": 4
+            }
+        ]
+    },
+    "map.random.wall_clock.crucified": {
+        "sounds":[
+            {
+               "name": "map/random/wall_clock.crucified",
+                    "weight": 1,
+                    "attenuation_distance": 4
+            }
+        ]
+    },
+    "map.random.split_system": {
+        "sounds":[
+            {
+               "name": "map/random/split_system",
+                    "weight": 1,
+                    "attenuation_distance": 3
+            }
+        ]
+    },
+    "map.random.lamp_flicker": {
+        "sounds":[
+            {
+               "name": "map/random/lamp_flicker1",
+                    "weight": 1,
+                    "attenuation_distance": 12
+            },
+            {
+                "name": "map/random/lamp_flicker2",
+                     "weight": 1,
+                     "attenuation_distance": 12
+            },
+            {
+                "name": "map/random/lamp_flicker3",
+                     "weight": 1,
+                     "attenuation_distance": 12
+            }
+        ]
+    },
+    "map.music.true_ending": {
+        "sounds":[
+            {
+               "name": "map/music/true_ending",
+                    "weight": 1,
+                    "preload": true,
+                    "stream": true
+            }
+        ]
+    },
+    "map.music.credits": {
+        "sounds":[
+            {
+               "name": "map/music/credits",
+                    "weight": 1,
+                    "preload": true,
+                    "stream": true
+            }
+        ]
+    },
+    "map.music.ambience1": {
+        "sounds":[
+            {
+               "name": "map/music/ambience1",
+                    "weight": 1,
+                    "preload": true,
+                    "stream": true
+            }
+        ]
+    },
+    "map.music.ambience2": {
+        "sounds":[
+            {
+               "name": "map/music/ambience2",
+                    "weight": 1,
+                    "preload": true,
+                    "stream": true
+            }
+        ]
+    },
+    "map.music.butterdog": {
+        "sounds":[
+            {
+               "name": "map/music/butterdog",
+                    "weight": 1,
+                    "preload": true,
+                    "stream": true
+            }
+        ]
+    },
+    "map.music.mainmenu": {
+        "sounds":[
+            {
+               "name": "map/music/mainmenu1",
+                    "weight": 1,
+                    "preload": true,
+                    "stream": true
+            },
+            {
+                "name": "map/music/mainmenu2",
+                     "weight": 1,
+                     "preload": true,
+                     "stream": true
+            }
+        ]
+    },
+    "map.music.radio.322": {
+        "sounds":[
+            {
+               "name": "map/music/radio/322",
+                    "weight": 1,
+                    "attenuation_distance": 13,
+                    "preload": true,
+                    "stream": true
+            }
+        ]
+    },
+    "map.music.radio.whisp": {
+        "sounds":[
+            {
+               "name": "map/music/radio/radio_whisp",
+                    "weight": 1,
+                    "attenuation_distance": 13,
+                    "preload": true,
+                    "stream": true
+            }
+        ]
+    },
+    "map.music.radio.alliwantforchristmas": {
+        "sounds":[
+            {
+               "name": "map/music/radio/alliwantforchristmas",
+                    "weight": 1,
+                    "attenuation_distance": 13,
+                    "preload": true,
+                    "stream": true
+            }
+        ]
+    },
+    "map.music.radio.eminem": {
+        "sounds":[
+            {
+               "name": "map/music/radio/eminem",
+                    "weight": 1,
+                    "attenuation_distance": 13,
+                    "preload": true,
+                    "stream": true
+            }
+        ]
+    },
+    "map.music.radio.itsbeginning": {
+        "sounds":[
+            {
+               "name": "map/music/radio/itsbeginning",
+                    "weight": 1,
+                    "attenuation_distance": 13,
+                    "preload": true,
+                    "stream": true
+            }
+        ]
+    },
+    "map.music.radio.lastchristmas": {
+        "sounds":[
+            {
+               "name": "map/music/radio/lastchristmas",
+                    "weight": 1,
+                    "attenuation_distance": 13,
+                    "preload": true,
+                    "stream": true
+            }
+        ]
+    },
+    "map.music.radio.letitsnowjschlatt": {
+        "sounds":[
+            {
+               "name": "map/music/radio/letitsnowjschlatt",
+                    "weight": 1,
+                    "attenuation_distance": 13,
+                    "preload": true,
+                    "stream": true
+            }
+        ]
+    },
+    "map.music.radio.moonlit": {
+        "sounds":[
+            {
+               "name": "map/music/radio/moonlit_suno",
+                    "weight": 1,
+                    "attenuation_distance": 13,
+                    "preload": true,
+                    "stream": true
+            }
+        ]
+    },
+    "map.music.radio.omori": {
+        "sounds":[
+            {
+               "name": "map/music/radio/omori",
+                    "weight": 1,
+                    "attenuation_distance": 13,
+                    "preload": true,
+                    "stream": true
+            }
+        ]
+    },
+    "map.music.radio.omori2": {
+        "sounds":[
+            {
+               "name": "map/music/radio/omori2",
+                    "weight": 1,
+                    "attenuation_distance": 13,
+                    "preload": true,
+                    "stream": true
+            }
+        ]
+    },
+    "map.music.radio.omori3": {
+        "sounds":[
+            {
+               "name": "map/music/radio/omori3",
+                    "weight": 1,
+                    "attenuation_distance": 13,
+                    "preload": true,
+                    "stream": true
+            }
+        ]
+    },
+    "map.music.radio.swingin": {
+        "sounds":[
+            {
+               "name": "map/music/radio/swingin_suno",
+                    "weight": 1,
+                    "attenuation_distance": 13,
+                    "preload": true,
+                    "stream": true
+            }
+        ]
+    },
+    "map.music.radio.alliwantforchristmas_ncs": {
+        "sounds":[
+            {
+               "name": "map/music/radio/alliwantforchristmas_ncs",
+                    "weight": 1,
+                    "attenuation_distance": 13,
+                    "preload": true,
+                    "stream": true
+            }
+        ]
+    },
+    "map.music.radio.eminem_ncs": {
+        "sounds":[
+            {
+               "name": "map/music/radio/eminem_ncs",
+                    "weight": 1,
+                    "attenuation_distance": 13,
+                    "preload": true,
+                    "stream": true
+            }
+        ]
+    },
+    "map.music.radio.itsbeginning_ncs": {
+        "sounds":[
+            {
+               "name": "map/music/radio/itsbeginning_ncs",
+                    "weight": 1,
+                    "attenuation_distance": 13,
+                    "preload": true,
+                    "stream": true
+            }
+        ]
+    },
+    "map.music.radio.search": {
+        "sounds":[
+            {
+               "name": "map/music/radio/radio_search1",
+                    "weight": 1,
+                    "attenuation_distance": 13,
+                    "preload": true
+            },
+            {
+                "name": "map/music/radio/radio_search2",
+                     "weight": 1,
+                     "attenuation_distance": 13,
+                     "preload": true
+            },
+            {
+                "name": "map/music/radio/radio_search3",
+                     "weight": 1,
+                     "attenuation_distance": 13,
+                     "preload": true
+            },
+            {
+                "name": "map/music/radio/radio_search4",
+                     "weight": 1,
+                     "attenuation_distance": 13,
+                     "preload": true
+            },
+            {
+                "name": "map/music/radio/radio_search5",
+                     "weight": 1,
+                     "attenuation_distance": 13,
+                     "preload": true
+            }
+        ]
+    },
+    "map.music.radio.press": {
+        "sounds":[
+            {
+               "name": "map/music/radio/press",
+                    "weight": 1,
+                    "attenuation_distance": 13
+            }
+        ]
+    },
+    "item.armor.equip_generic": {
+        "replace":true,
+        "sounds":[
+            {
+               "name": "custom/silence",
+                    "weight": 1
+            } 
+        ]
+    },
+"block.pointed_dripstone.drip_water": {  
+    "sounds": [  
+        {  
+            "name": "block/pointed_dripstone/drip_water1",  
+            "weight": 1,  
+            "attenuation_distance": 3  
+        },  
+        {  
+            "name": "block/pointed_dripstone/drip_water2",  
+            "weight": 1,  
+            "attenuation_distance": 3  
+        },  
+        {  
+            "name": "block/pointed_dripstone/drip_water3",  
+            "weight": 1,  
+            "attenuation_distance": 3  
+        },  
+        {  
+            "name": "block/pointed_dripstone/drip_water4",  
+            "weight": 1,  
+            "attenuation_distance": 3  
+        },  
+        {  
+            "name": "block/pointed_dripstone/drip_water5",  
+            "weight": 1,  
+            "attenuation_distance": 3  
+        },  
+        {  
+            "name": "block/pointed_dripstone/drip_water6",  
+            "weight": 1,  
+            "attenuation_distance": 3  
+        },  
+        {  
+            "name": "block/pointed_dripstone/drip_water7",  
+            "weight": 1,  
+            "attenuation_distance": 3  
+        },  
+        {  
+            "name": "block/pointed_dripstone/drip_water8",  
+            "weight": 1,  
+            "attenuation_distance": 3  
+        },  
+        {  
+            "name": "block/pointed_dripstone/drip_water9",  
+            "weight": 1,  
+            "attenuation_distance": 3  
+        },  
+        {  
+            "name": "block/pointed_dripstone/drip_water10",  
+            "weight": 1,  
+            "attenuation_distance": 3  
+        },  
+        {  
+            "name": "block/pointed_dripstone/drip_water11",  
+            "weight": 1,  
+            "attenuation_distance": 3  
+        },  
+        {  
+            "name": "block/pointed_dripstone/drip_water12",  
+            "weight": 1,  
+            "attenuation_distance": 3  
+        },  
+        {  
+            "name": "block/pointed_dripstone/drip_water13",  
+            "weight": 1,  
+            "attenuation_distance": 3  
+        },  
+        {  
+            "name": "block/pointed_dripstone/drip_water14",  
+            "weight": 1,  
+            "attenuation_distance": 3  
+        },  
+        {  
+            "name": "block/pointed_dripstone/drip_water15",  
+            "weight": 1,  
+            "attenuation_distance": 3  
+        }  
+    ], "replace": true
+    }
+}

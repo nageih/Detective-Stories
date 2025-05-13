@@ -1,0 +1,11 @@
+# Звук
+execute as @a at @s run playsound map.random.cash master @s ~ ~ ~ 0.5 1
+
+# Звук (уже нажатия)
+execute as @a at @s run playsound block.note_block.hat master @s ~ ~ ~ 0.7 1
+
+# Анимация нажатия
+execute as @e[tag=aj.main_menu.root] run function animated_java:main_menu/animations/credits_boosty_pressed/play
+
+# Текст в чат
+tellraw @a ["",{"text":" \n","clickEvent":{"action":"open_url","value":"https://boosty.to/yoodexy"}},{"translate":"map.credits.boosters1tier","bold":true,"color":"#42361e","clickEvent":{"action":"open_url","value":"https://boosty.to/yoodexy"}},{"text":"\nXeKyT, KefrokOk, VailetGod, AlexLime008, Семён Паршаков, ЯКОВЦОВ, TimFilm Studios, Egor Mookki, HaS_KeR, Fraizer","color":"#42361e","clickEvent":{"action":"open_url","value":"https://boosty.to/yoodexy"}},{"text":"\n\n","clickEvent":{"action":"open_url","value":"https://boosty.to/yoodexy"}},{"translate":"map.credits.boosters2tier","bold":true,"color":"#D0CFCD","clickEvent":{"action":"open_url","value":"https://boosty.to/yoodexy"}},{"text":"\nlozki, TweekHeeks, ER-Photef, Локит, Земляной Феодаллер (Feodaller ❤)","color":"#D0CFCD","clickEvent":{"action":"open_url","value":"https://boosty.to/yoodexy"}},{"text":"\n\n","clickEvent":{"action":"open_url","value":"https://boosty.to/yoodexy"}},{"translate":"map.credits.boosters3tier","bold":true,"color":"#FEFF37","clickEvent":{"action":"open_url","value":"https://boosty.to/yoodexy"}},{"text":"\nMʀGᴏᴏsᴇ_7, NᴀᴛᴇSʜᴀᴘɪʀᴏ\n ","color":"#FEFF37","clickEvent":{"action":"open_url","value":"https://boosty.to/yoodexy"}},{"text":"\n","clickEvent":{"action":"open_url","value":"https://boosty.to/yoodexy"}},{"translate":"map.main_menu.boosty","bold":true,"color":"#EF7829","clickEvent":{"action":"open_url","value":"https://boosty.to/yoodexy"}},{"text":"— ","clickEvent":{"action":"open_url","value":"https://boosty.to/yoodexy"}},{"text":"https://boosty.to/yoodexy","underlined":true,"clickEvent":{"action":"open_url","value":"https://boosty.to/yoodexy"}},{"text":"\n ","clickEvent":{"action":"open_url","value":"https://boosty.to/yoodexy"}}]

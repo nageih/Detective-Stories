@@ -1,0 +1,64 @@
+{
+	"textures": {
+		"3": "minecraft:vladislavvc/props/kitchen_mugs",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [8, 6, 5.5],
+			"to": [8, 10, 7.5],
+			"rotation": {
+				"angle": 45,
+				"axis": "y",
+				"origin": [8, 8, 8]
+			},
+			"faces": {
+				"east": {
+					"uv": [8, 4, 10, 8],
+					"texture": "#3"
+				},
+				"west": {
+					"uv": [10, 4, 8, 8],
+					"texture": "#3"
+				}
+			}
+		},
+		{
+			"from": [6, 5, 7.5],
+			"to": [10, 11, 11.5],
+			"rotation": {
+				"angle": 45,
+				"axis": "y",
+				"origin": [8, 8, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [4, 6, 8, 12],
+					"texture": "#3"
+				},
+				"east": {
+					"uv": [0, 0, 4, 6],
+					"texture": "#3"
+				},
+				"south": {
+					"uv": [4, 0, 8, 6],
+					"texture": "#3"
+				},
+				"west": {
+					"uv": [0, 6, 4, 12],
+					"texture": "#3"
+				},
+				"up": {
+					"uv": [12, 4, 8, 0],
+					"rotation": 90,
+					"texture": "#3"
+				}
+			}
+		}
+	]
+}

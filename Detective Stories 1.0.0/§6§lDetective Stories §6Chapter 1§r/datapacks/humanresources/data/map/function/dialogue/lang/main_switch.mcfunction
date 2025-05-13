@@ -1,0 +1,4 @@
+# Прописана сама функция диалога
+execute if entity @a[tag=language.russian] run function map:dialogue/init_text {text:"Я не буду трогать выключатель, тут люди вообще-то сидят.",total_symbols:56,time:1,state:2,next_dialogue:"none",db_visual:1}
+execute if entity @a[tag=language.english] run function map:dialogue/init_text {text:"I’m not going to touch the switch, there are people sitting here.",total_symbols:65,time:1,state:2,next_dialogue:"none",db_visual:1}
+execute if entity @a[tag=language.spanish] run function map:dialogue/init_text {text:"No voy a tocar el interruptor, hay gente sentada aquí.",total_symbols:54,time:1,state:2,next_dialogue:"none",db_visual:1}

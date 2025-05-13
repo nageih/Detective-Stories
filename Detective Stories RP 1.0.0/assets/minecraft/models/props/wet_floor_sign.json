@@ -1,0 +1,36 @@
+{
+	"credit": "By VladislavvC",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "vladislavvc/props/wet_floor_sign",
+		"particle": "vladislavvc/props/wet_floor_sign"
+	},
+	"elements": [
+		{
+			"from": [3, -0.317, 13.43369],
+			"to": [13, 13.683, 13.43369],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [7, -0.317, 12.43369]},
+			"faces": {
+				"north": {"uv": [5, 0, 10, 7], "texture": "#0"},
+				"south": {"uv": [5, 0, 10, 7], "texture": "#0"}
+			}
+		},
+		{
+			"from": [3, 0.44837, 2.71855],
+			"to": [13, 14.44837, 2.71855],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [7, 0.44837, 1.71855]},
+			"faces": {
+				"north": {"uv": [5, 0, 10, 7], "texture": "#0"},
+				"south": {"uv": [5, 0, 10, 7], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5.5, 4.35359, 3.3],
+			"to": [10.5, 9.35359, 3.3],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [7, 1.85359, 2.30599]},
+			"faces": {
+				"north": {"uv": [0, 7, 5, 12], "texture": "#0"}
+			}
+		}
+	]
+}

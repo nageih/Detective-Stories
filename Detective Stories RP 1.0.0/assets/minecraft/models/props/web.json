@@ -1,0 +1,17 @@
+{
+	"credit": "By VladislavvC",
+	"textures": {
+		"0": "vladislavvc/props/web",
+		"particle": "vladislavvc/props/web"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 0, 16],
+			"faces": {
+				"up": {"uv": [16, 16, 0, 0], "texture": "#0"},
+				"down": {"uv": [0, 16, 16, 0], "texture": "#0"}
+			}
+		}
+	]
+}

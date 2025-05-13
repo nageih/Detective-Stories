@@ -1,0 +1,46 @@
+{
+	"credit": "By VladislavvC",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "vladislavvc/props/tv_remote",
+		"particle": "vladislavvc/props/tv_remote"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 2],
+			"to": [11, 1, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [2.5, 1, 5, 1.5], "texture": "#0"},
+				"east": {"uv": [2.5, 0, 8.5, 0.5], "texture": "#0"},
+				"south": {"uv": [2.5, 1.5, 5, 2], "texture": "#0"},
+				"west": {"uv": [2.5, 0.5, 8.5, 1], "texture": "#0"},
+				"up": {"uv": [2.5, 6, 0, 0], "texture": "#0"}
+			}
+		},
+		{
+			"from": [3, 0, 8],
+			"to": [4, 1, 11],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [2, 0, 8]},
+			"faces": {
+				"north": {"uv": [4, 2, 4.5, 2.5], "texture": "#0"},
+				"east": {"uv": [2.5, 2, 4, 2.5], "texture": "#0"},
+				"south": {"uv": [4, 2.5, 4.5, 3], "texture": "#0"},
+				"west": {"uv": [2.5, 2.5, 4, 3], "texture": "#0"},
+				"up": {"uv": [3, 4.5, 2.5, 3], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, 0, 9],
+			"to": [5, 1, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 0, 9]},
+			"faces": {
+				"north": {"uv": [3.5, 4, 4, 4.5], "texture": "#0"},
+				"east": {"uv": [3, 3, 4.5, 3.5], "texture": "#0"},
+				"south": {"uv": [4, 4, 4.5, 4.5], "texture": "#0"},
+				"west": {"uv": [3, 3.5, 4.5, 4], "texture": "#0"},
+				"up": {"uv": [3.5, 5.5, 3, 4], "texture": "#0"}
+			}
+		}
+	]
+}

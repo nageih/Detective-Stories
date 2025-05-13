@@ -1,0 +1,26 @@
+{
+	"credit": "By VladislavvC",
+	"textures": {
+		"0": "vladislavvc/props/dirty_plates",
+		"1": "vladislavvc/props/kitchen_cutlery",
+		"particle": "vladislavvc/props/dirty_plates"
+	},
+	"elements": [
+		{
+			"from": [2, 0.01, 2],
+			"to": [14, 0.01, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 0, 2]},
+			"faces": {
+				"up": {"uv": [6, 14, 0, 8], "texture": "#0"}
+			}
+		},
+		{
+			"from": [3, 0.01, 17],
+			"to": [12, 0.01, 20],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [5, 0, 18]},
+			"faces": {
+				"up": {"uv": [1.5, 8.25, 0.75, 6], "rotation": 90, "texture": "#1"}
+			}
+		}
+	]
+}

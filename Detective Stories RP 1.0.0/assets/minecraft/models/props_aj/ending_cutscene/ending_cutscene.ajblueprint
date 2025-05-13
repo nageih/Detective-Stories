@@ -1,0 +1,5204 @@
+{
+	"meta": {
+		"format": "animated_java_blueprint",
+		"format_version": "1.6.4",
+		"uuid": "0e644f8d-69f4-d273-87ae-d1bbd6774724",
+		"save_location": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\resourcepacks\\Владислав\\assets\\minecraft\\models\\props_aj\\ending_cutscene\\ending_cutscene.ajblueprint",
+		"last_used_export_namespace": "ending_cutscene"
+	},
+	"blueprint_settings": {
+		"export_namespace": "ending_cutscene",
+		"show_bounding_box": false,
+		"auto_bounding_box": true,
+		"bounding_box": [48, 48],
+		"enable_plugin_mode": false,
+		"resource_pack_export_mode": "raw",
+		"data_pack_export_mode": "raw",
+		"target_minecraft_version": "1.21.4",
+		"display_item": "minecraft:white_dye",
+		"custom_model_data_offset": 0,
+		"enable_advanced_resource_pack_settings": false,
+		"resource_pack": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\resourcepacks\\Владислав\\",
+		"enable_advanced_data_pack_settings": false,
+		"data_pack": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\saves\\Brodilka\\datapacks\\detective_aj",
+		"summon_commands": "",
+		"ticking_commands": "",
+		"interpolation_duration": 1,
+		"teleportation_duration": 1,
+		"use_storage_for_animation": false,
+		"show_function_errors": true,
+		"show_outdated_warning": false,
+		"baked_animations": true,
+		"json_file": ""
+	},
+	"resolution": {
+		"width": 256,
+		"height": 256
+	},
+	"elements": [
+		{
+			"name": "camera",
+			"path": "",
+			"position": [0, 26, 0],
+			"rotation": [0, 0, 0],
+			"fov": 70,
+			"aspect_ratio": [16, 9],
+			"linked_preview": "",
+			"camera_linked": false,
+			"visibility": true,
+			"type": "camera",
+			"uuid": "505041f4-2ad9-d8ae-2b9f-17f0f2fd7874"
+		},
+		{
+			"name": "eyes",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-555, 29, 8],
+			"to": [-535, 38, 8],
+			"autouv": 0,
+			"color": 5,
+			"origin": [-536, 30, 9],
+			"faces": {
+				"north": {
+					"uv": [0, 0, 144, 48],
+					"texture": 0
+				},
+				"east": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"south": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"west": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"up": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"down": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				}
+			},
+			"type": "cube",
+			"uuid": "0210baed-231d-8a16-3d44-a31e4bf70efd"
+		}
+	],
+	"outliner": [
+		"505041f4-2ad9-d8ae-2b9f-17f0f2fd7874",
+		{
+			"name": "eyes",
+			"origin": [-545, 33.5, 8],
+			"rotation": [0, -90, 0],
+			"color": 0,
+			"configs": {
+				"variants": {},
+				"default": {
+					"override_brightness": true,
+					"brightness_override": 15,
+					"inherit_settings": true
+				}
+			},
+			"uuid": "e5571af3-b558-19d4-c72f-71ba2840eb22",
+			"export": true,
+			"mirror_uv": false,
+			"isOpen": true,
+			"locked": false,
+			"visibility": true,
+			"autouv": 0,
+			"selected": false,
+			"children": ["0210baed-231d-8a16-3d44-a31e4bf70efd"]
+		}
+	],
+	"textures": [
+		{
+			"path": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\resourcepacks\\Владислав\\assets\\minecraft\\textures\\vladislavvc\\props\\glazki.png",
+			"name": "glazki.png",
+			"folder": "",
+			"namespace": "",
+			"id": "0",
+			"group": "",
+			"width": 256,
+			"height": 256,
+			"uv_width": 16,
+			"uv_height": 16,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"pbr_channel": "color",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": false,
+			"saved": true,
+			"uuid": "92de0a79-d548-c910-8966-8479858197b8",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAAAAAXNSR0IArs4c6QAAClRJREFUeF7t3O1S4loUBFB5/4d2SksodIScJuEktOv+vc3HXvukiWjN6W3j/97f39/XPOXpdDqteXzTY1k2bfOYs6y62NYe0ISkvRhYJqdBdisBBbCV5MrnUQArAT38IYGoAB49pLfu6h/5aaHlToDlQ+fVgzYWGCqA9LBu+WP8rZJ41SJgufEJ9nSrBDYtgC0v/OupfiuB9gJguepce/CgwGIBjH5iPevAnudoKAGWg6dSbJrA3QI4yoH90Lj3fcEr3A2wnHamvVAgsLoAnv3Jf+8O4Pz/WgqAZXByRTcRWFUAsw5sQwks3QGw3OQ8e5JQ4GYBHO3AvnIJsAxPpfg0gV8L4KgHdum7gI//f7QfB1hOO8te6AEBBfAAWvIQBZBoyc4W+FYAS4f16ku32e/z2+st/QXhEe4CWO56RLz4oMClAEYP7Ndt9uDTPye2VAB7/3aA5XP27lm3F4gLYPa31bdGHimBve4ERguA5fYH2jNmAp8FMHpgj/Dpfx5vpAD2uBNgmR1A6X0FTsmBfdUC+Hrfi3/2vHYVLNcKevxsgekFcP7kXnv7m9wBKID7x+qIlrMvhL/6elML4OdBayuBPe4APkzXOn79GBhdA3t9vxK9SeFFgeg7gLUHrb0Aku9T1lr+vGjXPp+7gMVrpTIwtQCuD+3aA3vUT63Ru4At5j8bbPFcCqDy+l4c6qMAPv8V35EDsMVBW3xHQWDkPV8/3YTbVpbB/kT3F7gUwEgJvHIBTLj4PwnPK10qJ5b7H37v4O3t/KuxoU8uh3boyLAcYhI6gsD178YXD+6rFsCkT//rfbI8wun2HhYF/iuAez8KvFIBfL3Xp//xzw3hxR8FWC6eTYEJAj8vkLufXC92aPe6+C9fAxSV6d6WEy6Fv/kStxb762+zXqUAdrjlv3d6WP7Na+slpr5ZAL99er1CARzs4r/8ZmDrP4La+nQ1/LPrW5v8hee7d2v33yeXAnj4SLB8mM4Dnykw/K8CH+3i/3mHcsBP/m97u24Als880p47EVj6cudybo94aM8lcPSL/2shLJOTKTtFQAFMYf58EQUwz9orDQosFcDl4B70DmDk/Q9STIl9lgDLKdZeZEBg9AK6/GHLwHPOioy+91nvZ/R1WI5KyT1dYPQicmi3WwXL7Sw900qB0QI4v8wRDm/6nlcSPe3hLJ9G64lHBdZeTDMP8dr3OmqyV47lXvJ/+HXXXlQO7XaHh+V2lp5pUGBtAfz2MmsP8jPe0yDH4WIsD7eSrjfkYuvap2kIRAIKIOISJtAloAC69mkaApGAAoi4hAl0CSiArn2ahkAkoAAiLmECXQIKoGufpiEQCSiAiEuYQJeAAujap2kIRAIKIOISJtAloAC69mkaApGAAoi4hAl0CSiArn2ahkAkoAAiLmECXQIKoGufpiEQCSiAiEuYQJeAAujap2kIRAIKIOISJtAloAC69mkaApGAAoi4hAl0CSiArn2ahkAkoAAiLmECXQIKoGufpiEQCSiAiEuYQJeAAujap2kIRAIKIOISJtAloAC69mkaApGAAoi4hAl0CSiArn2ahkAkoAAiLmECXQIKoGufpiEQCSiAiEuYQJeAAujap2kIRAIKIOISJtAloAC69mkaApGAAoi4hAl0CSiArn2ahkAkoAAiLmECXQIKoGufpiEQCSiAiEuYQJeAAujap2kIRAIKIOISJtAloAC69mkaApGAAoi4hAl0CSiArn2ahkAkoAAiLmECXQIKoGufpiEQCSiAiEuYQJeAAujap2kIRAIKIOISJtAloAC69mkaApGAAoi4hAl0CSiArn2ahkAkoAAiLmECXQIKoGufpiEQCSiAiEuYQJeAAujap2kIRAIKIOISJtAloAC69mkaApGAAoi4hAl0CSiArn2ahkAkoAAiLmECXQIKoGufpiEQCSiAiEuYQJeAAujap2kIRAIKIOISJtAloAC69mkaApGAAoi4hAl0CSiArn2ahkAkoAAiLmECXQIKoGufpiEQCSiAiEuYQJeAAujap2kIRAIKIOISJtAloAC69mkaApGAAoi4hAl0CSiArn2ahkAkoAAiLmECXQIKoGufpiEQCSiAiEuYQJeAAujap2kIRAIKIOISJtAloAC69mkaApGAAoi4hAl0CSiArn2ahkAkoAAiLmECXQIKoGufpiEQCSiAiEuYQJeAAujap2kIRAIKIOISJtAloAC69mkaApGAAoi4hAl0CSiArn2ahkAkoAAiLmECXQIKoGufpiEQCSiAiEuYQJeAAujap2kIRAIKIOISJtAloAC69mkaApGAAoi4hAl0CSiArn2ahkAkoAAiLmECXQIKoGufpiEQCSiAiEuYQJeAAujap2kIRAIKIOISJtAloAC69mkaApGAAoi4hAl0CSiArn2ahkAkoAAiLmECXQIKoGufpiEQCSiAiEuYQJeAAujap2kIRAIKIOISJtAloAC69mkaApGAAoi4hAl0CSiArn2ahkAkoAAiLmECXQIKoGufpiEQCSiAiEuYQJeAAujap2kIRAIKIOISJtAloAC69mkaApGAAoi4hAl0CSiArn2ahkAkoAAiLmECXQIKoGufpiEQCSiAiEuYQJeAAujap2kIRAIKIOISJtAloAC69mkaApGAAoi4hAl0CSiArn2ahkAkoAAiLmECXQIKoGufpiEQCSiAiEuYQJeAAujap2kIRAIKIOISJtAloAC69mkaApGAAoi4hAl0CSiArn2ahkAkoAAiLmECXQIKoGufpiEQCSiAiEuYQJeAAujap2kIRAIKIOISJtAloAC69mkaApGAAoi4hAl0CSiArn2ahkAkoAAiLmECXQIKoGufpiEQCSiAiEuYQJeAAujap2kIRAIKIOISJtAloAC69mkaApGAAoi4hAl0CSiArn2ahkAkoAAiLmECXQIKoGufpiEQCSiAiEuYQJeAAujap2kIRAIKIOISJtAloAC69mkaApGAAoi4hAl0CSiArn2ahkAkoAAiLmECXQIKoGufpiEQCSiAiEuYQJeAAujap2kIRAIKIOISJtAloAC69mkaApGAAoi4hAl0CSiArn2ahkAkoAAiLmECXQIKoGufpiEQCSiAiEuYQJeAAujap2kIRAIKIOISJtAloAC69mkaApGAAoi4hAl0CSiArn2ahkAkoAAiLmECXQIKoGufpiEQCSiAiEuYQJeAAujap2kIRAIKIOISJtAloAC69mkaApGAAoi4hAl0CSiArn2ahkAkoAAiLmECXQIKoGufpiEQCSiAiEuYQJeAAujap2kIRAIKIOISJtAloAC69mkaApGAAoi4hAl0CSiArn2ahkAkoAAiLmECXQIKoGufpiEQCSiAiEuYQJeAAujap2kIRAIKIOISJtAloAC69mkaApGAAoi4hAl0CSiArn2ahkAkoAAiLmECXQIKoGufpiEQCSiAiEuYQJeAAujap2kIRAIKIOISJtAloAC69mkaApGAAoi4hAl0CSiArn2ahkAkoAAiLmECXQIKoGufpiEQCfwDDC/0EOb3o0QAAAAASUVORK5CYII=",
+			"mode": "bitmap"
+		}
+	],
+	"variants": {
+		"default": {
+			"name": "default",
+			"display_name": "Default",
+			"uuid": "6fb866c9-9a83-b786-6b4b-fa43527dffdf",
+			"texture_map": {},
+			"excluded_nodes": [],
+			"is_default": true
+		},
+		"list": []
+	},
+	"animations": [
+		{
+			"uuid": "1edbca8b-40f8-b5f3-a38d-b839fb93826f",
+			"name": "ending",
+			"loop": "once",
+			"override": false,
+			"length": 13,
+			"snapping": 20,
+			"selected": false,
+			"saved": false,
+			"path": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\resourcepacks\\Владислав\\assets\\minecraft\\models\\props_aj\\ending_cutscene\\ending_cutscene.json",
+			"anim_time_update": "",
+			"blend_weight": "",
+			"start_delay": "",
+			"loop_delay": "0",
+			"excluded_nodes": [],
+			"animators": {
+				"505041f4-2ad9-d8ae-2b9f-17f0f2fd7874": {
+					"name": "camera",
+					"type": "camera",
+					"keyframes": [
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "e370f671-0bf8-fcca-c75b-cd1362885165",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "10",
+									"y": "0",
+									"z": "-19"
+								}
+							],
+							"uuid": "f18c7b89-a40a-a4d6-a764-06036d826038",
+							"time": 1,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "2.5",
+									"y": "-20",
+									"z": "0"
+								}
+							],
+							"uuid": "156037ed-4970-c716-b35f-31cd53921f0d",
+							"time": 0.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutSine",
+							"easingArgs": [1]
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "8.5",
+									"y": "-21.5",
+									"z": "0"
+								}
+							],
+							"uuid": "ef7236e3-3e78-a414-a450-8e2bcfe87344",
+							"time": 1,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutSine",
+							"easingArgs": [1]
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "1.5",
+									"y": "-7.5",
+									"z": "0"
+								}
+							],
+							"uuid": "eda2cade-8d11-2598-f40d-d3ff27156ee1",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "28.5",
+									"y": "-46.5",
+									"z": "0"
+								}
+							],
+							"uuid": "1a32fde5-619c-942c-1cf8-44dd8d441d92",
+							"time": 2.25,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutQuad",
+							"easingArgs": [1]
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "28.5",
+									"y": "-46.5",
+									"z": "0"
+								}
+							],
+							"uuid": "77632f67-12f2-cdb6-e2c5-b2aa0d15e5f8",
+							"time": 2.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutQuad",
+							"easingArgs": [1]
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "-4",
+									"y": "-96.5",
+									"z": "0"
+								}
+							],
+							"uuid": "164bb287-752b-3810-1e19-9b0f78d72e27",
+							"time": 5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutBack",
+							"easingArgs": [1]
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "-4",
+									"y": "-95",
+									"z": "0"
+								}
+							],
+							"uuid": "3de755ad-c535-758d-3635-cc9829f152ac",
+							"time": 8.45,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutSine",
+							"easingArgs": [1]
+						}
+					]
+				},
+				"e5571af3-b558-19d4-c72f-71ba2840eb22": {
+					"name": "eyes",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "b860f94e-ceab-88f6-23d4-5526b3830444",
+							"time": 2.95,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "8b31d088-67ee-8864-ac7f-639c37b7390b",
+							"time": 6,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "48",
+									"z": "0"
+								}
+							],
+							"uuid": "6acf406d-5856-d9cf-600b-0e9907cd4f20",
+							"time": 13,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutSine",
+							"easingArgs": []
+						},
+						{
+							"channel": "scale",
+							"data_points": [
+								{
+									"x": "1",
+									"y": "1",
+									"z": "1"
+								}
+							],
+							"uuid": "f4451d02-7253-5082-2701-11fda52b056b",
+							"time": 5,
+							"color": -1,
+							"uniform": true,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "scale",
+							"data_points": [
+								{
+									"x": "10",
+									"y": "10",
+									"z": "10"
+								}
+							],
+							"uuid": "f14dc2cb-2d32-3c58-1d25-1fea9f1301d1",
+							"time": 13,
+							"color": -1,
+							"uniform": true,
+							"interpolation": "linear",
+							"easing": "easeInOutSine",
+							"easingArgs": []
+						},
+						{
+							"channel": "scale",
+							"data_points": [
+								{
+									"x": "1",
+									"y": "1",
+									"z": "1"
+								}
+							],
+							"uuid": "411ce94d-bc53-29d0-6aa6-2e46746820c7",
+							"time": 6,
+							"color": -1,
+							"uniform": true,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "scale",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "7ca7d324-f88a-0cde-d713-a6f4ec26b0ad",
+							"time": 2.4,
+							"color": -1,
+							"uniform": true,
+							"interpolation": "linear",
+							"easing": "easeInOutSine",
+							"easingArgs": []
+						},
+						{
+							"channel": "scale",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "eaf35351-9839-7cc8-b795-d89e82d86822",
+							"time": 0,
+							"color": -1,
+							"uniform": true,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "scale",
+							"data_points": [
+								{
+									"x": "1",
+									"y": "1",
+									"z": "1"
+								}
+							],
+							"uuid": "70389da0-2e95-cf68-0305-891c573c90f7",
+							"time": 2.95,
+							"color": -1,
+							"uniform": true,
+							"interpolation": "linear",
+							"easing": "easeInOutBack",
+							"easingArgs": [1]
+						}
+					]
+				},
+				"effects": {
+					"name": "Effects",
+					"type": "effect",
+					"keyframes": [
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute at @e[tag=aj.ending_cutscene.camera] positioned ~ ~-2 ~ run playsound block.stone.step master @a ~ ~ ~ 1 1",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "ecf43379-da78-7199-d14e-27492077c289",
+							"time": 0.3,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute at @e[tag=aj.ending_cutscene.camera] positioned ~ ~-2 ~ run playsound block.stone.step master @a ~ ~ ~ 1 1",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "9d556a94-ba0e-dd07-ee1c-7264c68b99c5",
+							"time": 0.95,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "gamemode spectator @a\nexecute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]\nfunction map:ui/cb/start",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "3bdb3dda-24df-e921-8f2a-aa20707d7263",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "playsound entity.player.breath master @a -112 52 -68 10 0",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "3c575d20-d9fa-c334-c906-42e05ffcce1b",
+							"time": 2.95,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "playsound map.random.hi_there master @a -142 53 -66 25 1\ntitle @a times 100 40 50\ntitle @a title {\"text\":\"587\",\"font\":\"minecraft:frame\"}",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "1a545c43-388d-4c6a-66de-f8981c38f098",
+							"time": 6.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "function map:cutscene/credits",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "ea2522d1-c4bb-13da-e8cd-d09900983283",
+							"time": 13,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "2e9d7cef-c17b-c3dc-a24c-a42c30d80cac",
+							"time": 0.05,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "b054baa3-f018-6366-48ff-893964bc13cc",
+							"time": 0.1,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "f033e3c2-1e55-6d7f-f795-9e117ae3acc0",
+							"time": 0.15,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "395cd93d-4d1c-a23e-97e1-8e495f694ce9",
+							"time": 0.2,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "6b8b3b21-78cb-46a8-a49e-73d96396eeb1",
+							"time": 0.25,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "e237737d-9c7a-73dd-ea1d-80e23c3d8b37",
+							"time": 0.35,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "924fcb60-6e73-cd7b-134a-eca54f8d2226",
+							"time": 0.4,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "af9b532d-5b95-8f67-4b42-9ce754b04d0c",
+							"time": 0.45,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "0097c08e-c1b8-4386-c6e8-f988f6372c8a",
+							"time": 0.55,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "90d392a2-e7e1-f75e-5d18-8c9d65e6bd89",
+							"time": 0.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "57227446-1666-34c1-0d9a-4960d9e21ee3",
+							"time": 0.6,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "b87b7064-1334-c65d-fb2d-bc12a7c02e6f",
+							"time": 0.7,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "816b52a9-eb49-231e-f5c3-4ecafab88593",
+							"time": 0.65,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "3a0a7f5a-9e20-ac88-25ba-29c28edc59d4",
+							"time": 0.75,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "c0f5f996-fccc-939a-60ca-03c3c7ca8d5b",
+							"time": 0.8,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "b8f49971-a7ce-17f3-41eb-b8736f0c3897",
+							"time": 0.85,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "8fbc1442-593a-4286-b91f-84d3646529ee",
+							"time": 0.9,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "a7aab362-992f-e008-ab8f-1c8c5c749b4a",
+							"time": 1,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "a6d3b082-aa71-cb45-c05f-5cda7d104bc5",
+							"time": 1.05,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "bcc56bd9-a830-6aa2-4f28-07b3556b37cd",
+							"time": 1.1,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "e8948e2e-e929-ec42-f653-4960b240fd9d",
+							"time": 1.15,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "e92e7f99-dc62-37b5-a3c3-fe27cd3b4a5b",
+							"time": 1.2,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "0a674a82-d632-1bfe-a5bd-61806375386d",
+							"time": 1.25,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "b2ce4135-63a8-76cc-9051-63a596584cdf",
+							"time": 1.3,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "6d742dba-f55e-61e9-2b83-cbbc3219a184",
+							"time": 1.35,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "00c56f76-8384-081f-4a42-654ca2012908",
+							"time": 1.4,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "311b4451-4fc7-ee3c-4f67-997297657ba2",
+							"time": 1.45,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "418120b8-59fe-5ff8-2eb4-76eb2a1b8351",
+							"time": 1.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "8bb709af-dcd4-67f7-50a6-4d680e550b1a",
+							"time": 1.55,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "232468a1-3078-020e-3e64-d46941f944fe",
+							"time": 1.6,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "5ff7c330-89a6-2671-88cb-d0527a96e8f7",
+							"time": 1.65,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "6a269deb-1804-8a83-c88b-bd51ad25818e",
+							"time": 1.7,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "10027d76-a8a9-9525-686a-ed2e575e9e63",
+							"time": 1.75,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "271602d0-0bd7-38b2-6dd4-369c123e26d9",
+							"time": 1.8,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "0ec57811-62d8-49c4-2265-cbd072232509",
+							"time": 1.85,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "c77af683-901c-327f-3392-097d34554d9c",
+							"time": 1.9,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "75c97e56-0a04-bee2-0c67-e5cfbdd60b7d",
+							"time": 1.95,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "2e303186-0559-8ada-ccde-ea9d5d51c46c",
+							"time": 2,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "9c484538-23c3-aad9-4588-ab2ff321cbfd",
+							"time": 2.05,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "729554a8-43f2-9956-1964-6bc282278a53",
+							"time": 2.1,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "2abfd829-23d4-6d1b-41cb-c1bf75a2da32",
+							"time": 2.15,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "6e2e4cac-353d-fafe-d5c4-5c8a8ff76f73",
+							"time": 2.2,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "a028161f-5faf-b6c2-e8b8-f9ccd2019353",
+							"time": 2.25,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "9c60454b-1735-f3fd-cf1c-7ded8b38dddb",
+							"time": 2.3,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "94581abd-db8a-d2a4-259f-17fe0b488d46",
+							"time": 2.35,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "1be59c87-6b6b-b9fc-b7eb-416939b0862f",
+							"time": 2.4,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "d0e74374-713e-7c9a-e29b-420026b88869",
+							"time": 2.45,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "9c2ded25-0820-4011-199b-ac393962fffe",
+							"time": 2.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "2975f0c9-bf11-d62d-196a-2ebda10f54a3",
+							"time": 2.55,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "1764b47a-1557-9cce-a640-67473fd18eeb",
+							"time": 2.6,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "10f41ae7-2cd1-0460-8312-9bbc4dbe9e0d",
+							"time": 2.65,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "6adcb5cf-04e4-bd62-03d9-21e7e91ca61b",
+							"time": 2.7,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "75c3c834-3ccb-3fe3-ef5e-0ba09e8ad873",
+							"time": 2.75,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "8a599e8a-6455-0af7-c593-7930e14b2344",
+							"time": 2.8,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "0ff78576-f98a-2a42-b7e8-5e4b75f22fc4",
+							"time": 2.85,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "d56be755-d8bb-6611-4869-ec13f850f9e3",
+							"time": 2.9,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "9d1a7841-7d95-fcdb-8246-5ffcbacdf3ad",
+							"time": 3,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "b838e8e0-e793-b09b-7c15-92f036923424",
+							"time": 3.05,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "dae2dc2b-78d9-ca8e-7582-a614b0c88464",
+							"time": 3.1,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "f49e3f6d-4f82-23a3-4a68-3ddc3636353e",
+							"time": 3.15,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "4a046fa4-35cb-24c5-0141-4659314c70b0",
+							"time": 3.2,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "a368c65b-9896-b73a-27b1-7857a1c49429",
+							"time": 3.25,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "541a38ee-046d-555d-fff3-e7aa380c7b95",
+							"time": 3.3,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "04033334-dc66-4460-10f5-c5c44667d255",
+							"time": 3.35,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "f0323fa1-3d43-e564-fa8c-7b0a881f6c62",
+							"time": 3.4,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "f9f0280f-12d7-0735-fa78-7f3726f4efb4",
+							"time": 3.45,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "9ef2de27-7093-702e-9d83-6154243169a5",
+							"time": 3.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "e0ff48f3-fd21-557b-3826-12207e3b3a9f",
+							"time": 3.55,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "3a973e2a-eb6a-637a-c93d-192ca80a7a43",
+							"time": 3.6,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "aa1ae68d-8dd5-bf4d-bdf2-7ba54b09de89",
+							"time": 3.65,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "9079ab66-7fd5-bb62-e1ca-36caecc87937",
+							"time": 3.7,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "7f7db02e-0186-8e59-0db7-245c5af9e9eb",
+							"time": 3.75,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "a1a115a6-6e89-7925-f178-24b59ea2dafb",
+							"time": 3.8,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "63961568-b0f3-1f7a-4ddc-c6d161392390",
+							"time": 3.85,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "c87dceef-51ed-bcb5-1c46-581dde9d07fa",
+							"time": 3.9,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "3bdcbc3b-4204-50fc-3698-58b6c4e7995f",
+							"time": 3.95,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "587e21dc-3f50-ecf9-0d84-0ae51b284c77",
+							"time": 4,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "651fb217-0d6a-0228-b7f3-1d6109ecf5c0",
+							"time": 4.05,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "258a642d-f1d5-6347-8613-14bc0c82f2b7",
+							"time": 4.1,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "9683cf10-c637-267b-6628-a19050b49fe5",
+							"time": 4.15,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "1729fc62-3b3e-4eb3-35d1-03831a551c71",
+							"time": 4.2,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "8396a39f-9fbd-0b2e-e536-15a80a24e656",
+							"time": 4.25,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "8d001ae6-ca40-4bee-492f-319d6d0eae3b",
+							"time": 4.3,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "bf4a1fe8-343a-1918-eeff-49b356156b66",
+							"time": 4.35,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "a5daed4b-7840-7366-10aa-c76f51b46b53",
+							"time": 4.4,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "0c5b3cb0-130f-04a7-6052-0263520dc7cb",
+							"time": 4.45,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "c217a1a4-fc36-027e-435b-dfb1e9248b00",
+							"time": 4.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "f4dc79c9-3080-c77d-37ff-604b4b64dadf",
+							"time": 4.55,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "463563ea-c33e-1ce0-8ed9-f8fa9bcaca95",
+							"time": 4.6,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "0a773d3d-c48d-41b3-4c3d-0d9f185404c2",
+							"time": 4.65,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "92c4b06a-ec5b-493a-7650-7ecb5431d22e",
+							"time": 4.7,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "a1a33388-4250-3af9-ae7e-d5d38d9b7e78",
+							"time": 4.75,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "d85f99bc-818f-39dc-808d-3636448cbf25",
+							"time": 4.8,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "fdec1d96-7fef-1162-eeec-c99453259c33",
+							"time": 4.85,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "53fcb400-6653-4af5-478c-e4e3dc0b013c",
+							"time": 4.9,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "db2472fd-3ac9-a305-fbf5-a113605bf648",
+							"time": 4.95,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "45d01dae-d410-765c-ae45-0d2f47e00205",
+							"time": 5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "235c358f-ab82-0613-32ba-5f959b829839",
+							"time": 5.05,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "9afda863-e20b-b84e-e41b-986a86ac730f",
+							"time": 5.1,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "3dd9c704-273f-aeea-bf77-18429deb1b23",
+							"time": 5.15,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "16fb085c-6709-382e-ec7d-9a4784543259",
+							"time": 5.2,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "76ac8178-853f-708a-531a-6aa43e08da57",
+							"time": 5.25,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "a2976365-10df-8270-41ac-6cf060f70ee4",
+							"time": 5.3,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "d7afd0fe-6b39-5f5c-8de6-b7a09a870f4d",
+							"time": 5.35,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "988ceb5f-9ff0-cca4-b24f-195147b2a0c8",
+							"time": 5.4,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "8e4e4b25-ce6b-0d4b-6578-ffd9a69821da",
+							"time": 5.45,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "274cf7a6-87ac-3d01-39ce-85f82d23fbeb",
+							"time": 5.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "38b6e2b8-b572-c130-bff0-778ed825e718",
+							"time": 5.55,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "e6a01258-c85f-7741-e1f2-d818722b2b43",
+							"time": 5.6,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "31e64966-5331-28f4-cb6c-b58a008c1dee",
+							"time": 5.65,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "5bc24241-c0a4-b559-92ca-7ff2ea5a2355",
+							"time": 5.7,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "c28eafe3-814e-4c20-d98a-d11838d80800",
+							"time": 5.75,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "ef4496f9-f3c4-b47d-c563-8296de429e02",
+							"time": 5.8,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "65f4126e-8fc1-6d2a-0ebe-a66ea33aac28",
+							"time": 5.85,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "e004eca8-e2d8-fe71-f4c1-9b8e2b580e22",
+							"time": 5.9,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "59c4d4a1-c021-2f07-82cf-8240ec0837e0",
+							"time": 5.95,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "8e11a263-4798-8d7c-1d38-4dd465d789d0",
+							"time": 6,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "f8cf1350-4067-cedb-49d3-98f2cb2c8d7c",
+							"time": 6.05,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "3ad51600-0da0-05c6-da20-ff308b17e4b4",
+							"time": 6.1,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "61d30fb6-caac-242a-a7a8-325f7b6fa568",
+							"time": 6.15,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "a9f9694a-429a-dbc2-dfc8-6cf478a6c7c7",
+							"time": 6.2,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "e251ea70-2074-a3e9-f673-eb6e05e1a065",
+							"time": 6.25,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "266c96af-a469-8ef6-10a8-dfdc9d205e53",
+							"time": 6.3,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "6e4175e1-050c-79b6-4b3d-5b79c98e849a",
+							"time": 6.35,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "4234aadb-34c9-83f5-1363-d4fcaabe7aa3",
+							"time": 6.4,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "598a79fb-1540-2aee-da68-512cb1b24efa",
+							"time": 6.45,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "17bf3cf9-dde3-e0fc-989a-17d5d254e1c3",
+							"time": 6.55,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "d72099b9-c68d-2f51-b7bc-87c259569c4d",
+							"time": 6.6,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "e4ee1c84-59c2-ef12-09df-d74d2b88f35e",
+							"time": 6.65,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "f98e84f3-bb32-4e33-752d-6680f8e8d2d3",
+							"time": 6.7,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "8148f590-9545-5ceb-6091-c5145bb7df0b",
+							"time": 6.75,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "23691eae-ae94-25c3-28a2-0fc885c125c1",
+							"time": 6.8,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "4a04877a-1473-c308-44a4-df037a9f9be1",
+							"time": 6.85,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "a6bc3d0d-61c7-a0e9-9ba7-744fa548fff3",
+							"time": 6.9,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "c1de2bab-b296-226f-31ad-72638b4c44fa",
+							"time": 6.95,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "40bf2ce8-1d62-47e2-7236-fca4fde92041",
+							"time": 7,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "c7f1bc24-4b6c-7cde-946e-5a1f723fae9a",
+							"time": 7.05,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "4af948a5-8d56-a56b-e38b-b8ca2dbe481d",
+							"time": 7.1,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "4cb7afcd-c70b-cdea-9bf3-5ad10b087e25",
+							"time": 7.15,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "ce02fa26-ddcc-481e-0eab-4498232d4f3a",
+							"time": 7.2,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "fca21a33-932f-3824-ba91-b69fb6924cbd",
+							"time": 7.25,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "0271a035-c60b-3442-d467-07aa94253b6d",
+							"time": 7.3,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "32740b7c-be24-41f0-e1cd-edb4ce43f107",
+							"time": 7.35,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "c42436b2-bae9-d54f-3a72-d00fcbe92d54",
+							"time": 7.4,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "41719292-fc02-ad04-19b2-e8a775de011f",
+							"time": 7.45,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "7beef42f-711f-c830-d1d2-3c049c8cec37",
+							"time": 7.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "3ce993f4-7259-e114-15e9-60ead3778c27",
+							"time": 7.55,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "359fb99b-c19b-09c6-3f67-6d59e29bf5b2",
+							"time": 7.6,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "2ca078c7-086f-a441-4247-e26da52d9bbc",
+							"time": 7.65,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "d41526a6-3f3a-1dc1-d8f0-b28f78480e67",
+							"time": 7.7,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "5dce1b8f-5dbc-75e2-bb92-816f2cdb9bf3",
+							"time": 7.75,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "22d400f3-3331-8233-c8bb-c8b746e7a559",
+							"time": 7.8,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "d6cc3291-53ff-3c45-ef28-833dcba2227f",
+							"time": 7.85,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "75dfd773-6a9b-dc5a-f294-7359eb1ddf98",
+							"time": 7.9,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "bea2f97a-3c4b-554a-66ae-d79cb46bc645",
+							"time": 7.95,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "a67b508e-335d-5cf4-2eb9-93e6fcdc92f6",
+							"time": 8,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "99c2d19e-9be9-4da5-b6e8-c2de52106236",
+							"time": 8.05,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "dc555cd7-4f85-eee9-6166-42ddca21260f",
+							"time": 8.1,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "b613a42b-6519-1504-4598-d528b9934518",
+							"time": 8.15,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "94f43702-dd67-b58f-1857-545cd33a16bf",
+							"time": 8.2,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "e622bdba-82c6-9af9-60c4-0e0834c407da",
+							"time": 8.25,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "026b27c6-43ca-633b-fe76-f5ba5555bb35",
+							"time": 8.3,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "b797a31c-b6fc-1acf-9d8b-cbc1fbbba9f3",
+							"time": 8.35,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "802552f5-971e-0a00-16d0-1fd25189740c",
+							"time": 8.4,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "e2a09241-a8f4-74c7-7693-55993ef14dec",
+							"time": 8.45,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "f2f84652-5909-a20c-9326-0218682ead82",
+							"time": 8.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "dbf8f5bb-7e9f-b01a-5f7b-d75601b85ddc",
+							"time": 8.55,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "26a1411a-0245-949e-b503-9832771907b3",
+							"time": 8.6,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "b0fb0bcf-1333-d259-5cec-6079fbb12482",
+							"time": 8.65,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "b08ffb1d-37f7-a7f6-c73f-c051613e7459",
+							"time": 8.7,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "94fa07a8-655b-0b4f-af70-644cd9767a64",
+							"time": 8.75,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "cc485ff7-0d2a-4aff-fc07-af4b62f7bfe6",
+							"time": 8.8,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "9035516a-c927-602c-96d4-8c34299c8d47",
+							"time": 8.85,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "671b3317-fc2b-68c5-cb63-08bc0fec1b03",
+							"time": 8.9,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "4f706b3c-488c-cb3e-6425-ae788dbce7ba",
+							"time": 8.95,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "b3ceed31-590c-3225-391b-731be0447c50",
+							"time": 9,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "89be8799-f53a-7185-160e-34ad970f628a",
+							"time": 9.05,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "d63145b6-37b8-9698-7d1e-ffcf9db77106",
+							"time": 9.1,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "d345063e-5e9f-69d4-3a76-7a8baa528875",
+							"time": 9.15,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "7d1f28c1-8ed2-4344-7095-31f41ad940e6",
+							"time": 9.2,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "6bce5101-c072-548f-cd7f-8f37bbb8f11d",
+							"time": 9.25,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "d8278d89-3f9b-c886-bf33-a2796827e1a7",
+							"time": 9.3,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "182b2ca6-c452-b98c-bf7d-a92c3d7248ad",
+							"time": 9.35,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "e36a1f9e-98a9-fc22-063c-c99c8be10572",
+							"time": 9.4,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "d074e35e-fe2c-7514-72a2-4715861a07f6",
+							"time": 9.45,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "127bbaef-dd25-4096-a432-eb3036633b7c",
+							"time": 9.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "6c20d085-34bd-4cbc-686d-5c5362bca09d",
+							"time": 9.55,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "5e514cf8-e7a8-7716-eb6f-56b27737b9fe",
+							"time": 9.6,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "c6e2147b-43a0-0d0c-5f9b-64cdf36bb58a",
+							"time": 9.65,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "187ce9a7-e33b-6b57-60ee-d4ff7fd96a4f",
+							"time": 9.7,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "e409d4a4-b28a-a835-1d94-95da03c57a46",
+							"time": 9.75,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "361af6f4-f8fd-2bf3-11ba-56e2a00d606c",
+							"time": 9.8,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "b496c065-f319-8267-d018-ef64c02a69a9",
+							"time": 9.85,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "eb752d29-9005-71d3-76e2-6cdc59d96c13",
+							"time": 9.9,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "82ecdb55-0302-100d-cef0-07a0fe42b43a",
+							"time": 9.95,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "2836ef0a-4c15-091e-bb5b-6077aa6ad401",
+							"time": 10,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "6ee1c042-3413-2f11-a300-2aeafbf2fe95",
+							"time": 10.05,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "dfc726c7-e32a-27ee-72a3-1c6efb769434",
+							"time": 10.1,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "c7d34f9c-73e7-d70e-da31-d4c4b30797ee",
+							"time": 10.15,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "e2d9b22c-49ff-f720-cfa2-ef127a43a6e7",
+							"time": 10.2,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "87c62ff2-f0cd-bb9b-bd24-50a884848607",
+							"time": 10.25,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "18d46421-7e54-d001-a2d5-5dfec738c41e",
+							"time": 10.3,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "3bf7c40a-a52f-79cd-785b-c3393000da50",
+							"time": 10.35,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "15b1de91-6011-a6e2-7cc9-e42cb56f067c",
+							"time": 10.4,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "2c277ff6-0eb1-3098-4eab-294140d74dab",
+							"time": 10.45,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "98f184aa-4ed7-71f2-2058-95c70cd364bc",
+							"time": 10.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "d89f7625-9665-a020-02f1-44b636fd9749",
+							"time": 10.55,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "b31ccd6c-7bc3-b816-829e-02a075d866c1",
+							"time": 10.6,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "4a7bd4fa-e566-198a-95ad-ef40cff50a37",
+							"time": 10.65,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "43639f18-c757-e109-9afd-4ec4573f7689",
+							"time": 10.7,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "a7cfb6f0-3654-7fbc-9d42-98af2f49c266",
+							"time": 10.75,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "7c0ad6d2-43b0-d570-0499-a2a01c91bc9f",
+							"time": 10.8,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "6b25106d-4374-d6cb-00be-804d1bed87f0",
+							"time": 10.85,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "da0ff18d-ad7d-b3db-0c8a-ea4ddfbecf96",
+							"time": 10.9,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "89977674-1f71-e3e6-651f-65d1d9d19a57",
+							"time": 10.95,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "78e2d874-28fd-d25f-f06b-58ca104a5c8d",
+							"time": 11,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "80d2e199-e484-7a29-52e4-e80a3e5feeba",
+							"time": 11.05,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "dc039f5a-663d-c467-0804-22ceb978653a",
+							"time": 11.1,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "02edffa8-f5e1-b3f7-eaed-05710c11a4e1",
+							"time": 11.15,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "41744762-1170-7c89-4f13-4171d1fabf28",
+							"time": 11.2,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "0984e1ac-9319-06c7-f55e-8e5b8c1fd693",
+							"time": 11.25,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "2877272a-a8de-37cc-0879-02b522493009",
+							"time": 11.3,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "acb59d02-3ac9-f2c0-b635-35c59893cba3",
+							"time": 11.35,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "eb8fc76d-38fb-b8c3-6bf9-c63149188fe0",
+							"time": 11.4,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "b4da207c-086e-941a-d238-f66a413cd263",
+							"time": 11.45,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "d4e9f6aa-c1ac-86cc-52a0-4429fb6f0cd0",
+							"time": 11.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "f3f77499-c691-7292-ba20-f2b16fea684c",
+							"time": 11.55,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "80fbf10f-991a-13bc-5fe5-2c3ed6243ca1",
+							"time": 11.6,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "8310be11-78c6-1a1b-46fb-7662bce9b777",
+							"time": 11.65,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "7f328719-83c2-a95d-cbad-72719308d848",
+							"time": 11.7,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "6412d769-f8b6-6572-78f3-e19d52239ffb",
+							"time": 11.75,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "fd90e5ca-67d9-0002-54c9-cec9c8ebf1a1",
+							"time": 11.8,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "b221f494-67ef-d089-70bc-0830538aa6be",
+							"time": 11.85,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "af51133a-0502-f51e-3d96-da5396841a8b",
+							"time": 11.9,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "d149c46b-d0d9-4975-e2b4-db03ee64103d",
+							"time": 11.95,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "a66d754d-f29b-7d9b-5e87-eeef589fc2f1",
+							"time": 12,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "960228b6-fd97-aac8-d503-2ab2d442c2f9",
+							"time": 12.05,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "f7dc81e9-3755-dd60-5c5b-c2342f59a57d",
+							"time": 12.1,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "618be459-fcc7-9015-d9d6-f670d94da35b",
+							"time": 12.15,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "8f94ba37-1b32-16e5-7cd3-adf1c4dbf4ef",
+							"time": 12.2,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "916246bc-9d24-8a24-2f36-cbdf9c6f400a",
+							"time": 12.25,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "18be9715-9f74-707c-d177-7a1b7300c910",
+							"time": 12.3,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "cc01d7d6-e393-39a7-f0f6-459575251f36",
+							"time": 12.35,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "4e662400-8ce3-63ec-2bda-ea3495e21624",
+							"time": 12.4,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "40778010-4605-9948-e9c6-f3e7229799f9",
+							"time": 12.45,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "fdb9a8c2-7dff-ab06-38be-4a08242c00a2",
+							"time": 12.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "fd46c7a5-11d0-701a-97f3-bab0f4b586d7",
+							"time": 12.55,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "cfcd2d16-3566-1a2f-e7a0-79f7de9264e4",
+							"time": 12.6,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "f6cec1b0-9d79-bca9-0305-344df6df71cd",
+							"time": 12.65,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "42d93b16-b879-222e-f7b5-389927c64218",
+							"time": 12.7,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "3c214be1-a9b1-61f1-6f0e-9ea1270d564b",
+							"time": 12.75,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "3293aa86-c4f6-66d4-293b-d1cb05cade64",
+							"time": 12.8,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "7310a95e-e766-9e9a-14c3-8cbb2f8de785",
+							"time": 12.85,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "22abbc42-1e3f-bce5-8892-28f3d7b07db7",
+							"time": 12.9,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute as @a run spectate @e[tag=aj.ending_cutscene.camera,limit=1]\nitem replace entity @a armor.head with air",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "4f5f971f-3ae6-2e9f-30f6-cc89269d6211",
+							"time": 12.95,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						}
+					]
+				}
+			}
+		},
+		{
+			"uuid": "51739f41-e85a-6309-f5a7-4fbf7348b890",
+			"name": "true_ending",
+			"loop": "once",
+			"override": false,
+			"length": 35,
+			"snapping": 20,
+			"selected": true,
+			"saved": true,
+			"path": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\resourcepacks\\Владислав\\assets\\minecraft\\models\\props_aj\\ending_cutscene\\ending_cutscene.json",
+			"anim_time_update": "",
+			"blend_weight": "",
+			"start_delay": "",
+			"loop_delay": "0",
+			"excluded_nodes": [],
+			"animators": {
+				"e5571af3-b558-19d4-c72f-71ba2840eb22": {
+					"name": "eyes",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "scale",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "0119d830-6af1-c36f-2a70-5ac891e5dd35",
+							"time": 0,
+							"color": -1,
+							"uniform": true,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						}
+					]
+				},
+				"505041f4-2ad9-d8ae-2b9f-17f0f2fd7874": {
+					"name": "camera",
+					"type": "camera",
+					"keyframes": [
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "-8",
+									"y": "0",
+									"z": "-48"
+								}
+							],
+							"uuid": "2a11c93f-60bf-1d0f-4391-c934c5e77c17",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "-8",
+									"y": "0",
+									"z": "-48"
+								}
+							],
+							"uuid": "d46592d1-2cf9-b625-f71f-09dead340fb4",
+							"time": 4.95,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "16",
+									"y": "-8",
+									"z": "-28"
+								}
+							],
+							"uuid": "ef4de849-314e-09c2-745e-986e58f05eb8",
+							"time": 5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "-32",
+									"y": "32",
+									"z": "0"
+								}
+							],
+							"uuid": "3ff9ec2f-39cf-0186-44ef-bce76cc24aa9",
+							"time": 8.3,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": [1]
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "13",
+									"y": "42",
+									"z": "-16"
+								}
+							],
+							"uuid": "89e7220b-abc4-fafa-9829-38e492d7e5e5",
+							"time": 20,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": [1]
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "16",
+									"y": "-8",
+									"z": "-28"
+								}
+							],
+							"uuid": "744d4977-0620-7da6-1523-0b8917cc2b16",
+							"time": 8.25,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "-32",
+									"y": "32",
+									"z": "0"
+								}
+							],
+							"uuid": "d13d460e-2f49-c1ba-a47d-813ca9ad7395",
+							"time": 19.95,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": [1]
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "12.5",
+									"y": "-142.5",
+									"z": "0"
+								}
+							],
+							"uuid": "dd7c75d4-9126-cbef-27b0-1de4974535e7",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "12.5",
+									"y": "-142.5",
+									"z": "0"
+								}
+							],
+							"uuid": "6ca80e5a-0570-a7ab-c390-eee9258e1f54",
+							"time": 4.95,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "2.5",
+									"y": "-180",
+									"z": "0"
+								}
+							],
+							"uuid": "1a464195-9e01-a2cf-8b8a-f01c0f7f1c8f",
+							"time": 5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": [1]
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "37.5",
+									"y": "-70",
+									"z": "0"
+								}
+							],
+							"uuid": "60be7ead-ab72-b474-0ad4-5c5ad2e90c45",
+							"time": 8.3,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": [1]
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "90",
+									"y": "-90",
+									"z": "0"
+								}
+							],
+							"uuid": "6f8cd3e3-d6ab-84e5-ee38-f9820ee7a0df",
+							"time": 20,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": [1]
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "2.5",
+									"y": "-180",
+									"z": "0"
+								}
+							],
+							"uuid": "ff0bc3d0-6b24-c360-4030-09b6fcf50bcf",
+							"time": 8.25,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": [1]
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "37.5",
+									"y": "-70",
+									"z": "0"
+								}
+							],
+							"uuid": "2e431502-d3cb-37ba-934e-a4a3bd74d3cc",
+							"time": 19.95,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": [1]
+						}
+					]
+				}
+			}
+		}
+	],
+	"animation_controllers": []
+}

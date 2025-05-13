@@ -1,0 +1,44 @@
+{
+	"credit": "By VladislavvC",
+	"textures": {
+		"0": "vladislavvc/props/metal_sheet",
+		"particle": "vladislavvc/props/metal_sheet"
+	},
+	"elements": [
+		{
+			"from": [0, 0, -7],
+			"to": [4, 1, 20],
+			"faces": {
+				"north": {"uv": [6, 7.75, 6.125, 8.375], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [9.375, 7.75, 6, 7.875], "texture": "#0"},
+				"south": {"uv": [9.25, 7.75, 9.375, 8.375], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [6, 8.25, 9.375, 8.375], "texture": "#0"},
+				"up": {"uv": [6, 7.75, 9.375, 8.375], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [8, 1, -7],
+			"to": [12, 2, 20],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8, 1, 0]},
+			"faces": {
+				"north": {"uv": [6, 5.625, 6.125, 6.25], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [9.375, 5.625, 6, 5.75], "texture": "#0"},
+				"south": {"uv": [9.25, 5.625, 9.375, 6.25], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [6, 6.125, 9.375, 6.25], "texture": "#0"},
+				"up": {"uv": [6, 5.625, 9.375, 6.25], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [8, 0, -7],
+			"to": [12, 1, 20],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 0]},
+			"faces": {
+				"north": {"uv": [6, 5.25, 6.125, 5.875], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [9.375, 5.25, 6, 5.375], "texture": "#0"},
+				"south": {"uv": [9.25, 5.25, 9.375, 5.875], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [6, 5.75, 9.375, 5.875], "texture": "#0"},
+				"up": {"uv": [6, 5.25, 9.375, 5.875], "rotation": 90, "texture": "#0"}
+			}
+		}
+	]
+}

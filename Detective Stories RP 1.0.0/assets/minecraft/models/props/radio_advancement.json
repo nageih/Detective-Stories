@@ -1,0 +1,116 @@
+{
+	"credit": "By VladislavvC",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "vladislavvc/props_aj/radio",
+		"particle": "vladislavvc/props_aj/radio"
+	},
+	"elements": [
+		{
+			"from": [4, 8, 11],
+			"to": [6, 16, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 8, 12]},
+			"faces": {
+				"north": {"uv": [3, 8, 4, 12], "texture": "#1"},
+				"south": {"uv": [4, 8, 3, 12], "texture": "#1"}
+			}
+		},
+		{
+			"from": [2, 0, 5],
+			"to": [14, 8, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 6, 4], "texture": "#1"},
+				"east": {"uv": [6, 6, 9, 10], "texture": "#1"},
+				"south": {"uv": [0, 4, 6, 8], "texture": "#1"},
+				"west": {"uv": [0, 8, 3, 12], "texture": "#1"},
+				"up": {"uv": [12, 3, 6, 0], "texture": "#1"}
+			}
+		},
+		{
+			"from": [13.025, 7.025, 6.035],
+			"to": [2.975, 0.975, 4.985],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4, 5.5]},
+			"faces": {
+				"north": {"uv": [6, 3, 11, 6], "texture": "#1"},
+				"east": {"uv": [4, 8, 4.5, 11], "texture": "#1"},
+				"west": {"uv": [4.5, 8, 5, 11], "texture": "#1"},
+				"up": {"uv": [14, 6.5, 9, 6], "texture": "#1"},
+				"down": {"uv": [14, 6.5, 9, 7], "texture": "#1"}
+			}
+		},
+		{
+			"name": "wires",
+			"from": [12, -2, 11],
+			"to": [12, 3, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11, 1, 13]},
+			"faces": {
+				"west": {"uv": [0, 13.5, 2.5, 16], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"from": [11.5, 1.5, 5],
+			"to": [12.5, 2.5, 6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11.5, 1.5, 6]},
+			"faces": {
+				"north": {"uv": [5, 8, 5.5, 8.5], "texture": "#1"},
+				"east": {"uv": [5, 8, 5.5, 8.5], "texture": "#1"},
+				"west": {"uv": [5, 8, 5.5, 8.5], "texture": "#1"},
+				"up": {"uv": [5, 8, 5.5, 8.5], "texture": "#1"},
+				"down": {"uv": [5, 8, 5.5, 8.5], "texture": "#1"}
+			}
+		},
+		{
+			"from": [3.5, 1.5, 5],
+			"to": [4.5, 2.5, 6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3.5, 1.5, 6]},
+			"faces": {
+				"north": {"uv": [5.5, 8, 6, 8.5], "texture": "#1"},
+				"east": {"uv": [5.5, 8, 6, 8.5], "texture": "#1"},
+				"west": {"uv": [5.5, 8, 6, 8.5], "texture": "#1"},
+				"up": {"uv": [5.5, 8, 6, 8.5], "texture": "#1"},
+				"down": {"uv": [5.5, 8, 6, 8.5], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [-135, 45, -180],
+			"translation": [0, 2.75, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "radio2",
+			"origin": [8, 0, 8],
+			"color": 0,
+			"configs": {
+				"variants": {}
+			},
+			"children": [
+				0,
+				1,
+				2,
+				3,
+				{
+					"name": "left_button2",
+					"origin": [12, 2, 5.5],
+					"color": 0,
+					"configs": {
+						"variants": {}
+					},
+					"children": [4]
+				},
+				{
+					"name": "right_button2",
+					"origin": [4, 2, 5.5],
+					"color": 0,
+					"configs": {
+						"variants": {}
+					},
+					"children": [5]
+				}
+			]
+		}
+	]
+}

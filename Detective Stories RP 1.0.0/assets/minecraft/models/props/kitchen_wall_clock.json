@@ -1,0 +1,48 @@
+{
+	"credit": "By VladislavvC",
+	"textures": {
+		"0": "vladislavvc/props_aj/wall_clock",
+		"particle": "vladislavvc/props_aj/wall_clock"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 15],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 16]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"east": {"uv": [4, 0, 4.25, 4], "texture": "#0"},
+				"west": {"uv": [4, 4, 4.25, 8], "texture": "#0"},
+				"up": {"uv": [8.25, 0.25, 4.25, 0], "texture": "#0"},
+				"down": {"uv": [8.25, 0.25, 4.25, 0.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.5, 7.5, 14.95],
+			"to": [14.5, 8.5, 14.95],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, 8, 16]},
+			"faces": {
+				"north": {"uv": [4.25, 0.5, 4.5, 2.25], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.5, 7.5, 14.97],
+			"to": [8.5, 12.5, 14.97],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8, 8, 16]},
+			"faces": {
+				"north": {"uv": [4.25, 4, 4.5, 5.75], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "clock",
+			"origin": [0, 0, 7.9],
+			"color": 0,
+			"configs": {
+				"variants": {}
+			},
+			"children": [0, 1, 2]
+		}
+	]
+}

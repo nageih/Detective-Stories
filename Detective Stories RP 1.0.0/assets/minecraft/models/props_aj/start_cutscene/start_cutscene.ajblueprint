@@ -1,0 +1,324 @@
+{
+	"meta": {
+		"format": "animated_java_blueprint",
+		"format_version": "1.6.4",
+		"uuid": "f46de4c2-e12f-6e85-d325-ef4584c59dea",
+		"save_location": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\resourcepacks\\Владислав\\assets\\minecraft\\models\\props_aj\\start_cutscene\\start_cutscene.ajblueprint",
+		"last_used_export_namespace": "start_cutscene"
+	},
+	"blueprint_settings": {
+		"export_namespace": "start_cutscene",
+		"show_bounding_box": false,
+		"auto_bounding_box": true,
+		"bounding_box": [48, 48],
+		"enable_plugin_mode": false,
+		"resource_pack_export_mode": "raw",
+		"data_pack_export_mode": "raw",
+		"target_minecraft_version": "1.21.4",
+		"display_item": "minecraft:white_dye",
+		"custom_model_data_offset": 0,
+		"enable_advanced_resource_pack_settings": false,
+		"resource_pack": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\resourcepacks\\Владислав\\",
+		"enable_advanced_data_pack_settings": false,
+		"data_pack": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\saves\\Brodilka\\datapacks\\detective_aj",
+		"summon_commands": "",
+		"ticking_commands": "",
+		"interpolation_duration": 1,
+		"teleportation_duration": 1,
+		"use_storage_for_animation": false,
+		"show_function_errors": true,
+		"show_outdated_warning": false,
+		"baked_animations": true,
+		"json_file": ""
+	},
+	"resolution": {
+		"width": 16,
+		"height": 16
+	},
+	"elements": [
+		{
+			"name": "camera",
+			"path": "",
+			"position": [0, 0, 0],
+			"rotation": [0, 0, 0],
+			"fov": 70,
+			"aspect_ratio": [16, 9],
+			"linked_preview": "",
+			"camera_linked": false,
+			"visibility": true,
+			"type": "camera",
+			"uuid": "27c0df4d-9153-2f28-47c5-90fab36df1f4"
+		}
+	],
+	"outliner": ["27c0df4d-9153-2f28-47c5-90fab36df1f4"],
+	"textures": [],
+	"variants": {
+		"default": {
+			"name": "default",
+			"display_name": "Default",
+			"uuid": "5fe337c5-faf1-2036-a189-87e202db6544",
+			"texture_map": {},
+			"excluded_nodes": [],
+			"is_default": true
+		},
+		"list": []
+	},
+	"animations": [
+		{
+			"uuid": "72f76533-624b-9a3c-7f89-3978a915e3bf",
+			"name": "cutscene",
+			"loop": "once",
+			"override": false,
+			"length": 11,
+			"snapping": 20,
+			"selected": true,
+			"saved": false,
+			"path": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\resourcepacks\\Владислав\\assets\\minecraft\\models\\props_aj\\start_cutscene\\start_cutscene.json",
+			"anim_time_update": "",
+			"blend_weight": "",
+			"start_delay": "",
+			"loop_delay": "",
+			"excluded_nodes": [],
+			"animators": {
+				"27c0df4d-9153-2f28-47c5-90fab36df1f4": {
+					"name": "camera",
+					"type": "camera",
+					"keyframes": [
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "2592",
+									"y": "800",
+									"z": "-160"
+								}
+							],
+							"uuid": "ff1194cb-8521-e96b-eae4-0f93a79a3cf8",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "800",
+									"z": "0"
+								}
+							],
+							"uuid": "6275ad1b-38b5-71c1-a296-161e7cd71bcf",
+							"time": 4,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutQuint",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "640",
+									"z": "0"
+								}
+							],
+							"uuid": "7e7136a3-bb90-cece-9b30-c5c0cacb166b",
+							"time": 4.5,
+							"color": -1,
+							"interpolation": "step",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "800",
+									"z": "0"
+								}
+							],
+							"uuid": "20438479-13d4-be6a-10fc-dc16a715e9dc",
+							"time": 4.45,
+							"color": -1,
+							"interpolation": "step",
+							"easing": "easeInOutQuint",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "640",
+									"z": "0"
+								}
+							],
+							"uuid": "7ad16b9b-7f31-10ae-75ab-728341c7e1cf",
+							"time": 5.5,
+							"color": -1,
+							"interpolation": "step",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "512",
+									"z": "0"
+								}
+							],
+							"uuid": "5708d46c-f5b2-d643-c5f3-e201a377b248",
+							"time": 5.55,
+							"color": -1,
+							"interpolation": "step",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "512",
+									"z": "0"
+								}
+							],
+							"uuid": "430703bf-0743-27c3-97cd-d28b2773a8ab",
+							"time": 6.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "16",
+									"z": "0"
+								}
+							],
+							"uuid": "99332d33-4372-028b-e50e-c43420b65359",
+							"time": 8,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutQuint",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "16",
+									"z": "0"
+								}
+							],
+							"uuid": "7fadef77-6d10-9ff7-2037-9857fbcc3c41",
+							"time": 9,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "16",
+									"z": "0"
+								}
+							],
+							"uuid": "6aa3b1e5-2bbd-8972-126f-d6948060e94a",
+							"time": 11,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutSine",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "86.5",
+									"y": "1",
+									"z": "0"
+								}
+							],
+							"uuid": "03a707fd-9eb6-9464-a281-296db9634142",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "89",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "176f61b3-bb8d-cda9-abeb-066a37a6feb1",
+							"time": 6.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "8",
+									"z": "0"
+								}
+							],
+							"uuid": "35c0a3af-c2f4-0067-be92-8a4088e3cc32",
+							"time": 8,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutQuint",
+							"easingArgs": []
+						}
+					]
+				},
+				"effects": {
+					"name": "Effects",
+					"type": "effect",
+					"keyframes": [
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "particle cherry_leaves -156 71 -68 10 4 10 1 150 force",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "6263078c-8fd5-5e11-d54d-da428a197a57",
+							"time": 2,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						}
+					]
+				}
+			}
+		}
+	],
+	"animation_controllers": []
+}

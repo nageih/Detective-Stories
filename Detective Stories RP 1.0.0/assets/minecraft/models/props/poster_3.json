@@ -1,0 +1,18 @@
+{
+	"credit": "By VladislavvC",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "vladislavvc/props/poster_3",
+		"particle": "vladislavvc/props/poster_3"
+	},
+	"elements": [
+		{
+			"from": [-4, 0, 15.99],
+			"to": [20, 18, 15.99],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 14]},
+			"faces": {
+				"north": {"uv": [0, 0, 12, 9], "texture": "#0"}
+			}
+		}
+	]
+}

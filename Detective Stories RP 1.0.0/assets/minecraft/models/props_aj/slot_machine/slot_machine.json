@@ -1,0 +1,122 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"lever": {
+			"animation_length": 0.75,
+			"bones": {
+				"lever": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.3": [22.5, 0, 0],
+						"0.75": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"spin1": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 2.1,
+			"loop_delay": 0,
+			"bones": {
+				"spin1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [450, 0, 0]
+					}
+				},
+				"spin2": {
+					"rotation": {
+						"0.15": [0, 0, 0],
+						"1.15": [450, 0, 0],
+						"1.75": [470, 0, 0],
+						"2.0": [447.5, 0, 0],
+						"2.1": [450, 0, 0]
+					}
+				},
+				"spin3": {
+					"rotation": {
+						"0.3": [0, 0, 0],
+						"1.3": [360, 0, 0]
+					}
+				}
+			}
+		},
+		"spin2": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 2.1,
+			"loop_delay": 0,
+			"bones": {
+				"spin1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.5": [540, 0, 0]
+					}
+				},
+				"spin2": {
+					"rotation": {
+						"0.15": [0, 0, 0],
+						"1.65": [630, 0, 0]
+					}
+				},
+				"spin3": {
+					"rotation": {
+						"0.3": [0, 0, 0],
+						"1.6": [472.5, 0, 0],
+						"2.0": [540, 0, 0]
+					}
+				}
+			}
+		},
+		"spin3": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1.5,
+			"loop_delay": 0,
+			"bones": {
+				"spin1": {
+					"rotation": {
+						"0.0": [540, 0, 0],
+						"1.0": [1080, 0, 0]
+					}
+				},
+				"spin2": {
+					"rotation": {
+						"0.15": [540, 0, 0],
+						"1.5": [900, 0, 0]
+					}
+				},
+				"spin3": {
+					"rotation": {
+						"0.3": [540, 0, 0],
+						"1.3": [990, 0, 0]
+					}
+				}
+			}
+		},
+		"spin4": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 2.25,
+			"loop_delay": 0,
+			"bones": {
+				"spin1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"2.0": [270, 0, 0],
+						"2.25": [360, 0, 0]
+					}
+				},
+				"spin2": {
+					"rotation": {
+						"0.15": [0, 0, 0],
+						"1.15": [360, 0, 0]
+					}
+				},
+				"spin3": {
+					"rotation": {
+						"0.3": [0, 0, 0],
+						"1.3": [540, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

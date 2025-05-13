@@ -1,0 +1,44 @@
+{
+	"textures": {
+		"0": "minecraft:vladislavvc/props_aj/radio",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [7.5, 7.5, 7.5],
+			"to": [8.5, 8.5, 8.5],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [7.5, 7.5, 8.5]
+			},
+			"faces": {
+				"north": {
+					"uv": [5.5, 8, 6, 8.5],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [5.5, 8, 6, 8.5],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [5.5, 8, 6, 8.5],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [5.5, 8, 6, 8.5],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [5.5, 8, 6, 8.5],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

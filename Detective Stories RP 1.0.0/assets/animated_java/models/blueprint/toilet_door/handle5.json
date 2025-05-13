@@ -1,0 +1,44 @@
+{
+	"textures": {
+		"0": "minecraft:vladislavvc/props_aj/toilet_door",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [7.5, 7.5, 7],
+			"to": [11.5, 8.5, 8],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [8, 8, 7]
+			},
+			"faces": {
+				"north": {
+					"uv": [4.5, 8, 5.5, 8.25],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [6.5, 8.25, 6.75, 8.5],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [6.75, 8.25, 7, 8.5],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [6.5, 8.25, 5.5, 8],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [7.5, 8, 6.5, 8.25],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

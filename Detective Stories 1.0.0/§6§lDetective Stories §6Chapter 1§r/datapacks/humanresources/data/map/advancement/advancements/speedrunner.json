@@ -1,0 +1,50 @@
+{
+    "display": {
+        "title": {
+            "translate": "map.advancement.speedrun.title"
+        },
+        "description": {
+            "translate": "map.advancement.speedrun.description"
+        },
+"icon": {
+      "id": "minecraft:yellow_dye",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            95
+          ]
+        }
+      },
+      "count": 1
+    },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "requirement": {
+          "trigger": "minecraft:player_interacted_with_entity",
+          "conditions": {
+            "player": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {}
+              }
+            ],
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:interaction",
+                  "nbt": "{Tags:[\"hello_everyone_my_name_is_markiplier\"]}"
+                }
+              }
+            ]
+          }
+        }
+      },
+    "parent": "map:advancements/root"
+}

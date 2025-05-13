@@ -1,0 +1,17 @@
+{
+	"credit": "By VladislavvC",
+	"textures": {
+		"0": "vladislavvc/props/blackstone_white_line",
+		"particle": "vladislavvc/props/blackstone_white_line"
+	},
+	"elements": [
+		{
+			"from": [8, 0.005, -12],
+			"to": [9, 0.005, 28],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, -12]},
+			"faces": {
+				"up": {"uv": [0, 0.125, 10, 0.375], "rotation": 90, "texture": "#0"}
+			}
+		}
+	]
+}

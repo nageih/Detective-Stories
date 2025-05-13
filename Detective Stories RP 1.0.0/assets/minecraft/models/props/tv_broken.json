@@ -1,0 +1,22 @@
+{
+	"credit": "By VladislavvC",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "vladislavvc/props/wall_tv",
+		"particle": "vladislavvc/props/wall_tv"
+	},
+	"elements": [
+		{
+			"from": [-8, 0, 14],
+			"to": [24, 22, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 14]},
+			"faces": {
+				"north": {"uv": [8, 0, 16, 5.5], "texture": "#0"},
+				"east": {"uv": [8, 6.5, 8.5, 12], "texture": "#0"},
+				"west": {"uv": [8.5, 6.5, 9, 12], "texture": "#0"},
+				"up": {"uv": [16, 6, 8, 5.5], "texture": "#0"},
+				"down": {"uv": [16, 6, 8, 6.5], "texture": "#0"}
+			}
+		}
+	]
+}

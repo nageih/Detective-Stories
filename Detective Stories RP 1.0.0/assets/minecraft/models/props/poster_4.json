@@ -1,0 +1,17 @@
+{
+	"credit": "By VladislavvC",
+	"textures": {
+		"0": "vladislavvc/props/poster_4",
+		"particle": "vladislavvc/props/poster_4"
+	},
+	"elements": [
+		{
+			"from": [1, 0, 15.99],
+			"to": [15, 16, 15.99],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 14]},
+			"faces": {
+				"north": {"uv": [0, 0, 14, 16], "texture": "#0"}
+			}
+		}
+	]
+}

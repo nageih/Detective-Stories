@@ -1,0 +1,28 @@
+{
+	"textures": {
+		"0": "minecraft:vladislavvc/props/stranger_1",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [7.525, 7.525, 8],
+			"to": [8.475, 8.475, 8],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [8.5, 6.475, 7.26]
+			},
+			"faces": {
+				"north": {
+					"uv": [0.775, 1.55, 0.975, 1.75],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

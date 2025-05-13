@@ -1,0 +1,144 @@
+{
+	"credit": "By VladislavvC",
+	"texture_size": [1000, 320],
+	"textures": {
+		"0": "vladislavvc/props/cafe_sign"
+	},
+	"elements": [
+		{
+			"from": [21.5, 0.375, 6.5],
+			"to": [22.625, 9.375, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [4.96, 9, 5.056, 11.4], "texture": "#0"},
+				"east": {"uv": [4.704, 9, 4.96, 11.4], "texture": "#0"},
+				"south": {"uv": [5.056, 9, 4.96, 11.4], "texture": "#0"},
+				"up": {"uv": [5.056, 9, 4.96, 8.2], "texture": "#0"},
+				"down": {"uv": [5.056, 12.2, 4.96, 11.4], "texture": "#0"}
+			}
+		},
+		{
+			"from": [14.75, 0.375, 6.5],
+			"to": [21.5, 9.375, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [1.824, 0.8, 2.4, 3.2], "texture": "#0"},
+				"south": {"uv": [2.4, 0.8, 1.824, 3.2], "texture": "#0"},
+				"up": {"uv": [2.4, 0.8, 1.824, 0], "texture": "#0"},
+				"down": {"uv": [2.4, 4, 1.824, 3.2], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8, 0.375, 6.5],
+			"to": [14.75, 9.375, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0.608, 0.8, 1.184, 3.2], "texture": "#0"},
+				"south": {"uv": [1.184, 0.8, 0.608, 3.2], "texture": "#0"},
+				"up": {"uv": [1.184, 0.8, 0.608, 0], "texture": "#0"},
+				"down": {"uv": [1.184, 4, 0.608, 3.2], "texture": "#0"}
+			}
+		},
+		{
+			"from": [1.25, 0.375, 6.5],
+			"to": [8, 9.375, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [3.648, 0.8, 4.224, 3.2], "texture": "#0"},
+				"south": {"uv": [4.224, 0.8, 3.648, 3.2], "texture": "#0"},
+				"up": {"uv": [4.224, 0.8, 3.648, 0], "texture": "#0"},
+				"down": {"uv": [4.224, 4, 3.648, 3.2], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-5.5, 0.375, 6.5],
+			"to": [1.25, 9.375, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [3.04, 0.8, 3.616, 3.2], "texture": "#0"},
+				"south": {"uv": [3.616, 0.8, 3.04, 3.2], "texture": "#0"},
+				"up": {"uv": [3.616, 0.8, 3.04, 0], "texture": "#0"},
+				"down": {"uv": [3.616, 4, 3.04, 3.2], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-6.625, 0.375, 6.5],
+			"to": [-5.5, 9.375, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [5.088, 9, 5.184, 11.4], "texture": "#0"},
+				"south": {"uv": [5.184, 9, 5.088, 11.4], "texture": "#0"},
+				"west": {"uv": [5.184, 9, 5.44, 11.4], "texture": "#0"},
+				"up": {"uv": [5.184, 9, 5.088, 8.2], "texture": "#0"},
+				"down": {"uv": [5.184, 12.2, 5.088, 11.4], "texture": "#0"}
+			}
+		},
+		{
+			"name": "border",
+			"from": [23, 9.75, 9.875],
+			"to": [-7, 0, 6.125],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 12.3, 0.016, 12.35], "texture": "#0"},
+				"east": {"uv": [0, 12.3, 0.016, 12.35], "texture": "#0"},
+				"south": {"uv": [0, 12.3, 0.016, 12.35], "texture": "#0"},
+				"west": {"uv": [0, 12.3, 0.016, 12.35], "texture": "#0"},
+				"up": {"uv": [0, 12.3, 0.016, 12.35], "texture": "#0"},
+				"down": {"uv": [0, 12.3, 0.016, 12.35], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 1.5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "cafe",
+			"origin": [8, 0, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "open_terminator",
+					"origin": [8, 0, 8],
+					"color": 0,
+					"children": [0]
+				},
+				{
+					"name": "c",
+					"origin": [8, 0, 8],
+					"color": 0,
+					"children": [1]
+				},
+				{
+					"name": "a",
+					"origin": [8, 0, 8],
+					"color": 0,
+					"children": [2]
+				},
+				{
+					"name": "f",
+					"origin": [8, 0, 8],
+					"color": 0,
+					"children": [3]
+				},
+				{
+					"name": "e",
+					"origin": [8, 0, 8],
+					"color": 0,
+					"children": [4]
+				},
+				{
+					"name": "close_terminator",
+					"origin": [8, 0, 8],
+					"color": 0,
+					"children": [5]
+				},
+				6
+			]
+		}
+	]
+}

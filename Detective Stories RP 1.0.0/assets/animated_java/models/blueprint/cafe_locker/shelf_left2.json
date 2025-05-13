@@ -1,0 +1,71 @@
+{
+	"textures": {
+		"0": "minecraft:vladislavvc/props_aj/cafe_locker",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [15, 10.5, 14],
+			"to": [1, 5.5, 2],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [3, 6.49, 4]
+			},
+			"faces": {
+				"north": {
+					"uv": [16, 0, 12.5, 1.25],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [13, 3.75, 16, 2.5],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [12.5, 1.25, 16, 2.5],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [13, 3.75, 16, 2.5],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [12.5, 3.75, 16, 6.75],
+					"texture": "#0"
+				}
+			}
+		},
+		{
+			"from": [1, 5.5, 2],
+			"to": [15, 10.5, 14],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [4, 6.49, 4]
+			},
+			"faces": {
+				"north": {
+					"uv": [16, 0, 12.5, 1.25],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [12.5, 1.25, 16, 2.5],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [4, 10, 7, 11.25],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [12.5, 3.75, 16, 6.75],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

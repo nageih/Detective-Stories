@@ -1,0 +1,35 @@
+{
+	"credit": "By VladislavvC",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "vladislavvc/props/mop",
+		"particle": "vladislavvc/props/mop"
+	},
+	"elements": [
+		{
+			"from": [1, 0, 7],
+			"to": [15, 1, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [4, 2, 11, 2.5], "texture": "#0"},
+				"east": {"uv": [4, 4, 5, 4.5], "texture": "#0"},
+				"south": {"uv": [4, 2.5, 11, 3], "texture": "#0"},
+				"west": {"uv": [4, 4.5, 5, 5], "texture": "#0"},
+				"up": {"uv": [11, 1, 4, 0], "texture": "#0"},
+				"down": {"uv": [11, 1, 4, 2], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 1, 7],
+			"to": [9, 29, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 1, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 1, 14], "texture": "#0"},
+				"east": {"uv": [1, 0, 2, 14], "texture": "#0"},
+				"south": {"uv": [2, 0, 3, 14], "texture": "#0"},
+				"west": {"uv": [3, 0, 4, 14], "texture": "#0"},
+				"up": {"uv": [5, 4, 4, 3], "texture": "#0"}
+			}
+		}
+	]
+}

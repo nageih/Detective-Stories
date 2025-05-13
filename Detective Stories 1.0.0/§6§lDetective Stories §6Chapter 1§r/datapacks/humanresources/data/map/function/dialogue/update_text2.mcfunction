@@ -1,0 +1,1 @@
+$data modify storage youknowwhatelseismassive:lowtaperfade temp_text set string storage youknowwhatelseismassive:lowtaperfade text 0 $(symbols)

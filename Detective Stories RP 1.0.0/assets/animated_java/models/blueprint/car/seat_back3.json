@@ -1,0 +1,44 @@
+{
+	"textures": {
+		"0": "minecraft:vladislavvc/props_aj/car",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [-4, 1.53598, 7.07657],
+			"to": [20, 14.46402, 8.92343],
+			"rotation": {
+				"angle": 22.5,
+				"axis": "x",
+				"origin": [8, 8, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [4.25, 5.25, 5.875, 6.125],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [6.25, 8.25, 6.375, 9.125],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [5.875, 5.25, 7.5, 6.125],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [1.75, 8.5625, 1.875, 9.4375],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [9.75, 6.0625, 8.125, 5.9375],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

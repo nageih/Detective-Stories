@@ -1,0 +1,9 @@
+$execute if entity @p[nbt={SelectedItemSlot:0}] run function map:dialogue/dialogues/$(id)/choices/1
+$execute if entity @p[nbt={SelectedItemSlot:1}] run function map:dialogue/dialogues/$(id)/choices/2
+$execute if entity @p[nbt={SelectedItemSlot:2}] run function map:dialogue/dialogues/$(id)/choices/1
+$execute if entity @p[nbt={SelectedItemSlot:3}] run function map:dialogue/dialogues/$(id)/choices/2
+$execute if entity @p[nbt={SelectedItemSlot:4}] run function map:dialogue/dialogues/$(id)/choices/1
+$execute if entity @p[nbt={SelectedItemSlot:5}] run function map:dialogue/dialogues/$(id)/choices/2
+$execute if entity @p[nbt={SelectedItemSlot:6}] run function map:dialogue/dialogues/$(id)/choices/1
+$execute if entity @p[nbt={SelectedItemSlot:7}] run function map:dialogue/dialogues/$(id)/choices/2
+$execute if entity @p[nbt={SelectedItemSlot:8}] run function map:dialogue/dialogues/$(id)/choices/1

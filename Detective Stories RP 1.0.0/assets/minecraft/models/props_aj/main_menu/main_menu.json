@@ -1,0 +1,1159 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"hide_all": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.05,
+			"loop_delay": 0,
+			"bones": {
+				"selection": {
+					"scale": 0
+				},
+				"start_game": {
+					"scale": 0
+				},
+				"chapter_select": {
+					"scale": 0
+				},
+				"settings": {
+					"scale": 0
+				},
+				"credits": {
+					"scale": 0
+				},
+				"exit": {
+					"scale": 0
+				},
+				"chapter1": {
+					"scale": 0
+				},
+				"chapter2": {
+					"scale": 0
+				},
+				"vladislavvc": {
+					"scale": 0
+				},
+				"discord": {
+					"scale": 0
+				},
+				"telegram": {
+					"scale": 0
+				},
+				"boosty": {
+					"scale": 0
+				},
+				"bobicraft": {
+					"scale": 0
+				},
+				"markiplier": {
+					"scale": 0
+				},
+				"bobic": {
+					"scale": 0
+				},
+				"go_back": {
+					"scale": 0
+				},
+				"hint": {
+					"scale": 0
+				},
+				"creator": {
+					"scale": 0
+				}
+			}
+		},
+		"main.start": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.25,
+			"loop_delay": 0,
+			"bones": {
+				"selection": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, 0, 0]
+					},
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.25": [1, 1, 1]
+					}
+				},
+				"start_game": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, -7.5, 0]
+					}
+				}
+			}
+		},
+		"main.chapter": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.25,
+			"loop_delay": 0,
+			"bones": {
+				"selection": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, -5, 0]
+					},
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.25": [1, 1, 1]
+					}
+				},
+				"chapter_select": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, -7.5, 0]
+					}
+				}
+			}
+		},
+		"main.settings": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.25,
+			"loop_delay": 0,
+			"bones": {
+				"selection": {
+					"position": {
+						"0.0": [0, -5, 0],
+						"0.25": [0, -10, 0]
+					},
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.25": [1, 1, 1]
+					}
+				},
+				"settings": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, -7.5, 0]
+					}
+				}
+			}
+		},
+		"main.credits": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.25,
+			"loop_delay": 0,
+			"bones": {
+				"selection": {
+					"position": {
+						"0.0": [0, -10, 0],
+						"0.25": [0, -15, 0]
+					},
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.25": [1, 1, 1]
+					}
+				},
+				"credits": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, -7.5, 0]
+					}
+				}
+			}
+		},
+		"main.exit": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.25,
+			"loop_delay": 0,
+			"bones": {
+				"selection": {
+					"position": {
+						"0.0": [0, -15, 0],
+						"0.25": [0, -23, 0]
+					},
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.25": [1, 1, 1]
+					}
+				},
+				"exit": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, -7.5, 0]
+					}
+				}
+			}
+		},
+		"main.start_pressed": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.25,
+			"loop_delay": 0,
+			"bones": {
+				"selection": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, 0, 0.7]
+					}
+				},
+				"start_game": {
+					"rotation": {
+						"0.0": [0, -7.5, 0],
+						"0.25": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, 0, 0.75]
+					}
+				}
+			}
+		},
+		"main.chapter_pressed": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.25,
+			"loop_delay": 0,
+			"bones": {
+				"selection": {
+					"position": {
+						"0.0": [0, -5, 0],
+						"0.25": [0, -5, 0.7]
+					}
+				},
+				"chapter_select": {
+					"rotation": {
+						"0.0": [0, -7.5, 0],
+						"0.25": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, 0, 0.75]
+					}
+				}
+			}
+		},
+		"main.settings_pressed": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.25,
+			"loop_delay": 0,
+			"bones": {
+				"selection": {
+					"position": {
+						"0.0": [0, -10, 0],
+						"0.25": [0, -10, 0.7]
+					}
+				},
+				"settings": {
+					"rotation": {
+						"0.0": [0, -7.5, 0],
+						"0.25": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, 0, 0.75]
+					}
+				}
+			}
+		},
+		"main.credits_pressed": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.25,
+			"loop_delay": 0,
+			"bones": {
+				"selection": {
+					"position": {
+						"0.0": [0, -15, 0],
+						"0.25": [0, -15, 0.7]
+					}
+				},
+				"credits": {
+					"rotation": {
+						"0.0": [0, -7.5, 0],
+						"0.25": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, 0, 0.75]
+					}
+				}
+			}
+		},
+		"main.exit_pressed": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.25,
+			"loop_delay": 0,
+			"bones": {
+				"selection": {
+					"position": {
+						"0.0": [0, -23, 0],
+						"0.25": [0, -23, 0.7]
+					}
+				},
+				"exit": {
+					"rotation": {
+						"0.0": [0, -7.5, 0],
+						"0.25": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, 0, 0.75]
+					}
+				}
+			}
+		},
+		"back_appear": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.25,
+			"loop_delay": 0,
+			"bones": {
+				"go_back": {
+					"position": {
+						"0.0": [0, -8, 0],
+						"0.25": [0, -8, 0]
+					},
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.25": [1, 1, 1]
+					}
+				}
+			}
+		},
+		"back_selected": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.25,
+			"loop_delay": 0,
+			"bones": {
+				"go_back": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, -7.5, 0]
+					},
+					"position": [0, -8, 0],
+					"scale": 1
+				}
+			}
+		},
+		"back_pressed": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.4,
+			"loop_delay": 0,
+			"bones": {
+				"go_back": {
+					"rotation": {
+						"0.0": [0, -7.5, 0],
+						"0.4": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, -8, 0],
+						"0.4": [0, -8, 1]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.25": [1, 1, 1],
+						"0.4": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"chapter.appear": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.25,
+			"loop_delay": 0,
+			"bones": {
+				"chapter1": {
+					"position": {
+						"0.0": [8, 0, 0],
+						"0.25": [0, 0, 0]
+					},
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.25": [1, 1, 1]
+					}
+				},
+				"chapter2": {
+					"position": {
+						"0.0": [8, 0, 0],
+						"0.25": [0, 0, 0]
+					},
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.25": [1, 1, 1]
+					}
+				}
+			}
+		},
+		"chapter.one_selected": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.25,
+			"loop_delay": 0,
+			"bones": {
+				"chapter1": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.15": [0, 0.5, 0],
+						"0.25": [0, 0, 0]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.25": [1, 1, 1]
+					}
+				},
+				"chapter2": {
+					"position": [0, 0, 0],
+					"scale": 1
+				},
+				"go_back": {
+					"rotation": [0, 0, 0],
+					"position": [0, -8, 0],
+					"scale": 1
+				}
+			}
+		},
+		"chapter.two_selected": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.25,
+			"loop_delay": 0,
+			"bones": {
+				"chapter2": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.15": [0, 0.5, 0],
+						"0.25": [0, 0, 0]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.25": [1, 1, 1]
+					}
+				},
+				"go_back": {
+					"rotation": [0, 0, 0],
+					"position": [0, -8, 0],
+					"scale": 1
+				}
+			}
+		},
+		"chapter.disappear": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.25,
+			"loop_delay": 0,
+			"bones": {
+				"chapter1": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [8, 0, 0]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.25": [0, 0, 0]
+					}
+				},
+				"chapter2": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [8, 0, 0]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.25": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"settings.appear": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.25,
+			"loop_delay": 0,
+			"bones": {
+				"markiplier": {
+					"position": {
+						"0.0": [-1, 6, -7],
+						"0.25": [-1, 6, -8]
+					},
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.25": [1, 1, 1]
+					}
+				},
+				"bobic": {
+					"position": {
+						"0.0": [-1, 6, -7],
+						"0.25": [-1, 6, -8]
+					},
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.25": [1, 1, 1]
+					}
+				}
+			}
+		},
+		"settings.mark_selected": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.25,
+			"loop_delay": 0,
+			"bones": {
+				"markiplier": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, -7.5, 0]
+					},
+					"position": [-1, 6, -8]
+				},
+				"bobic": {
+					"position": [-1, 6, -8]
+				},
+				"go_back": {
+					"rotation": [0, 0, 0],
+					"position": [0, -8, 0],
+					"scale": 1
+				}
+			}
+		},
+		"settings.bobi_selected": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.25,
+			"loop_delay": 0,
+			"bones": {
+				"markiplier": {
+					"position": [-1, 6, -8]
+				},
+				"bobic": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, -7.5, 0]
+					},
+					"position": [-1, 6, -8]
+				},
+				"go_back": {
+					"rotation": [0, 0, 0],
+					"position": [0, -8, 0],
+					"scale": 1
+				}
+			}
+		},
+		"settings.mark_pressed": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.4,
+			"loop_delay": 0,
+			"bones": {
+				"markiplier": {
+					"rotation": {
+						"0.0": [0, -7.5, 0],
+						"0.25": [0, 0, 0],
+						"0.4": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [-1, 6, -8],
+						"0.25": [-1, 6, -7],
+						"0.4": [-1, 6, -8]
+					}
+				},
+				"bobic": {
+					"position": [-1, 6, -8]
+				},
+				"go_back": {
+					"rotation": [0, 0, 0],
+					"position": [0, -8, 0],
+					"scale": 1
+				}
+			}
+		},
+		"settings.bobi_pressed": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.4,
+			"loop_delay": 0,
+			"bones": {
+				"markiplier": {
+					"position": [-1, 6, -8]
+				},
+				"bobic": {
+					"rotation": {
+						"0.0": [0, -7.5, 0],
+						"0.25": [0, 0, 0],
+						"0.4": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [-1, 6, -8],
+						"0.25": [-1, 6, -7],
+						"0.4": [-1, 6, -8]
+					}
+				},
+				"go_back": {
+					"rotation": [0, 0, 0],
+					"position": [0, -8, 0],
+					"scale": 1
+				}
+			}
+		},
+		"settings.disappear": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.25,
+			"loop_delay": 0,
+			"bones": {
+				"markiplier": {
+					"position": {
+						"0.0": [-1, 6, -8],
+						"0.25": [-1, 6, -6]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.25": [0, 0, 0]
+					}
+				},
+				"bobic": {
+					"position": {
+						"0.0": [-1, 6, -8],
+						"0.25": [-1, 6, -6]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.25": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"credits.appear": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.4,
+			"loop_delay": 0,
+			"bones": {
+				"vladislavvc": {
+					"rotation": {
+						"0.0": [0, -62.5, 0],
+						"0.4": [0, -37.5, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.4": [0, 0, -15]
+					},
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.4": [0.5, 0.5, 0.5]
+					}
+				},
+				"body": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.4": [0, 10, -2.5]
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": [0, -50, 0],
+						"0.4": [-2.5, 30, -7.5]
+					}
+				},
+				"rightarm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.4": [-7.5, 157.5, 145]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.4": [0, 0, 0]
+					}
+				},
+				"leftarm": {
+					"rotation": [0, -7.5, -5]
+				},
+				"rightleg": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.4": [2.5, 7.5, 2.5]
+					}
+				},
+				"leftleg": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.4": [-2.5, -5, -2.5]
+					}
+				},
+				"discord": {
+					"position": {
+						"0.0": [-3, 1, -16],
+						"0.4": [-3, 1, -18]
+					},
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.4": [1, 1, 1]
+					}
+				},
+				"telegram": {
+					"position": {
+						"0.0": [-3, 1, -16],
+						"0.4": [-3, 1, -18]
+					},
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.4": [1, 1, 1]
+					}
+				},
+				"boosty": {
+					"position": {
+						"0.0": [-3, 1, -16],
+						"0.4": [-3, 1, -18]
+					},
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.4": [1, 1, 1]
+					}
+				},
+				"bobicraft": {
+					"position": {
+						"0.0": [-10, 21, -14],
+						"0.4": [-10, 21, -18]
+					},
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.4": [1, 1, 1]
+					}
+				},
+				"creator": {
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.4": [1.5, 1.5, 1.5]
+					}
+				}
+			}
+		},
+		"credits.discord_selected": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.25,
+			"loop_delay": 0,
+			"bones": {
+				"vladislavvc": {
+					"rotation": [0, -37.5, 0],
+					"position": [0, 0, -15],
+					"scale": 0.5
+				},
+				"body": {
+					"rotation": [0, 10, -2.5]
+				},
+				"head": {
+					"rotation": [-2.5, 30, -7.5]
+				},
+				"rightarm": {
+					"rotation": [-7.5, 157.5, 145],
+					"position": [0, 0, 0]
+				},
+				"leftarm": {
+					"rotation": [0, -7.5, -5]
+				},
+				"rightleg": {
+					"rotation": [2.5, 7.5, 2.5]
+				},
+				"leftleg": {
+					"rotation": [-2.5, -5, -2.5]
+				},
+				"discord": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, -7.5, 0]
+					},
+					"position": [-3, 1, -18],
+					"scale": 1
+				},
+				"telegram": {
+					"position": [-3, 1, -18],
+					"scale": 1
+				},
+				"boosty": {
+					"position": [-3, 1, -18],
+					"scale": 1
+				},
+				"bobicraft": {
+					"position": [-10, 21, -18],
+					"scale": 1
+				},
+				"creator": {
+					"scale": 1.5
+				}
+			}
+		},
+		"credits.telegram_selected": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.25,
+			"loop_delay": 0,
+			"bones": {
+				"vladislavvc": {
+					"rotation": [0, -37.5, 0],
+					"position": [0, 0, -15],
+					"scale": 0.5
+				},
+				"body": {
+					"rotation": [0, 10, -2.5]
+				},
+				"head": {
+					"rotation": [-2.5, 30, -7.5]
+				},
+				"rightarm": {
+					"rotation": [-7.5, 157.5, 145],
+					"position": [0, 0, 0]
+				},
+				"leftarm": {
+					"rotation": [0, -7.5, -5]
+				},
+				"rightleg": {
+					"rotation": [2.5, 7.5, 2.5]
+				},
+				"leftleg": {
+					"rotation": [-2.5, -5, -2.5]
+				},
+				"discord": {
+					"rotation": [0, 0, 0],
+					"position": [-3, 1, -18],
+					"scale": 1
+				},
+				"telegram": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, -7.5, 0]
+					},
+					"position": [-3, 1, -18],
+					"scale": 1
+				},
+				"boosty": {
+					"position": [-3, 1, -18],
+					"scale": 1
+				},
+				"bobicraft": {
+					"position": [-10, 21, -18],
+					"scale": 1
+				},
+				"creator": {
+					"scale": 1.5
+				}
+			}
+		},
+		"credits.boosty_selected": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.25,
+			"loop_delay": 0,
+			"bones": {
+				"vladislavvc": {
+					"rotation": [0, -37.5, 0],
+					"position": [0, 0, -15],
+					"scale": 0.5
+				},
+				"body": {
+					"rotation": [0, 10, -2.5]
+				},
+				"head": {
+					"rotation": [-2.5, 30, -7.5]
+				},
+				"rightarm": {
+					"rotation": [-7.5, 157.5, 145],
+					"position": [0, 0, 0]
+				},
+				"leftarm": {
+					"rotation": [0, -7.5, -5]
+				},
+				"rightleg": {
+					"rotation": [2.5, 7.5, 2.5]
+				},
+				"leftleg": {
+					"rotation": [-2.5, -5, -2.5]
+				},
+				"discord": {
+					"rotation": [0, 0, 0],
+					"position": [-3, 1, -18],
+					"scale": 1
+				},
+				"telegram": {
+					"rotation": [0, 0, 0],
+					"position": [-3, 1, -18],
+					"scale": 1
+				},
+				"boosty": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, -7.5, 0]
+					},
+					"position": [-3, 1, -18],
+					"scale": 1
+				},
+				"bobicraft": {
+					"position": [-10, 21, -18],
+					"scale": 1
+				},
+				"creator": {
+					"scale": 1.5
+				}
+			}
+		},
+		"credits.discord_pressed": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.4,
+			"loop_delay": 0,
+			"bones": {
+				"vladislavvc": {
+					"rotation": [0, -37.5, 0],
+					"position": [0, 0, -15],
+					"scale": 0.5
+				},
+				"body": {
+					"rotation": [0, 10, -2.5]
+				},
+				"head": {
+					"rotation": [-2.5, 30, -7.5]
+				},
+				"rightarm": {
+					"rotation": [-7.5, 157.5, 145],
+					"position": [0, 0, 0]
+				},
+				"leftarm": {
+					"rotation": [0, -7.5, -5]
+				},
+				"rightleg": {
+					"rotation": [2.5, 7.5, 2.5]
+				},
+				"leftleg": {
+					"rotation": [-2.5, -5, -2.5]
+				},
+				"discord": {
+					"rotation": {
+						"0.0": [0, -7.5, 0],
+						"0.4": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [-3, 1, -18],
+						"0.25": [-3, 1, -16],
+						"0.4": [-3, 1, -18]
+					},
+					"scale": 1
+				},
+				"telegram": {
+					"position": [-3, 1, -18],
+					"scale": 1
+				},
+				"boosty": {
+					"position": [-3, 1, -18],
+					"scale": 1
+				},
+				"bobicraft": {
+					"position": [-10, 21, -18],
+					"scale": 1
+				},
+				"creator": {
+					"scale": 1.5
+				}
+			}
+		},
+		"credits.telegram_pressed": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.4,
+			"loop_delay": 0,
+			"bones": {
+				"vladislavvc": {
+					"rotation": [0, -37.5, 0],
+					"position": [0, 0, -15],
+					"scale": 0.5
+				},
+				"body": {
+					"rotation": [0, 10, -2.5]
+				},
+				"head": {
+					"rotation": [-2.5, 30, -7.5]
+				},
+				"rightarm": {
+					"rotation": [-7.5, 157.5, 145],
+					"position": [0, 0, 0]
+				},
+				"leftarm": {
+					"rotation": [0, -7.5, -5]
+				},
+				"rightleg": {
+					"rotation": [2.5, 7.5, 2.5]
+				},
+				"leftleg": {
+					"rotation": [-2.5, -5, -2.5]
+				},
+				"discord": {
+					"rotation": [0, 0, 0],
+					"position": [-3, 1, -18],
+					"scale": 1
+				},
+				"telegram": {
+					"rotation": {
+						"0.0": [0, -7.5, 0],
+						"0.4": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [-3, 1, -18],
+						"0.25": [-3, 1, -16],
+						"0.4": [-3, 1, -18]
+					},
+					"scale": 1
+				},
+				"boosty": {
+					"position": [-3, 1, -18],
+					"scale": 1
+				},
+				"bobicraft": {
+					"position": [-10, 21, -18],
+					"scale": 1
+				},
+				"creator": {
+					"scale": 1.5
+				}
+			}
+		},
+		"credits.boosty_pressed": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.4,
+			"loop_delay": 0,
+			"bones": {
+				"vladislavvc": {
+					"rotation": [0, -37.5, 0],
+					"position": [0, 0, -15],
+					"scale": 0.5
+				},
+				"body": {
+					"rotation": [0, 10, -2.5]
+				},
+				"head": {
+					"rotation": [-2.5, 30, -7.5]
+				},
+				"rightarm": {
+					"rotation": [-7.5, 157.5, 145],
+					"position": [0, 0, 0]
+				},
+				"leftarm": {
+					"rotation": [0, -7.5, -5]
+				},
+				"rightleg": {
+					"rotation": [2.5, 7.5, 2.5]
+				},
+				"leftleg": {
+					"rotation": [-2.5, -5, -2.5]
+				},
+				"discord": {
+					"rotation": [0, 0, 0],
+					"position": [-3, 1, -18],
+					"scale": 1
+				},
+				"telegram": {
+					"rotation": [0, 0, 0],
+					"position": [-3, 1, -18],
+					"scale": 1
+				},
+				"boosty": {
+					"rotation": {
+						"0.0": [0, -7.5, 0],
+						"0.4": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [-3, 1, -18],
+						"0.25": [-3, 1, -16],
+						"0.4": [-3, 1, -18]
+					},
+					"scale": 1
+				},
+				"bobicraft": {
+					"position": [-10, 21, -18],
+					"scale": 1
+				},
+				"creator": {
+					"scale": 1.5
+				}
+			}
+		},
+		"credits.disappear": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.4,
+			"loop_delay": 0,
+			"bones": {
+				"vladislavvc": {
+					"rotation": {
+						"0.0": [0, -37.5, 0],
+						"0.4": [0, -62.5, 0]
+					},
+					"position": {
+						"0.0": [0, 0, -15],
+						"0.4": [0, 0, 0]
+					},
+					"scale": {
+						"0.0": [0.5, 0.5, 0.5],
+						"0.4": [0, 0, 0]
+					}
+				},
+				"body": {
+					"rotation": {
+						"0.0": [0, 10, -2.5],
+						"0.4": [0, 0, 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": [-2.5, 30, -7.5],
+						"0.4": [0, -50, 0]
+					}
+				},
+				"rightarm": {
+					"rotation": {
+						"0.0": [-7.5, 157.5, 145],
+						"0.4": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.4": [0, 0, 0]
+					}
+				},
+				"leftarm": {
+					"rotation": [0, -7.5, -5]
+				},
+				"rightleg": {
+					"rotation": {
+						"0.0": [2.5, 7.5, 2.5],
+						"0.4": [0, 0, 0]
+					}
+				},
+				"leftleg": {
+					"rotation": {
+						"0.0": [-2.5, -5, -2.5],
+						"0.4": [0, 0, 0]
+					}
+				},
+				"discord": {
+					"position": {
+						"0.0": [-3, 1, -18],
+						"0.4": [-3, 1, -16]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.4": [0, 0, 0]
+					}
+				},
+				"telegram": {
+					"position": {
+						"0.0": [-3, 1, -18],
+						"0.4": [-3, 1, -16]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.4": [0, 0, 0]
+					}
+				},
+				"boosty": {
+					"position": {
+						"0.0": [-3, 1, -18],
+						"0.4": [-3, 1, -16]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.4": [0, 0, 0]
+					}
+				},
+				"bobicraft": {
+					"position": {
+						"0.0": [-10, 21, -18],
+						"0.4": [-10, 21, -14]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.4": [0, 0, 0]
+					}
+				},
+				"creator": {
+					"scale": {
+						"0.0": [1.5, 1.5, 1.5],
+						"0.4": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"game_starts": {
+			"animation_length": 3
+		}
+	}
+}

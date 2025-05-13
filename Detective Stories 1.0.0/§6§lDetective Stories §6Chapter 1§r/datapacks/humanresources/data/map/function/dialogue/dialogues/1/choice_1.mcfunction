@@ -1,0 +1,4 @@
+# Прописана сама функция диалога
+execute if entity @a[tag=language.russian] run function map:dialogue/init_text {text:"Вижу, вы здесь находитесь уже довольно долго. Можете тогда, пожалуйста, подсказать, где бармен?",total_symbols:95,time:1,state:3,next_dialogue:"dialogue/dialogues/1/choice_1_1",db_visual:1}
+execute if entity @a[tag=language.english] run function map:dialogue/init_text {text:"I see you’ve been here for quite a while. Could you please tell me where the bartender is?",total_symbols:90,time:1,state:3,next_dialogue:"dialogue/dialogues/1/choice_1_1",db_visual:1}
+execute if entity @a[tag=language.spanish] run function map:dialogue/init_text {text:"Veo que llevas bastante tiempo aquí. ¿Podrías decirme dónde está el barman?",total_symbols:75,time:1,state:3,next_dialogue:"dialogue/dialogues/1/choice_1_1",db_visual:1}

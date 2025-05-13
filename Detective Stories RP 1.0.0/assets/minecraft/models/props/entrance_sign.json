@@ -1,0 +1,23 @@
+{
+	"credit": "By VladislavvC",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "vladislavvc/props/entrance_sign",
+		"particle": "vladislavvc/props/entrance_sign"
+	},
+	"elements": [
+		{
+			"from": [-8, 0, 15],
+			"to": [24, 14, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 14]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 3.5], "texture": "#0"},
+				"east": {"uv": [0, 0, 0.25, 3.5], "texture": "#0"},
+				"west": {"uv": [7.75, 0, 8, 3.5], "texture": "#0"},
+				"up": {"uv": [8, 0.25, 0, 0], "texture": "#0"},
+				"down": {"uv": [8, 3.25, 0, 3.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {}
+}

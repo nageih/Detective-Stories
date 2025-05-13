@@ -1,0 +1,130 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:vladislavvc/black.png",
+            "ascent": 320,
+            "height": 640,
+            "chars": ["\uA000"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:vladislavvc/light.png",
+            "ascent": 22,
+            "height": 45,
+            "chars": ["\uA001"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:vladislavvc/ui/lmb.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": ["\uA010"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:vladislavvc/ui/rmb.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": ["\uA011"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:vladislavvc/ui/task.png",
+            "ascent": -3,
+            "height": 42,
+            "chars": ["\uA012"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:vladislavvc/white10.png",
+            "ascent": 320,
+            "height": 640,
+            "chars": ["\uA013"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:vladislavvc/ui/task_en.png",
+            "ascent": -3,
+            "height": 42,
+            "chars": ["\uA014"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:vladislavvc/ui/task_es.png",
+            "ascent": -3,
+            "height": 42,
+            "chars": ["\uA015"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:vladislavvc/ui/waiting_mc.png",
+            "ascent": 10,
+            "height": 11,
+            "chars": ["\uB002"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:vladislavvc/ui/newline.png",
+            "ascent": 5,
+            "height": 8,
+            "chars": ["\uB003"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:vladislavvc/ui/vlad_troll.png",
+            "ascent": 9,
+            "height": 11,
+            "chars": ["\uB004"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:vladislavvc/ui/markiplier.png",
+            "ascent": 20,
+            "height": 128,
+            "chars": ["\uB005"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:vladislavvc/ui/markiplier_look.png",
+            "ascent": 20,
+            "height": 128,
+            "chars": ["\uB006"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:vladislavvc/ui/debug_information.png",
+            "ascent": 10,
+            "height": 11,
+            "chars": ["\uB007"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:vladislavvc/footprint.png",
+            "ascent": 2,
+            "height": 8,
+            "chars": ["\uB008"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:vladislavvc/ui/bobicraft.png",
+            "ascent": 20,
+            "height": 128,
+            "chars": ["\uB009"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:vladislavvc/ui/bobicraft_blink.png",
+            "ascent": 20,
+            "height": 128,
+            "chars": ["\uB010"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:vladislavvc/ui/now.png",
+            "ascent": 60,
+            "height": 128,
+            "chars": ["\uB011"]
+        }
+    ]
+}

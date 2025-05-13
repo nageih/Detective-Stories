@@ -1,0 +1,206 @@
+{
+	"model": {
+	  "type": "minecraft:range_dispatch",
+	  "property": "minecraft:custom_model_data",
+	  "index": 0,
+	  "fallback": {
+		"type": "minecraft:model",
+		"model": "minecraft:item/yellow_dye"
+	  },
+	  "entries": [
+		{"model": {"type": "minecraft:model","model": "minecraft:props/wooden_box_1"},"threshold": 1},
+		{
+		  "model": {
+			"type": "minecraft:model",
+			"model": "minecraft:props/barrel"
+		  },
+		  "threshold": 2
+		},
+		{
+		  "model": {
+			"type": "minecraft:model",
+			"model": "minecraft:props/something"
+		  },
+		  "threshold": 3
+		},
+		{
+		  "model": {
+			"type": "minecraft:model",
+			"model": "minecraft:props/furnace"
+		  },
+		  "threshold": 4
+		},
+		{
+		  "model": {
+			"type": "minecraft:model",
+			"model": "minecraft:props/rangehood"
+		  },
+		  "threshold": 5
+		},
+		{
+		  "model": {
+			"type": "minecraft:model",
+			"model": "minecraft:props/sink"
+		  },
+		  "threshold": 6
+		},
+		{
+		  "model": {
+			"type": "minecraft:model",
+			"model": "minecraft:props/kitchen_shelf"
+		  },
+		  "threshold": 7
+		},
+		{
+		  "model": {
+			"type": "minecraft:model",
+			"model": "minecraft:props/kitchen_plates"
+		  },
+		  "threshold": 8
+		},
+		{
+		  "model": {
+			"type": "minecraft:model",
+			"model": "minecraft:props/kitchen_mugs"
+		  },
+		  "threshold": 9
+		},
+		{
+		  "model": {
+			"type": "minecraft:model",
+			"model": "minecraft:props/kitchen_table_small"
+		  },
+		  "threshold": 10
+		},
+		{
+		  "model": {
+			"type": "minecraft:model",
+			"model": "minecraft:props/microwave"
+		  },
+		  "threshold": 11
+		},
+		{
+		  "model": {
+			"type": "minecraft:model",
+			"model": "minecraft:props/kitchen_cutlery"
+		  },
+		  "threshold": 12
+		},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/kitchen_board"},"threshold": 13},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/carton_boxes"},"threshold": 14},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/bar_table"},"threshold": 15},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/bar_table_left"},"threshold": 16},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/bar_table_right"},"threshold": 17},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/bar_chair"},"threshold": 18},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/cafe_table"},"threshold": 19},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/windowsill"},"threshold": 20},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/mop"},"threshold": 21},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/fire_alarm"},"threshold": 22},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/switch_off"},"threshold": 23},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/switch_on"},"threshold": 24},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/sign"},"threshold": 25},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/cafe_lamp_off"},"threshold": 26},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/cafe_lamp_on"},"threshold": 27},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/window_louver"},"threshold": 28},	
+		{"model": {"type": "minecraft:model","model": "minecraft:props/cafe_sign"},"threshold": 29},	
+		{"model": {"type": "minecraft:model","model": "minecraft:props/toilet_door"},"threshold": 30},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/ozon671games"},"threshold": 31},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/ozon671games"},"threshold": 32},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/light"},"threshold": 33},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/split_system"},"threshold": 34},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/wall_tv"},"threshold": 35},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/poster_1"},"threshold": 36},	
+		{"model": {"type": "minecraft:model","model": "minecraft:props/poster_2"},"threshold": 37},		
+		{"model": {"type": "minecraft:model","model": "minecraft:props/poster_3"},"threshold": 38},	
+		{"model": {"type": "minecraft:model","model": "minecraft:props/poster_4"},"threshold": 39},	
+		{"model": {"type": "minecraft:model","model": "minecraft:props/poster_5"},"threshold": 40},		
+		{"model": {"type": "minecraft:model","model": "minecraft:props/poster_6"},"threshold": 41},		
+		{"model": {"type": "minecraft:model","model": "minecraft:props/wall_shelf"},"threshold": 42},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/just_mug"},"threshold": 43},		
+		{"model": {"type": "minecraft:model","model": "minecraft:props/doormat"},"threshold": 44},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/wet_floor_sign"},"threshold": 45},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/cafe_stand"},"threshold": 46},	
+		{"model": {"type": "minecraft:model","model": "minecraft:props/tv_remote"},"threshold": 47},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/recycle_bin"},"threshold": 48},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/trash_can"},"threshold": 49},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/table_extras"},"threshold": 50},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/table_extras_shelf"},"threshold": 51},	
+		{"model": {"type": "minecraft:model","model": "minecraft:props/glass"},"threshold": 52},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/dirty_plate_1"},"threshold": 53},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/dirty_plate_2"},"threshold": 54},	
+		{"model": {"type": "minecraft:model","model": "minecraft:props/dirty_plate_3"},"threshold": 55},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/dirty_plate_4"},"threshold": 56},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/street_lamp"},"threshold": 57},	
+		{"model": {"type": "minecraft:model","model": "minecraft:props/tea_1"},"threshold": 58},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/tea_2"},"threshold": 59},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/tea_3"},"threshold": 60},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/recycle_bin_not_so_empty"},"threshold": 61},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/blackstone_white_line"},"threshold": 62},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/entrance_sign"},"threshold": 63},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/outlet"},"threshold": 64},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/green_barrel"},"threshold": 65},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/stretcher"},"threshold": 66},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/vise"},"threshold": 67},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/metal_sheet"},"threshold": 68},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/wooden_planks_trash"},"threshold": 69},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/cartoon_opened_box"},"threshold": 70},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/wooden_table"},"threshold": 71},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/brepsi"},"threshold": 72},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/lololowka"},"threshold": 73},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/missing_person_paper_cut"},"threshold": 74},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/web"},"threshold": 75},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/bar_chair_broken"},"threshold": 76},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/graffity_eyes"},"threshold": 77},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/graffity_iseeyou"},"threshold": 78},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/tv_broken"},"threshold": 79},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/kitchen_wall_clock"},"threshold": 80},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/ptl"},"threshold": 81},	
+		{"model": {"type": "minecraft:model","model": "minecraft:props/ptl_wire"},"threshold": 82},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/ptl_wire_building"},"threshold": 83},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/wooden_box_2"},"threshold": 84},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/shot_marks"},"threshold": 85},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/socket_wire"},"threshold": 86},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/outlet_socket"},"threshold": 87},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/mr_black"},"threshold": 88},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/detective_stories"},"threshold": 89},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/error"},"threshold": 90},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/script_error"},"threshold": 91},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/manuel_gomez"},"threshold": 92},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/radio_advancement"},"threshold": 93},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/slot_machine_advancement"},"threshold": 94},
+		{"model": {"type": "minecraft:model","model": "minecraft:props/speedrun_advancement"},"threshold": 95},
+	{"model": {"type": "minecraft:model","model": "minecraft:props/items/key_kitchen"},"threshold": 500},
+	{"model": {"type": "minecraft:model","model": "minecraft:props/items/key_street"},"threshold": 501},
+	{"model": {"type": "minecraft:model","model": "minecraft:props/items/crowbar"},"threshold": 502},
+{"model": {"type": "minecraft:model","model": "minecraft:props/paper_1"},"threshold": 1000},
+{"model": {"type": "minecraft:model","model": "minecraft:props/paper_1_big"},"threshold": 1001},
+{"model": {"type": "minecraft:model","model": "minecraft:props/paper_2"},"threshold": 1002},
+{"model": {"type": "minecraft:model","model": "minecraft:props/paper_2_big"},"threshold": 1003},
+{"model": {"type": "minecraft:model","model": "minecraft:props/paper_3"},"threshold": 1004},
+{"model": {"type": "minecraft:model","model": "minecraft:props/paper_3_big"},"threshold": 1005},
+{"model": {"type": "minecraft:model","model": "minecraft:props/missing_person_paper"},"threshold": 1006},
+{"model": {"type": "minecraft:model","model": "minecraft:props/missing_person_paper_big"},"threshold": 1007},
+{"model": {"type": "minecraft:model","model": "minecraft:props/small_kitchen_paper"},"threshold": 1008},
+{"model": {"type": "minecraft:model","model": "minecraft:props/small_kitchen_paper_big"},"threshold": 1009},
+{"model": {"type": "minecraft:model","model": "minecraft:props/street_paper"},"threshold": 1010},
+{"model": {"type": "minecraft:model","model": "minecraft:props/street_paper_big"},"threshold": 1011},
+{"model": {"type": "minecraft:model","model": "minecraft:props/kotherpaper"},"threshold": 1012},
+{"model": {"type": "minecraft:model","model": "minecraft:props/kotherpaper_big"},"threshold": 1013},
+{"model": {"type": "minecraft:model","model": "minecraft:props/kdpaper"},"threshold": 1014},
+{"model": {"type": "minecraft:model","model": "minecraft:props/kdpaper_big"},"threshold": 1015},
+{"model": {"type": "minecraft:model","model": "minecraft:props/kdpaper_big_en"},"threshold": 1016},
+{"model": {"type": "minecraft:model","model": "minecraft:props/kdpaper_big_es"},"threshold": 1017},
+{"model": {"type": "minecraft:model","model": "minecraft:props/missing_person_paper_big_en"},"threshold": 1018},
+{"model": {"type": "minecraft:model","model": "minecraft:props/missing_person_paper_big_es"},"threshold": 1019},
+{"model": {"type": "minecraft:model","model": "minecraft:props/small_kitchen_paper_big_en"},"threshold": 1020},
+{"model": {"type": "minecraft:model","model": "minecraft:props/small_kitchen_paper_big_es"},"threshold": 1021},
+{"model": {"type": "minecraft:model","model": "minecraft:props/street_paper_big_en"},"threshold": 1022},
+{"model": {"type": "minecraft:model","model": "minecraft:props/street_paper_big_es"},"threshold": 1023},
+{"model": {"type": "minecraft:model","model": "minecraft:props/kotherpaper_big_en"},"threshold": 1024},
+{"model": {"type": "minecraft:model","model": "minecraft:props/kotherpaper_big_es"},"threshold": 1025},
+{"model": {"type": "minecraft:model","model": "minecraft:props/ui/dialogue_box_mc"},"threshold": 10000},
+{"model": {"type": "minecraft:model","model": "minecraft:props/ui/dialogue_box_mc_2"},"threshold": 10001},
+{"model": {"type": "minecraft:model","model": "minecraft:props/ui/dialogue_box_mc_3"},"threshold": 10002}
+	  ]
+	}
+  }

@@ -1,0 +1,22 @@
+{
+	"credit": "By VladislavvC",
+	"textures": {
+		"0": "vladislavvc/props/paper_1",
+		"particle": "vladislavvc/props/paper_1"
+	},
+	"elements": [
+		{
+			"from": [6, 8, 6],
+			"to": [10, 14, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 8, 7]},
+			"faces": {
+				"north": {"uv": [4.5, 0, 8.5, 6], "texture": "#0"},
+				"east": {"uv": [4.5, 6, 8.5, 0], "texture": "#0"},
+				"south": {"uv": [8.5, 0, 4.5, 6], "texture": "#0"},
+				"west": {"uv": [8.5, 6, 4.5, 0], "texture": "#0"},
+				"up": {"uv": [6, 3, 10, 7], "texture": "#0"},
+				"down": {"uv": [4.5, 0, 8.5, 4], "texture": "#0"}
+			}
+		}
+	]
+}

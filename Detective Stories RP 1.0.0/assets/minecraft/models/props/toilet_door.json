@@ -1,0 +1,73 @@
+{
+	"credit": "By VladislavvC",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "vladislavvc/props_aj/toilet_door"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 14],
+			"to": [16, 32, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [15, 0, 15]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 8], "texture": "#0"},
+				"east": {"uv": [0, 8, 0.5, 16], "texture": "#0"},
+				"south": {"uv": [4, 0, 8, 8], "texture": "#0"},
+				"west": {"uv": [8, 0, 8.5, 8], "texture": "#0"},
+				"up": {"uv": [4.5, 8.5, 0.5, 8], "texture": "#0"}
+			}
+		},
+		{
+			"from": [16, 18, 13.995],
+			"to": [18, 21, 13.995],
+			"rotation": {"angle": 0, "axis": "y", "origin": [17, 0, 15]},
+			"faces": {
+				"north": {"uv": [3.5, 2.75, 4, 3.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-2, 18, 13.995],
+			"to": [0, 21, 13.995],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-1, 0, 15]},
+			"faces": {
+				"north": {"uv": [0, 2.75, 0.5, 3.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [1, 16, 13],
+			"to": [5, 17, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 15, 13]},
+			"faces": {
+				"north": {"uv": [4.5, 8, 5.5, 8.25], "texture": "#0"},
+				"east": {"uv": [6.5, 8.25, 6.75, 8.5], "texture": "#0"},
+				"west": {"uv": [6.75, 8.25, 7, 8.5], "texture": "#0"},
+				"up": {"uv": [6.5, 8.25, 5.5, 8], "texture": "#0"},
+				"down": {"uv": [7.5, 8, 6.5, 8.25], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "door2",
+			"origin": [15, 0, 1],
+			"color": 0,
+			"configs": {
+				"variants": {}
+			},
+			"children": [
+				0,
+				1,
+				2,
+				{
+					"name": "handle4",
+					"origin": [1.5, 16.5, -1],
+					"color": 0,
+					"configs": {
+						"variants": {}
+					},
+					"children": [3]
+				}
+			]
+		}
+	]
+}

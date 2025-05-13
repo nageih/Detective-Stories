@@ -1,0 +1,51 @@
+{
+    "display": {
+        "title": {
+            "translate": "map.advancement.mirohodec.title",
+            "color": "#2984b9"
+        },
+        "description": {
+            "translate": "map.advancement.mirohodec.description"
+        },
+"icon": {
+      "id": "minecraft:yellow_dye",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            73
+          ]
+        }
+      },
+      "count": 1
+    },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "requirement": {
+          "trigger": "minecraft:player_interacted_with_entity",
+          "conditions": {
+            "player": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {}
+              }
+            ],
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:interaction",
+                  "nbt": "{Tags:[\"interactable.lololowka\"]}"
+                }
+              }
+            ]
+          }
+        }
+      },
+    "parent": "map:advancements/adv2"
+}

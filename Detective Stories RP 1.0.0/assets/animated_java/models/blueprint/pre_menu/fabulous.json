@@ -1,0 +1,32 @@
+{
+	"textures": {
+		"6": "minecraft:vladislavvc/props_aj/fabulous",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [-4, 2, 8],
+			"to": [20, 14, 8],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [11.33333, 4, 8.66667]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#6"
+				},
+				"south": {
+					"uv": [16, 15.90625, 0, 16],
+					"texture": "#6"
+				}
+			}
+		}
+	]
+}

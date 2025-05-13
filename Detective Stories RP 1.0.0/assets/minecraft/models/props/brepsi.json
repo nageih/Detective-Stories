@@ -1,0 +1,39 @@
+{
+	"credit": "By VladislavvC",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "vladislavvc/props/brepsi",
+		"particle": "vladislavvc/props/brepsi"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 6],
+			"to": [10, 7, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.375, 7.49875]},
+			"faces": {
+				"north": {"uv": [4, 8, 6, 11.5], "texture": "#0"},
+				"east": {"uv": [6, 8, 8, 11.5], "texture": "#0"},
+				"south": {"uv": [8, 8, 10, 11.5], "texture": "#0"},
+				"west": {"uv": [10, 8, 12, 11.5], "texture": "#0"},
+				"up": {"uv": [6, 13.5, 4, 11.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5.995, 1.25, 5.995],
+			"to": [10.005, 5.25, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.375, 7.49875]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 8], "texture": "#0"},
+				"east": {"uv": [0, 8, 4, 16], "texture": "#0"},
+				"west": {"uv": [8, 0, 12, 8], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [27, -134, 0],
+			"translation": [0, 7.25, 0],
+			"scale": [1.8, 1.8, 1.8]
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"credit": "By VladislavvC",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "vladislavvc/props/paper_3",
+		"particle": "vladislavvc/props/paper_3"
+	},
+	"elements": [
+		{
+			"from": [3, 1, 7.99],
+			"to": [13, 15, 7.99],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 7, 7]},
+			"faces": {
+				"north": {"uv": [0, 7, 5, 0], "texture": "#0"},
+				"south": {"uv": [5, 0, 10, 7], "texture": "#0"}
+			}
+		}
+	]
+}

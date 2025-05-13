@@ -1,0 +1,18 @@
+{
+	"credit": "By VladislavvC",
+	"textures": {
+		"0": "vladislavvc/ui/dialogue_box_mc_2",
+		"particle": "vladislavvc/ui/dialogue_box_mc_2"
+	},
+	"elements": [
+		{
+			"from": [-16, 7.0625, 8],
+			"to": [32, 13.0625, 8],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 7, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	]
+}

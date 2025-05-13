@@ -1,0 +1,50 @@
+{
+    "display": {
+        "title": {
+            "translate": "map.advancement.way_to_go.title"
+        },
+        "description": {
+            "translate": "map.advancement.way_to_go.description"
+        },
+"icon": {
+      "id": "minecraft:light",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            0
+          ]
+        }
+      },
+      "count": 1
+    },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "requirement": {
+          "trigger": "minecraft:player_interacted_with_entity",
+          "conditions": {
+            "player": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {}
+              }
+            ],
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:interaction",
+                  "nbt": "{Tags:[\"hello_everyone_my_name_is_markiplier\"]}"
+                }
+              }
+            ]
+          }
+        }
+      },
+    "parent": "map:advancements/root"
+}

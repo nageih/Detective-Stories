@@ -1,0 +1,18 @@
+{
+	"credit": "By VladislavvC",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "vladislavvc/props/missing_person_paper",
+		"particle": "vladislavvc/props/missing_person_paper"
+	},
+	"elements": [
+		{
+			"from": [1, 0.005, 7],
+			"to": [15, 0.005, 9],
+			"rotation": {"angle": 0, "axis": "x", "origin": [7, 1, 7]},
+			"faces": {
+				"up": {"uv": [0, 1.5, 7, 0.5], "rotation": 180, "texture": "#0"}
+			}
+		}
+	]
+}

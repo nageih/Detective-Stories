@@ -1,0 +1,1 @@
+tag @e[tag=1,type=interaction,tag=interactable.interact.paper,limit=1] remove cooldown

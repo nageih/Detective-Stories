@@ -1,0 +1,1 @@
+$function map:triggers/single/$(name)/status

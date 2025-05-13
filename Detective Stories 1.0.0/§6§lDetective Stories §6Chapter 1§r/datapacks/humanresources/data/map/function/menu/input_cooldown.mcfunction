@@ -1,0 +1,1 @@
+scoreboard players set #input_cooldown menu 0

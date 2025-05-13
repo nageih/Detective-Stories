@@ -1,0 +1,21 @@
+{
+	"credit": "By VladislavvC",
+	"textures": {
+		"0": "vladislavvc/props/sign",
+		"particle": "vladislavvc/props/sign"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 7],
+			"to": [12, 5, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 5], "texture": "#0"},
+				"east": {"uv": [0, 7, 1, 12], "texture": "#0"},
+				"west": {"uv": [1, 7, 2, 12], "texture": "#0"},
+				"up": {"uv": [8, 6, 0, 5], "texture": "#0"},
+				"down": {"uv": [8, 6, 0, 7], "texture": "#0"}
+			}
+		}
+	]
+}

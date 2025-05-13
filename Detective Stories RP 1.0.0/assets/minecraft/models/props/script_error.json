@@ -1,0 +1,26 @@
+{
+	"credit": "By VladislavvC",
+	"textures": {
+		"0": "vladislavvc/props/script_error",
+		"particle": "vladislavvc/props/script_error"
+	},
+	"elements": [
+		{
+			"from": [-16, 0, 5],
+			"to": [32, 0, 9],
+			"shade": false,
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 7]},
+			"faces": {
+				"up": {"uv": [14, 4, 0, 0], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [90, -180, 0],
+			"translation": [47, 11.5, 0],
+			"scale": [4, 4, 4]
+		}
+	}
+}

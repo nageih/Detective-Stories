@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north,open=true,half=bottom": {
+      "model": "minecraft:block/iron_trapdoor"
+    },
+    "facing=east,open=true,half=bottom": {
+      "model": "minecraft:block/iron_trapdoor"
+    },
+    "facing=west,open=true,half=bottom": {
+      "model": "minecraft:block/iron_trapdoor"
+    },
+    "facing=south,open=true,half=bottom": {
+      "model": "minecraft:block/iron_trapdoor"
+    },
+    "facing=north,open=false,half=top": {
+      "model": "minecraft:block/iron_trapdoor"
+    },
+    "facing=north,open=false,half=bottom": {
+      "model": "minecraft:block/iron_trapdoor"
+    }
+  }
+}

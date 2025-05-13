@@ -1,0 +1,23 @@
+{
+	"credit": "By VladislavvC",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "vladislavvc/props/steve_walking",
+		"particle": "vladislavvc/props/steve_walking"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 8],
+			"to": [16, 16, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [180, 0, -180]
+		}
+	}
+}

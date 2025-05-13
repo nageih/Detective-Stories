@@ -1,0 +1,86 @@
+
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/1.png",
+            "ascent": 0,
+            "height": 0,
+            "chars": [
+                "0"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/2.png",
+            "ascent": 0,
+            "height": 0,
+            "chars": [
+                "1"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/3.png",
+            "ascent": 0,
+            "height": 0,
+            "chars": [
+                "2"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/4.png",
+            "ascent": 0,
+            "height": 0,
+            "chars": [
+                "3"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/5.png",
+            "ascent": 0,
+            "height": 0,
+            "chars": [
+                "4"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/6.png",
+            "ascent": 0,
+            "height": 0,
+            "chars": [
+                "5"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/7.png",
+            "ascent": 0,
+            "height": 0,
+            "chars": [
+                "6"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/blink.png",
+            "ascent": 0,
+            "height": 0,
+            "chars": [
+                "7"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/vignette.png",
+            "ascent": 0,
+            "height": 0,
+            "chars": [
+                "8"
+            ]
+        }
+    ]
+}

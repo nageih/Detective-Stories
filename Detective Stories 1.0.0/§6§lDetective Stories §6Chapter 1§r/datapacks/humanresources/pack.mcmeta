@@ -1,0 +1,14 @@
+{
+   "pack": {
+      "pack_format": 61,
+      "description": "By VladislavvC"
+   },
+       "filter": {
+        "block": [
+            {
+                "namespace": "minecraft",
+                "path": "advancements/.*"
+            }
+        ]
+    }
+}

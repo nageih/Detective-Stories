@@ -1,0 +1,876 @@
+{
+	"meta": {
+		"format": "animated_java_blueprint",
+		"format_version": "1.6.4",
+		"uuid": "2d30f53c-5dc2-d708-b7fb-2681b1d90816",
+		"save_location": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\resourcepacks\\Владислав\\assets\\minecraft\\models\\props_aj\\radio\\radio.ajblueprint",
+		"last_used_export_namespace": "radio"
+	},
+	"blueprint_settings": {
+		"export_namespace": "radio",
+		"show_bounding_box": false,
+		"auto_bounding_box": true,
+		"bounding_box": [48, 48],
+		"enable_plugin_mode": false,
+		"resource_pack_export_mode": "raw",
+		"data_pack_export_mode": "raw",
+		"target_minecraft_version": "1.21.4",
+		"display_item": "minecraft:white_dye",
+		"custom_model_data_offset": 0,
+		"enable_advanced_resource_pack_settings": false,
+		"resource_pack": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\resourcepacks\\Владислав",
+		"enable_advanced_data_pack_settings": false,
+		"data_pack": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\saves\\Brodilka\\datapacks\\detective_aj",
+		"summon_commands": "",
+		"ticking_commands": "",
+		"interpolation_duration": 1,
+		"teleportation_duration": 1,
+		"use_storage_for_animation": false,
+		"show_function_errors": true,
+		"show_outdated_warning": false,
+		"baked_animations": true,
+		"json_file": "",
+		"enable_advanced_resource_pack_folders": false,
+		"display_item_path": "",
+		"model_folder": "",
+		"texture_folder": ""
+	},
+	"resolution": {
+		"width": 32,
+		"height": 32
+	},
+	"elements": [
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-6, 0, -3],
+			"to": [6, 8, 3],
+			"autouv": 0,
+			"color": 6,
+			"origin": [0, 0, 0],
+			"faces": {
+				"north": {
+					"uv": [0, 0, 12, 8],
+					"texture": 0
+				},
+				"east": {
+					"uv": [12, 12, 18, 20],
+					"texture": 0
+				},
+				"south": {
+					"uv": [0, 8, 12, 16],
+					"texture": 0
+				},
+				"west": {
+					"uv": [0, 16, 6, 24],
+					"texture": 0
+				},
+				"up": {
+					"uv": [24, 6, 12, 0],
+					"texture": 0
+				},
+				"down": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				}
+			},
+			"type": "cube",
+			"uuid": "bdc450fe-3753-1314-6ab6-eafc07bfa26f"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [5.025, 7.025, -1.965],
+			"to": [-5.025, 0.975, -3.015],
+			"autouv": 0,
+			"color": 2,
+			"origin": [0, 4, -2.5],
+			"faces": {
+				"north": {
+					"uv": [12, 6, 22, 12],
+					"texture": 0
+				},
+				"east": {
+					"uv": [8, 16, 9, 22],
+					"texture": 0
+				},
+				"south": {
+					"uv": [0, 0, 10, 6],
+					"texture": null
+				},
+				"west": {
+					"uv": [9, 16, 10, 22],
+					"texture": 0
+				},
+				"up": {
+					"uv": [28, 13, 18, 12],
+					"texture": 0
+				},
+				"down": {
+					"uv": [28, 13, 18, 14],
+					"texture": 0
+				}
+			},
+			"type": "cube",
+			"uuid": "0930b0cc-bec8-ed00-7320-81df8913bd82"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-4, 8, 3],
+			"to": [-2, 16, 3],
+			"autouv": 0,
+			"color": 4,
+			"origin": [-3, 8, 4],
+			"faces": {
+				"north": {
+					"uv": [6, 16, 8, 24],
+					"texture": 0
+				},
+				"east": {
+					"uv": [0, 0, 0, 8],
+					"texture": null
+				},
+				"south": {
+					"uv": [8, 16, 6, 24],
+					"texture": 0
+				},
+				"west": {
+					"uv": [0, 0, 0, 8],
+					"texture": null
+				},
+				"up": {
+					"uv": [0, 0, 2, 0],
+					"texture": null
+				},
+				"down": {
+					"uv": [0, 0, 2, 0],
+					"texture": null
+				}
+			},
+			"type": "cube",
+			"uuid": "ba922a4d-81f6-8983-7c7c-d930821c4b6a"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-4.5, 1.5, -3],
+			"to": [-3.5, 2.5, -2],
+			"autouv": 0,
+			"color": 7,
+			"origin": [-4.5, 1.5, -2],
+			"faces": {
+				"north": {
+					"uv": [11, 16, 12, 17],
+					"texture": 0
+				},
+				"east": {
+					"uv": [11, 16, 12, 17],
+					"texture": 0
+				},
+				"south": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"west": {
+					"uv": [11, 16, 12, 17],
+					"texture": 0
+				},
+				"up": {
+					"uv": [11, 16, 12, 17],
+					"texture": 0
+				},
+				"down": {
+					"uv": [11, 16, 12, 17],
+					"texture": 0
+				}
+			},
+			"type": "cube",
+			"uuid": "0a2d0e26-fd15-ea8e-9cef-4a104589d573"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [3.5, 1.5, -3],
+			"to": [4.5, 2.5, -2],
+			"autouv": 0,
+			"color": 7,
+			"origin": [3.5, 1.5, -2],
+			"faces": {
+				"north": {
+					"uv": [10, 16, 11, 17],
+					"texture": 0
+				},
+				"east": {
+					"uv": [10, 16, 11, 17],
+					"texture": 0
+				},
+				"south": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"west": {
+					"uv": [10, 16, 11, 17],
+					"texture": 0
+				},
+				"up": {
+					"uv": [10, 16, 11, 17],
+					"texture": 0
+				},
+				"down": {
+					"uv": [10, 16, 11, 17],
+					"texture": 0
+				}
+			},
+			"type": "cube",
+			"uuid": "c7812d04-f532-487a-9324-44dbf1ee27a4"
+		},
+		{
+			"name": "vlmusic1",
+			"position": [0, 0, -3.01],
+			"rotation": [0, 0, 0],
+			"scale": [0.25, 0.25, 0.25],
+			"visibility": true,
+			"block": "minecraft:stone",
+			"config": {},
+			"item": "minecraft:diamond",
+			"item_display": "none",
+			"text": "{\"text\":\"VLMusic\",\"color\":\"#634724\"}",
+			"lineWidth": 200,
+			"backgroundColor": "#000000",
+			"backgroundAlpha": 0,
+			"align": "center",
+			"shadow": true,
+			"seeThrough": false,
+			"uuid": "c06e5069-4c94-e56d-4022-06b510c41b72",
+			"type": "animated_java:text_display"
+		},
+		{
+			"name": "stop1",
+			"position": [4.1, 1.45, -3.01],
+			"rotation": [0, 0, 0],
+			"scale": [0.25, 0.25, 0.25],
+			"visibility": true,
+			"block": "minecraft:stone",
+			"config": {},
+			"item": "minecraft:diamond",
+			"item_display": "none",
+			"text": "{\"text\":\"⏹\",\"color\":\"#d793ad\"}",
+			"lineWidth": 200,
+			"backgroundColor": "#000000",
+			"backgroundAlpha": 0,
+			"align": "center",
+			"shadow": true,
+			"seeThrough": false,
+			"uuid": "3032a6ff-09a5-660f-4add-268b22baaf03",
+			"type": "animated_java:text_display"
+		},
+		{
+			"name": "start1",
+			"position": [-3.9, 1.45, -3.01],
+			"rotation": [0, 0, 0],
+			"scale": [0.25, 0.25, 0.25],
+			"visibility": true,
+			"block": "minecraft:stone",
+			"config": {},
+			"item": "minecraft:diamond",
+			"item_display": "none",
+			"text": "{\"text\":\"⏵\",\"color\":\"#a1d9a1\"}",
+			"lineWidth": 200,
+			"backgroundColor": "#000000",
+			"backgroundAlpha": 0,
+			"align": "center",
+			"shadow": true,
+			"seeThrough": false,
+			"uuid": "ec766120-35c7-f276-c927-47038cefdd07",
+			"type": "animated_java:text_display"
+		},
+		{
+			"name": "decorative1",
+			"position": [0, 1.85, -2.01],
+			"rotation": [0, 0, 0],
+			"scale": [0.0625, 0.0625, 0.0625],
+			"visibility": true,
+			"block": "minecraft:stone",
+			"config": {},
+			"item": "minecraft:diamond",
+			"item_display": "none",
+			"text": "{\"text\":\"88  90  92  94  96  98  100\",\"color\":\"#3c1f11\"}",
+			"lineWidth": 200,
+			"backgroundColor": "#000000",
+			"backgroundAlpha": 0,
+			"align": "left",
+			"shadow": true,
+			"seeThrough": false,
+			"uuid": "f30e27f2-d44f-b6d0-ca72-3ccef3e0b9c5",
+			"type": "animated_java:text_display"
+		},
+		{
+			"name": "decorative2",
+			"position": [-0.35, 0.75, -2.02],
+			"rotation": [0, 0, 0],
+			"scale": [0.5, 0.5, 0.5],
+			"visibility": true,
+			"block": "minecraft:stone",
+			"config": {},
+			"item": "minecraft:diamond",
+			"item_display": "none",
+			"text": "{\"text\":\"|\",\"color\":\"#d793ad\"}",
+			"lineWidth": 200,
+			"backgroundColor": "#000000",
+			"backgroundAlpha": 0,
+			"align": "left",
+			"shadow": false,
+			"seeThrough": false,
+			"uuid": "fa3168af-7694-fcc1-8c2e-827a7b3b6bb5",
+			"type": "animated_java:text_display"
+		},
+		{
+			"name": "wires",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [4, -2, 3],
+			"to": [4, 3, 8],
+			"autouv": 0,
+			"color": 9,
+			"origin": [3, 1, 5],
+			"faces": {
+				"north": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"east": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"south": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"west": {
+					"uv": [0, 27, 5, 32],
+					"rotation": 90,
+					"texture": 0
+				},
+				"up": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"down": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				}
+			},
+			"type": "cube",
+			"uuid": "191ae603-dcfe-dd6e-3738-86dfc5236b8e"
+		}
+	],
+	"outliner": [
+		{
+			"name": "radio2",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"configs": {
+				"variants": {}
+			},
+			"uuid": "7efe1005-d1b3-550c-f920-193d534443ea",
+			"export": true,
+			"mirror_uv": false,
+			"isOpen": true,
+			"locked": false,
+			"visibility": true,
+			"autouv": 0,
+			"selected": false,
+			"children": [
+				"ba922a4d-81f6-8983-7c7c-d930821c4b6a",
+				"bdc450fe-3753-1314-6ab6-eafc07bfa26f",
+				"0930b0cc-bec8-ed00-7320-81df8913bd82",
+				"191ae603-dcfe-dd6e-3738-86dfc5236b8e",
+				"f30e27f2-d44f-b6d0-ca72-3ccef3e0b9c5",
+				"fa3168af-7694-fcc1-8c2e-827a7b3b6bb5",
+				"c06e5069-4c94-e56d-4022-06b510c41b72",
+				{
+					"name": "left_button2",
+					"origin": [4, 2, -2.5],
+					"color": 0,
+					"configs": {
+						"variants": {}
+					},
+					"uuid": "0729e438-8d2e-3e1c-e1dc-aa43d066409b",
+					"export": true,
+					"mirror_uv": false,
+					"isOpen": true,
+					"locked": false,
+					"visibility": true,
+					"autouv": 0,
+					"selected": false,
+					"children": ["c7812d04-f532-487a-9324-44dbf1ee27a4", "3032a6ff-09a5-660f-4add-268b22baaf03"]
+				},
+				{
+					"name": "right_button2",
+					"origin": [-4, 2, -2.5],
+					"color": 0,
+					"configs": {
+						"variants": {}
+					},
+					"uuid": "9dfae5d4-4296-b694-bbac-558edc0ead82",
+					"export": true,
+					"mirror_uv": false,
+					"isOpen": true,
+					"locked": false,
+					"visibility": true,
+					"autouv": 0,
+					"selected": false,
+					"children": ["0a2d0e26-fd15-ea8e-9cef-4a104589d573", "ec766120-35c7-f276-c927-47038cefdd07"]
+				}
+			]
+		}
+	],
+	"textures": [
+		{
+			"path": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\resourcepacks\\Владислав\\assets\\minecraft\\textures\\vladislavvc\\props_aj\\radio.png",
+			"name": "radio.png",
+			"folder": "block",
+			"namespace": "",
+			"id": "0",
+			"group": "",
+			"width": 32,
+			"height": 32,
+			"uv_width": 32,
+			"uv_height": 32,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"pbr_channel": "color",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": false,
+			"saved": true,
+			"uuid": "1b5817ae-e0f7-6a5f-0b70-19b7026c9af7",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAl9JREFUWEftVT0sQ1EUvk38Je2rNBVRSUkQjMIiYTboaDCwGBGjwSYSsUoIkTB0ZLA1DQtDBxISFkEs0oSg0vDahBoq3+W83t73el9fFUvv9N45793zne985xzXYKsvy6STSn9wi8ddLbsY+az8oo/8sduky3SJYHD1NHiyZ4mU8iP6HmCbAx6mv2Ys79S8NSZf9OKh/AAoOoAgqOrsHMXLC0Bz5wJScJkR0W7LAGi1q5NYgq5uf17C+ss70+prue0urhuMkG1r70bNgFMAhQRbSLR2ybmcAIBgOzt8htBUJbCrPSXCAShVxFhe6/X1NTHQjiNTT+/w2VGfB0DV2/hQ9AcHhvm/+qtu4Na8mvFM9sODaFGtzRmAspuDwiVShnT71eUzS9S1GMHcWu4fGNN6DtTl1bkzAFZDRO7xu/sUq2rr/6L/O2vKWGbBEQOYbqpDfX7/mGZv/nYTA2LmcIKZ05NY8QxYjVdiBEFxoH4wAD3gmQ6Eh9Ko9oeYnNyWXAMqBq5vkgYAPGNB0TSkEgFYofkgLzQTAOrtL2XnLxlZAyIA0Qd7sQtNBsq3odUUs1qt1JJiCWD7EQCUAPOd5jhY0NMZBqrWV8PZjflpTvvEUw+bWTlmvQu1jDRDLJQVADJCTQEgEtnPLk2NctaodmAs0Oj+bsUaPg0hQruZX6jLjEEk1vTPAchdAACTi5tsbHyEA4QeSGQ0OQlwWRiABmjBkAbm1rZZKDRkAqCcWCU4eQArEf4rAEy/xfAuZ6CEpBz9YmKA+np2Ocw14Oi2Ej7+9QB2mCoAKgxUGPh3Bj4BCDyGMP+I+lQAAAAASUVORK5CYII=",
+			"mode": "bitmap"
+		}
+	],
+	"variants": {
+		"default": {
+			"name": "default",
+			"display_name": "Default",
+			"uuid": "34f2feac-7381-9acb-1171-62d3624c5a4b",
+			"texture_map": {},
+			"excluded_nodes": [],
+			"is_default": true
+		},
+		"list": []
+	},
+	"animations": [
+		{
+			"uuid": "104f8cf1-1310-b5c4-40b4-e54317237b75",
+			"name": "playing",
+			"loop": "loop",
+			"override": false,
+			"length": 1,
+			"snapping": 20,
+			"selected": false,
+			"saved": false,
+			"path": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\resourcepacks\\Владислав\\assets\\minecraft\\models\\props_aj\\radio\\radio.json",
+			"anim_time_update": "",
+			"blend_weight": "",
+			"start_delay": "",
+			"loop_delay": "0",
+			"excluded_nodes": [],
+			"animators": {
+				"7efe1005-d1b3-550c-f920-193d534443ea": {
+					"name": "radio2",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "scale",
+							"data_points": [
+								{
+									"x": "1.01",
+									"y": "1.01",
+									"z": "1.01"
+								}
+							],
+							"uuid": "ac138838-5f62-a4b6-d19a-0f39432ccfbc",
+							"time": 0.5,
+							"color": -1,
+							"uniform": false,
+							"interpolation": "linear",
+							"easing": "easeInSine",
+							"easingArgs": []
+						},
+						{
+							"channel": "scale",
+							"data_points": [
+								{
+									"x": "1",
+									"y": "1",
+									"z": "1"
+								}
+							],
+							"uuid": "6a24a636-a8dd-f5f9-30e1-3888d7f4381c",
+							"time": 0,
+							"color": -1,
+							"uniform": true,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "scale",
+							"data_points": [
+								{
+									"x": "1",
+									"y": "1",
+									"z": "1"
+								}
+							],
+							"uuid": "79192709-7ec6-88cc-2fb4-fa3c3c062b12",
+							"time": 1,
+							"color": -1,
+							"uniform": false,
+							"interpolation": "linear",
+							"easing": "easeOutSine",
+							"easingArgs": []
+						}
+					]
+				},
+				"effects": {
+					"name": "Effects",
+					"type": "effect",
+					"keyframes": [
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "particle note ~ ~0.6 ~ 0 0 0 0.5 1 force",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "1d0f3b00-6dad-6ca7-4d29-51d4e45cdeb1",
+							"time": 0.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						}
+					]
+				}
+			}
+		},
+		{
+			"uuid": "6d64773a-caa5-5658-b198-a335ae620420",
+			"name": "stop",
+			"loop": "hold",
+			"override": false,
+			"length": 1,
+			"snapping": 20,
+			"selected": false,
+			"saved": false,
+			"path": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\resourcepacks\\Владислав\\assets\\minecraft\\models\\props_aj\\radio\\radio.json",
+			"anim_time_update": "",
+			"blend_weight": "",
+			"start_delay": "",
+			"loop_delay": "0",
+			"excluded_nodes": [],
+			"animators": {
+				"0729e438-8d2e-3e1c-e1dc-aa43d066409b": {
+					"name": "left_button2",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "2e2d72d6-b412-8b72-9f81-4c44489307b4",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0.5"
+								}
+							],
+							"uuid": "958a4e5d-9fe7-30df-24a7-60265bc87961",
+							"time": 0.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutSine",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "5c45e049-abb5-78c8-2d47-bdf46ac27a4f",
+							"time": 1,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutQuart",
+							"easingArgs": [1]
+						}
+					]
+				},
+				"7efe1005-d1b3-550c-f920-193d534443ea": {
+					"name": "radio2",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "scale",
+							"data_points": [
+								{
+									"x": "1",
+									"y": "1",
+									"z": "1"
+								}
+							],
+							"uuid": "d3b76d91-eb23-65da-d4a0-9e3bf04a3862",
+							"time": 0,
+							"color": -1,
+							"uniform": true,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						}
+					]
+				},
+				"fa3168af-7694-fcc1-8c2e-827a7b3b6bb5": {
+					"name": "decorative2",
+					"type": "animated_java:text_display",
+					"keyframes": [
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "a8d817d9-08dc-976c-9fb6-b511c6d377c1",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						}
+					]
+				}
+			}
+		},
+		{
+			"uuid": "2ec60313-af14-2c6c-f9ca-be6d30cd03e9",
+			"name": "play",
+			"loop": "once",
+			"override": false,
+			"length": 1.25,
+			"snapping": 20,
+			"selected": true,
+			"saved": false,
+			"path": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\resourcepacks\\Владислав\\assets\\minecraft\\models\\props_aj\\radio\\radio.json",
+			"anim_time_update": "",
+			"blend_weight": "",
+			"start_delay": "",
+			"loop_delay": "0",
+			"excluded_nodes": [],
+			"animators": {
+				"9dfae5d4-4296-b694-bbac-558edc0ead82": {
+					"name": "right_button2",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "668117e7-df60-de7d-cdc6-627f4c843627",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0.5"
+								}
+							],
+							"uuid": "579b3ebd-59a2-51ce-fc04-cdbb88b02935",
+							"time": 0.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutSine",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "f08f9539-aed9-8658-f9ea-87a4f53610fb",
+							"time": 1,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutQuart",
+							"easingArgs": [1]
+						}
+					]
+				},
+				"fa3168af-7694-fcc1-8c2e-827a7b3b6bb5": {
+					"name": "decorative2",
+					"type": "animated_java:text_display",
+					"keyframes": [
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "046c7879-c21e-d68b-a2d8-156633fa999c",
+							"time": 0.25,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutQuint",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "b5ab738f-4c3c-d8aa-0d71-ec6e8d3c36d5",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "1",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "ecb87351-5e6f-09f1-a5d1-054179ed368d",
+							"time": 0.55,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutQuint",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "-2",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "e881bfe3-2b72-7485-d022-c4247c9a360f",
+							"time": 0.9,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutCubic",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "91b45aa1-2f50-e837-ce18-98a0ba8cda9a",
+							"time": 1.25,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeOutCirc",
+							"easingArgs": []
+						}
+					]
+				}
+			}
+		}
+	],
+	"animation_controllers": []
+}

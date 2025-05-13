@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench by VladislavvC",
+	"textures": {
+		"0": "vladislavvc/props/trans",
+		"particle": "vladislavvc/props/trans"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 0, 16],
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"overrides": [
+		{"predicate": {"custom_model_data": 1}, "model": "props/window_iron_bars"},
+		{"predicate": {"custom_model_data": 2}, "model": "props/opora_log_1"},
+		{"predicate": {"custom_model_data": 3}, "model": "props/bucket"},
+		{"predicate": {"custom_model_data": 4}, "model": "props/dog_house"},
+		{"predicate": {"custom_model_data": 5}, "model": "props/sink"},
+		{"predicate": {"custom_model_data": 6}, "model": "props/green_barrel"},
+		{"predicate": {"custom_model_data": 7}, "model": "props/old_bed"},
+		{"predicate": {"custom_model_data": 1000}, "model": "ui/menu/main_menu_1_new_game"},
+		{"predicate": {"custom_model_data": 1001}, "model": "ui/menu/main_menu_2_settings"},
+		{"predicate": {"custom_model_data": 1002}, "model": "ui/menu/main_menu_3_inventory"},
+		{"predicate": {"custom_model_data": 1003}, "model": "ui/menu/main_menu_4_author"},
+		{"predicate": {"custom_model_data": 1004}, "model": "ui/menu/main_menu_5_exit"}
+	]
+}

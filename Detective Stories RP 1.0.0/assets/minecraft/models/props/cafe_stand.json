@@ -1,0 +1,22 @@
+{
+	"credit": "By VladislavvC",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "vladislavvc/props/cafe_stand",
+		"particle": "vladislavvc/props/cafe_stand"
+	},
+	"elements": [
+		{
+			"from": [-16, 0, 8],
+			"to": [32, 16, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 12, 4], "texture": "#0"},
+				"east": {"uv": [0, 8.25, 0.25, 12.25], "texture": "#0"},
+				"south": {"uv": [0, 4, 12, 8], "texture": "#0"},
+				"west": {"uv": [0.25, 8.25, 0.5, 12.25], "texture": "#0"},
+				"down": {"uv": [12, 8, 0, 8.25], "texture": "#0"}
+			}
+		}
+	]
+}

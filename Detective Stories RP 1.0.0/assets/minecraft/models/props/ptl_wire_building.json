@@ -1,0 +1,37 @@
+{
+	"credit": "By VladislavvC",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "vladislavvc/props/ptl_wire_building",
+		"particle": "vladislavvc/props/ptl_wire_building"
+	},
+	"elements": [
+		{
+			"from": [8, -3, 8],
+			"to": [32, 3, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11, 1.5, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 12, 3], "texture": "#0"},
+				"south": {"uv": [12, 0, 0, 3], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-4, 0, 8],
+			"to": [8, 3, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11, 1.5, 8]},
+			"faces": {
+				"north": {"uv": [3.75, 0.25, 9.75, 1.75], "texture": "#0"},
+				"south": {"uv": [9.75, 0.25, 3.75, 1.75], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-16, 0, 8],
+			"to": [-4, 3, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-1, 1.5, 8]},
+			"faces": {
+				"north": {"uv": [9.75, 0.25, 3.75, 1.75], "texture": "#0"},
+				"south": {"uv": [3.75, 0.25, 9.75, 1.75], "texture": "#0"}
+			}
+		}
+	]
+}

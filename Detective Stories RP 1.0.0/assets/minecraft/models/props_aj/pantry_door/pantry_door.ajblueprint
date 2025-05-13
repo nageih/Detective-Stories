@@ -1,0 +1,727 @@
+{
+	"meta": {
+		"format": "animated_java_blueprint",
+		"format_version": "1.6.4",
+		"uuid": "8a1efe32-5fe5-74e7-9bc2-8a59882ec8e2",
+		"save_location": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\resourcepacks\\Владислав\\assets\\minecraft\\models\\props_aj\\pantry_door\\pantry_door.ajblueprint",
+		"last_used_export_namespace": "pantry_door"
+	},
+	"blueprint_settings": {
+		"export_namespace": "pantry_door",
+		"show_bounding_box": false,
+		"auto_bounding_box": true,
+		"bounding_box": [48, 48],
+		"enable_plugin_mode": false,
+		"resource_pack_export_mode": "raw",
+		"data_pack_export_mode": "raw",
+		"target_minecraft_version": "1.21.4",
+		"display_item": "minecraft:white_dye",
+		"custom_model_data_offset": 0,
+		"enable_advanced_resource_pack_settings": false,
+		"resource_pack": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\resourcepacks\\Владислав",
+		"enable_advanced_data_pack_settings": false,
+		"data_pack": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\saves\\Brodilka\\datapacks\\detective_aj",
+		"summon_commands": "",
+		"ticking_commands": "",
+		"interpolation_duration": 1,
+		"teleportation_duration": 1,
+		"use_storage_for_animation": false,
+		"show_function_errors": true,
+		"show_outdated_warning": false,
+		"baked_animations": true,
+		"json_file": ""
+	},
+	"resolution": {
+		"width": 64,
+		"height": 64
+	},
+	"elements": [
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [7, 0, -1],
+			"to": [8, 32, 1],
+			"autouv": 0,
+			"color": 0,
+			"origin": [7, 0, 0],
+			"faces": {
+				"north": {
+					"uv": [2, 32, 3, 64],
+					"texture": 0
+				},
+				"east": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"south": {
+					"uv": [3, 32, 4, 64],
+					"texture": 0
+				},
+				"west": {
+					"uv": [32, 0, 34, 32],
+					"texture": 0
+				},
+				"up": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				},
+				"down": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				}
+			},
+			"type": "cube",
+			"uuid": "63e749c4-8d3e-e34b-eb24-ccfe00d02fcd"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-8, 0, -1],
+			"to": [7, 32, 1],
+			"autouv": 0,
+			"color": 8,
+			"origin": [0, 0, 0],
+			"faces": {
+				"north": {
+					"uv": [0, 0, 15, 32],
+					"texture": 0
+				},
+				"east": {
+					"uv": [30, 0, 32, 32],
+					"texture": 0
+				},
+				"south": {
+					"uv": [15, 0, 30, 32],
+					"texture": 0
+				},
+				"west": {
+					"uv": [0, 32, 2, 64],
+					"texture": 0
+				},
+				"up": {
+					"uv": [19, 34, 4, 32],
+					"texture": 0
+				},
+				"down": {
+					"uv": [0, 0, 0, 0],
+					"texture": null
+				}
+			},
+			"type": "cube",
+			"uuid": "8205a58f-e300-81ad-d2f2-afcd896b1d5d"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-7, 15, -2],
+			"to": [-3, 16, 2],
+			"autouv": 0,
+			"color": 5,
+			"origin": [-6, 14, 0],
+			"faces": {
+				"north": {
+					"uv": [34, 6, 38, 7],
+					"texture": 0
+				},
+				"east": {
+					"uv": [34, 7, 38, 8],
+					"texture": 0
+				},
+				"south": {
+					"uv": [8, 34, 12, 35],
+					"texture": 0
+				},
+				"west": {
+					"uv": [34, 8, 38, 9],
+					"texture": 0
+				},
+				"up": {
+					"uv": [31, 36, 27, 32],
+					"texture": 0
+				},
+				"down": {
+					"uv": [35, 32, 31, 36],
+					"texture": 0
+				}
+			},
+			"type": "cube",
+			"uuid": "f52a1e60-fa26-4c27-9f68-177b7527666d"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-7, 11, -3],
+			"to": [-3, 13, 3],
+			"autouv": 0,
+			"color": 9,
+			"origin": [-4, 11, -2],
+			"faces": {
+				"north": {
+					"uv": [4, 34, 8, 36],
+					"texture": 0
+				},
+				"east": {
+					"uv": [34, 0, 40, 2],
+					"texture": 0
+				},
+				"south": {
+					"uv": [34, 4, 38, 6],
+					"texture": 0
+				},
+				"west": {
+					"uv": [34, 2, 40, 4],
+					"texture": 0
+				},
+				"up": {
+					"uv": [23, 38, 19, 32],
+					"texture": 0
+				},
+				"down": {
+					"uv": [27, 32, 23, 38],
+					"texture": 0
+				}
+			},
+			"type": "cube",
+			"uuid": "112703f4-8ec0-9315-3c89-070fbe39ddb4"
+		},
+		{
+			"name": "digit1",
+			"position": [-3.5, 11.4, -3.005],
+			"rotation": [0, 0, 0],
+			"scale": [0.25, 0.25, 0.25],
+			"visibility": true,
+			"block": "minecraft:stone",
+			"config": {},
+			"item": "minecraft:diamond",
+			"item_display": "none",
+			"text": "\"0\"",
+			"lineWidth": 200,
+			"backgroundColor": "#000000",
+			"backgroundAlpha": 0,
+			"align": "center",
+			"shadow": false,
+			"seeThrough": false,
+			"uuid": "7cacd87c-7fe2-50f9-60ec-a202a00b9f4f",
+			"type": "animated_java:text_display"
+		},
+		{
+			"name": "digit2",
+			"position": [-4.5, 11.4, -3.005],
+			"rotation": [0, 0, 0],
+			"scale": [0.25, 0.25, 0.25],
+			"visibility": true,
+			"block": "minecraft:stone",
+			"config": {},
+			"item": "minecraft:diamond",
+			"item_display": "none",
+			"text": "\"0\"",
+			"lineWidth": 200,
+			"backgroundColor": "#000000",
+			"backgroundAlpha": 0,
+			"align": "center",
+			"shadow": false,
+			"seeThrough": false,
+			"uuid": "622dfe86-78a3-8fe3-bae1-20fc8adaed8a",
+			"type": "animated_java:text_display"
+		},
+		{
+			"name": "digit3",
+			"position": [-5.5, 11.4, -3.005],
+			"rotation": [0, 0, 0],
+			"scale": [0.25, 0.25, 0.25],
+			"visibility": true,
+			"block": "minecraft:stone",
+			"config": {},
+			"item": "minecraft:diamond",
+			"item_display": "none",
+			"text": "\"0\"",
+			"lineWidth": 200,
+			"backgroundColor": "#000000",
+			"backgroundAlpha": 0,
+			"align": "center",
+			"shadow": false,
+			"seeThrough": false,
+			"uuid": "9b70df51-a21a-22e4-edaa-d8016bae9cde",
+			"type": "animated_java:text_display"
+		},
+		{
+			"name": "digit4",
+			"position": [-6.5, 11.4, -3.005],
+			"rotation": [0, 0, 0],
+			"scale": [0.25, 0.25, 0.25],
+			"visibility": true,
+			"block": "minecraft:stone",
+			"config": {},
+			"item": "minecraft:diamond",
+			"item_display": "none",
+			"text": "\"0\"",
+			"lineWidth": 200,
+			"backgroundColor": "#000000",
+			"backgroundAlpha": 0,
+			"align": "center",
+			"shadow": false,
+			"seeThrough": false,
+			"uuid": "fc2a61c7-b5d1-2ead-a5f5-9a61bfd6bba8",
+			"type": "animated_java:text_display"
+		}
+	],
+	"outliner": [
+		{
+			"name": "bone",
+			"origin": [7, 0, 0],
+			"color": 0,
+			"configs": {
+				"variants": {}
+			},
+			"uuid": "99572c95-4f40-4bee-4275-5701bf8d6722",
+			"export": true,
+			"mirror_uv": false,
+			"isOpen": true,
+			"locked": false,
+			"visibility": true,
+			"autouv": 0,
+			"selected": false,
+			"children": ["63e749c4-8d3e-e34b-eb24-ccfe00d02fcd"]
+		},
+		{
+			"name": "door",
+			"origin": [6, 0, 0],
+			"color": 0,
+			"configs": {
+				"variants": {}
+			},
+			"uuid": "1ddb4f6a-ffb4-ac42-7470-9b6ac2b98faf",
+			"export": true,
+			"mirror_uv": false,
+			"isOpen": true,
+			"locked": false,
+			"visibility": true,
+			"autouv": 0,
+			"selected": false,
+			"children": [
+				"8205a58f-e300-81ad-d2f2-afcd896b1d5d",
+				{
+					"name": "handle",
+					"origin": [-6.5, 15.5, 0],
+					"color": 0,
+					"configs": {
+						"variants": {}
+					},
+					"uuid": "26399ef2-ff85-18e6-969a-a70186203bb3",
+					"export": true,
+					"mirror_uv": false,
+					"isOpen": true,
+					"locked": false,
+					"visibility": true,
+					"autouv": 0,
+					"selected": false,
+					"children": ["f52a1e60-fa26-4c27-9f68-177b7527666d"]
+				},
+				"112703f4-8ec0-9315-3c89-070fbe39ddb4",
+				"7cacd87c-7fe2-50f9-60ec-a202a00b9f4f",
+				"622dfe86-78a3-8fe3-bae1-20fc8adaed8a",
+				"9b70df51-a21a-22e4-edaa-d8016bae9cde",
+				"fc2a61c7-b5d1-2ead-a5f5-9a61bfd6bba8"
+			]
+		}
+	],
+	"textures": [
+		{
+			"path": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\resourcepacks\\Владислав\\assets\\minecraft\\textures\\vladislavvc\\props_aj\\pantry_door.png",
+			"name": "pantry_door.png",
+			"folder": "block",
+			"namespace": "",
+			"id": "0",
+			"group": "",
+			"width": 64,
+			"height": 64,
+			"uv_width": 64,
+			"uv_height": 64,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"pbr_channel": "color",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": false,
+			"saved": true,
+			"uuid": "c8be17a8-d99a-9ed3-1f4b-834e8ce21f16",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAA6ZJREFUeF7tW79rFFEQfqeJKfSyIAdqEUu1CARRT4WQP8FC8D+wtApICkVBSCGCWNgI/hspjDZKICYqGkmhlqawCcLltIiRO/kW55js3e6+X7ezl31b7e6792O+N/PNvJm92s1bt7uKXZNRnT/uu99ptVPb0ODS9/DYIdVoHO+Nv739M35evLtQy5zUsbEGALDwaPKY9lCtnV+KwHDpyyc8cbKhSGh6j+dnTx4OH4CpqVPawtMPt7Z+xLdpfaOorlopGkN9+aSkARyEUgCQJkgWAFnCQ+hBAHANgOC4CjMB7CIWrXthZzkAtn05b7xaWlITRyZUu9VS9ShS79bfDFX1Sdba/J0H3dMWJvD9vwm49OWAv36xrH6327Hwu3921edPa8UAABKcnj6ju/m93/kAAERKngMkDHLFhffPnz4qBgBbDdjc/BYv1gY86svdJgDgZnV/Yb5YAGDXJracBADPumCQ9tBuD1K/wjSAAiFTIoTA2EHOAbogAgAeRwCAx4v3CtnxJNhxIES+3EQDXDiAtId7ATEAbDmAAIDtmgAHoUl7+G6MFABQdWJsGwA4BxAIIwUAFu1iAoNIsCjS6+MAWxMgOzYlTw4eeQGQaWU1QNwEyAuYEJkrB5TKC7gCYHMWGBQJipqAKZPz06Bu9MfJ50B4gUGRoO6JKglAkYcfay9A2R3iCp9usHReQCemdwGAcwAdiUeOA2wjQc4f/DgsDgBsIy+Xx+3HJSdI4JXmLGCSEqdFcw3QJb9k3wAAQ6AUJmCykwdGA6QrQ0SEYhpAAJjsPs/lZdUD08bkNUb0Fw2EpAEgkMTyAQGARHnc1BR8/V5UA7KEMKn5b6yv9Wp7KG/hGh8bj0teR+t1de3G9TiXSByAbJJENYjLG6fF83YxDYTkBxMrL5djQUlgjEv3e3/3VHN2LnMqCS3oA4ALgULlTPPyvvpdVsnqwsXZTDDPX7lafgA+vl1V2C1S3S9fN7QrNnkAlNoEfAQkl5pzXdT3YQYAERfV/PHuw/sVbTDzzNJXe/x9gK9DybmzM13iAJhPp9Ox1iZfAuaN4xWAvMnK2N4jQR8mUEYB89bU5wUkXFHeIofZ3vtOkCaROpUNU8issQMH+PQCUrvoMm/QANIAiusrSYJchSoHQOAAj6GwCxlJ9Q0kSAmRSofCJLxkelrcBKTL1AEAIQQCCVaeBEMgFAIhf0lRIR5zmjZkhJKlscqdBgMAieJo0ICC/rDoxFweO/8Dt5O6X4U37ncAAAAASUVORK5CYII=",
+			"mode": "bitmap"
+		}
+	],
+	"variants": {
+		"default": {
+			"name": "default",
+			"display_name": "Default",
+			"uuid": "18526e5a-af68-42e1-c814-3553f4c7de3a",
+			"texture_map": {},
+			"excluded_nodes": [],
+			"is_default": true
+		},
+		"list": []
+	},
+	"animations": [
+		{
+			"uuid": "d99cfda3-ae78-f46d-6c2f-951f090198f7",
+			"name": "handle",
+			"loop": "once",
+			"override": false,
+			"length": 0.5,
+			"snapping": 20,
+			"selected": false,
+			"saved": true,
+			"path": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\resourcepacks\\Владислав\\assets\\minecraft\\models\\props_aj\\pantry_door\\pantry_door.json",
+			"anim_time_update": "",
+			"blend_weight": "",
+			"start_delay": "",
+			"loop_delay": "0",
+			"excluded_nodes": [
+				{
+					"icon": "folder",
+					"name": "door",
+					"value": "1ddb4f6a-ffb4-ac42-7470-9b6ac2b98faf"
+				},
+				{
+					"icon": "folder",
+					"name": "bone",
+					"value": "99572c95-4f40-4bee-4275-5701bf8d6722"
+				},
+				{
+					"icon": "text_fields",
+					"name": "digit1",
+					"value": "7cacd87c-7fe2-50f9-60ec-a202a00b9f4f"
+				},
+				{
+					"icon": "text_fields",
+					"name": "digit2",
+					"value": "622dfe86-78a3-8fe3-bae1-20fc8adaed8a"
+				},
+				{
+					"icon": "text_fields",
+					"name": "digit3",
+					"value": "9b70df51-a21a-22e4-edaa-d8016bae9cde"
+				},
+				{
+					"icon": "text_fields",
+					"name": "digit4",
+					"value": "fc2a61c7-b5d1-2ead-a5f5-9a61bfd6bba8"
+				}
+			],
+			"animators": {
+				"26399ef2-ff85-18e6-969a-a70186203bb3": {
+					"name": "handle",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "d04287e9-aed7-cab5-23fb-c7529168d859",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "0b3b807d-fc8d-680f-4c20-1c9529606913",
+							"time": 0.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutSine",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "-17.5"
+								}
+							],
+							"uuid": "33545b47-c85a-9d35-7639-19ce7053a9f7",
+							"time": 0.25,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeOutQuad",
+							"easingArgs": []
+						}
+					]
+				}
+			}
+		},
+		{
+			"uuid": "af97ded3-ebb6-058c-559f-e08dd6b2b950",
+			"name": "open",
+			"loop": "hold",
+			"override": false,
+			"length": 0.5,
+			"snapping": 20,
+			"selected": false,
+			"saved": true,
+			"path": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\resourcepacks\\Владислав\\assets\\minecraft\\models\\props_aj\\pantry_door\\pantry_door.json",
+			"anim_time_update": "",
+			"blend_weight": "",
+			"start_delay": "",
+			"loop_delay": "0",
+			"excluded_nodes": [
+				{
+					"icon": "folder",
+					"name": "bone",
+					"value": "99572c95-4f40-4bee-4275-5701bf8d6722"
+				}
+			],
+			"animators": {
+				"1ddb4f6a-ffb4-ac42-7470-9b6ac2b98faf": {
+					"name": "door",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "add299ed-c4b0-4c03-8e84-0e1e83de4bb2",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "-85",
+									"z": "0"
+								}
+							],
+							"uuid": "34ac93a5-1d6f-69d1-d3f0-78cc3bf25dc7",
+							"time": 0.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutSine",
+							"easingArgs": []
+						}
+					]
+				},
+				"26399ef2-ff85-18e6-969a-a70186203bb3": {
+					"name": "handle",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "b97dd5eb-3790-1806-8c77-b1d09fd09b4a",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "2dc64fb7-7824-8f20-d19d-663069684b47",
+							"time": 0.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutSine",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "-17.5"
+								}
+							],
+							"uuid": "7c4d652b-50b6-591b-c969-4d5b6e6a9b96",
+							"time": 0.15,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeOutQuad",
+							"easingArgs": []
+						}
+					]
+				}
+			}
+		},
+		{
+			"uuid": "ab022ac7-2a19-fb9e-f92c-bc65bc432645",
+			"name": "close",
+			"loop": "hold",
+			"override": false,
+			"length": 0.5,
+			"snapping": 20,
+			"selected": true,
+			"saved": true,
+			"path": "C:\\Users\\Yoodexy\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.4 мапмейкерский билд\\.minecraft\\resourcepacks\\Владислав\\assets\\minecraft\\models\\props_aj\\pantry_door\\pantry_door.json",
+			"anim_time_update": "",
+			"blend_weight": "",
+			"start_delay": "",
+			"loop_delay": "0",
+			"excluded_nodes": [
+				{
+					"icon": "folder",
+					"name": "bone",
+					"value": "99572c95-4f40-4bee-4275-5701bf8d6722"
+				}
+			],
+			"animators": {
+				"1ddb4f6a-ffb4-ac42-7470-9b6ac2b98faf": {
+					"name": "door",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "-85\n",
+									"z": "0"
+								}
+							],
+							"uuid": "add299ed-c4b0-4c03-8e84-0e1e83de4bb2",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "34ac93a5-1d6f-69d1-d3f0-78cc3bf25dc7",
+							"time": 0.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutSine"
+						}
+					]
+				},
+				"26399ef2-ff85-18e6-969a-a70186203bb3": {
+					"name": "handle",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "a76acdd9-a2b8-0253-7a29-33bc5788df04",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "d3f2cd8d-8610-7ce9-cf5c-8fb0998dc48c",
+							"time": 0.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutSine",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "-17.5"
+								}
+							],
+							"uuid": "4946c0ac-2878-5267-aa0f-f731128b87b6",
+							"time": 0.4,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeOutQuad",
+							"easingArgs": []
+						}
+					]
+				}
+			}
+		}
+	],
+	"animation_controllers": []
+}

@@ -1,0 +1,44 @@
+{
+	"textures": {
+		"0": "minecraft:vladislavvc/props_aj/wall_clock",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [0, 8, 7.1],
+			"to": [16, 24, 8.1],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [8, 8, 8.1]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 0, 4, 4],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [4, 0, 4.25, 4],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [4, 4, 4.25, 8],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [8.25, 0.25, 4.25, 0],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [8.25, 0.25, 4.25, 0.5],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

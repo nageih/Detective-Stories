@@ -1,0 +1,33 @@
+{
+	"credit": "By VladislavvC",
+	"textures": {
+		"0": "vladislavvc/props/outlet",
+		"particle": "vladislavvc/props/outlet"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 15],
+			"to": [11, 7, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, 14]},
+			"faces": {
+				"north": {"uv": [0, 0, 7, 7], "texture": "#0"},
+				"east": {"uv": [7, 0, 8, 7], "texture": "#0"},
+				"west": {"uv": [5, 7, 6, 14], "texture": "#0"},
+				"up": {"uv": [13, 8, 6, 7], "texture": "#0"},
+				"down": {"uv": [15, 0, 8, 1], "texture": "#0"}
+			}
+		},
+		{
+			"from": [10, 6, 15.995],
+			"to": [5, 1, 14.995],
+			"rotation": {"angle": 0, "axis": "y", "origin": [12, 6, 15]},
+			"faces": {
+				"north": {"uv": [0, 7, 5, 12], "texture": "#0"},
+				"east": {"uv": [8, 1, 9, 6], "texture": "#0"},
+				"west": {"uv": [6, 8, 7, 13], "texture": "#0"},
+				"up": {"uv": [13, 7, 8, 6], "texture": "#0"},
+				"down": {"uv": [12, 8, 7, 9], "texture": "#0"}
+			}
+		}
+	]
+}
